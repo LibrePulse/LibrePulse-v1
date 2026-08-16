@@ -3304,6 +3304,12 @@
           "label": "CREATOR",
           "name": "CREATOR",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Alibaba URL",
+          "name": "Alibaba URL",
+          "show": true
         }
       ],
       "filter_string": "",
