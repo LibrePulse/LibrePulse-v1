@@ -9537,7 +9537,7 @@
 						(type background)
 					)
 				)
-				(pin no_connect line
+				(pin unspecified line
 					(at -20.32 -29.21 0)
 					(length 2.54)
 					(name "LED5"
@@ -9555,7 +9555,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin unspecified line
 					(at -20.32 -34.29 0)
 					(length 2.54)
 					(name "LED7"
@@ -9645,7 +9645,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin unspecified line
 					(at -20.32 -31.75 0)
 					(length 2.54)
 					(name "LED6"
@@ -9861,7 +9861,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin unspecified line
 					(at 13.97 -85.09 90)
 					(length 2.54)
 					(name "BIOZ2"
@@ -9879,7 +9879,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin unspecified line
 					(at 8.89 -85.09 90)
 					(length 2.54)
 					(name "BIOZ1"
@@ -9969,7 +9969,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin unspecified line
 					(at 16.51 -85.09 90)
 					(length 2.54)
 					(name "BIOZ4"
@@ -9987,7 +9987,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin unspecified line
 					(at 11.43 -85.09 90)
 					(length 2.54)
 					(name "BIOZ4"
@@ -107666,208 +107666,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Symbols:AS7058")
-		(at 82.55 39.37 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "69bc4410-1223-4103-b958-597e3fdc3082")
-		(property "Reference" "U2"
-			(at 99.9333 36.83 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "AS7058"
-			(at 99.9333 39.37 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 82.55 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://look.ams-osram.com/m/264ac284b30311c3/original/AS7058-IC-for-PPG-ECG-and-body-impedance-measurement.pdf"
-			(at 82.55 38.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 82.55 39.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "C1"
-			(uuid "47101488-044a-4f9d-9cef-dd10f8cb92c6")
-		)
-		(pin "C3"
-			(uuid "5318aa25-f834-4d78-9920-a1765b0ed509")
-		)
-		(pin "A6"
-			(uuid "2b6bcaef-83d1-4c4c-92e8-ce1b00730ad5")
-		)
-		(pin "B4"
-			(uuid "914782f7-1ef4-4448-b311-9210eb477182")
-		)
-		(pin "A5"
-			(uuid "c065eb76-1b60-4ec2-9e94-ce7a45d6a983")
-		)
-		(pin "B3"
-			(uuid "3e6375d7-ceaf-4886-891d-ee80040de642")
-		)
-		(pin "A2"
-			(uuid "bfbb4b6d-6625-48e8-a729-974563dca432")
-		)
-		(pin "B2"
-			(uuid "9760bb4d-2a2b-474d-add0-5a0d4800df5c")
-		)
-		(pin "A4"
-			(uuid "939bf0ff-eef0-458a-84b7-2301438b37b2")
-		)
-		(pin "C2"
-			(uuid "4eb7e4dd-9e3a-4025-9c7f-ba5792941c64")
-		)
-		(pin "F3"
-			(uuid "ccbd19e8-82fb-4fef-afb4-13a60a27652f")
-		)
-		(pin "F6"
-			(uuid "ab23c15e-5ee1-4765-af32-a27ad5f2a2e5")
-		)
-		(pin "G1"
-			(uuid "246c6800-fb09-4bec-adcf-ff6176844244")
-		)
-		(pin "E4"
-			(uuid "6ec67630-00d6-4fcc-91b1-430e9c8f5429")
-		)
-		(pin "E2"
-			(uuid "222019d7-dcc0-4a67-9168-746ad9ae30c9")
-		)
-		(pin "A3"
-			(uuid "ca35d60b-1f8c-4284-af5e-298656f86f78")
-		)
-		(pin "E6"
-			(uuid "94016b2d-c4a4-4484-a2b4-383e104278f1")
-		)
-		(pin "A1"
-			(uuid "a910c081-7a77-4664-9a7d-f70c1798927e")
-		)
-		(pin "D6"
-			(uuid "45d2d6dd-042d-486e-97c6-f430085b3429")
-		)
-		(pin "B1"
-			(uuid "fbf80a16-2b5d-4a43-a8ff-bc12e706f355")
-		)
-		(pin "B2"
-			(uuid "bd9900ba-b27d-41d3-98fe-ca146135afb3")
-		)
-		(pin "F1"
-			(uuid "3365b568-1d63-4851-92c5-c856f00076dc")
-		)
-		(pin "D4"
-			(uuid "9d5d2beb-9214-424a-8225-864c21764393")
-		)
-		(pin "G6"
-			(uuid "6fd7c3eb-bda7-433c-9c3a-c0ddd7de7192")
-		)
-		(pin "E5"
-			(uuid "f79da8de-2d9f-4bc2-a84b-5381a6fac8f4")
-		)
-		(pin "G2"
-			(uuid "34acb41d-83dd-4cf1-86b2-6bfe9d2deb12")
-		)
-		(pin "D1"
-			(uuid "969437e4-3832-4c9a-ad5c-c5075768b6f3")
-		)
-		(pin "C6"
-			(uuid "d368757a-71f4-43d7-af1e-e0da8fefb92e")
-		)
-		(pin "G3"
-			(uuid "0ab1a437-cbaf-4ae6-bd53-516c57fe1cfd")
-		)
-		(pin "G5"
-			(uuid "e9b4dcf8-a162-487e-8eec-d44b7cee7f48")
-		)
-		(pin "G4"
-			(uuid "4d585de9-e3a1-4c8a-b28c-8fb768491c7f")
-		)
-		(pin "F4"
-			(uuid "f27f6a61-dd77-4f7c-8a13-4191c13a0486")
-		)
-		(pin "C5"
-			(uuid "407ab575-d9f9-4a55-b0c5-c4f29a5aedb5")
-		)
-		(pin "C4"
-			(uuid "8afb6747-fe6d-4a06-9f74-5fa2639bcb9b")
-		)
-		(pin "E3"
-			(uuid "055a922e-4925-4e2c-a664-1366a4180da1")
-		)
-		(pin "F5"
-			(uuid "696d20ce-7cf1-462f-840a-ce7ec093a767")
-		)
-		(pin "D3"
-			(uuid "c80c1338-39d8-4ced-b93f-73561acb3a41")
-		)
-		(pin "D2"
-			(uuid "4042254a-1d78-40ae-8bdf-4eeefc951ad1")
-		)
-		(pin "D5"
-			(uuid "d10e35ed-2024-45fc-95e1-77042f680e45")
-		)
-		(pin "E1"
-			(uuid "fc73d788-104f-4b85-9c0b-bcf33a571265")
-		)
-		(pin "B6"
-			(uuid "5dcc6205-f188-4846-ade6-bd50802ef5bd")
-		)
-		(pin "F2"
-			(uuid "13444f8a-232a-4b06-9d29-1531545e33be")
-		)
-		(instances
-			(project "LibrePulse"
-				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 394.97 447.04 270)
 		(unit 1)
@@ -142888,6 +142686,208 @@
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
 					(reference "#PWR0199")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Symbols:AS7058")
+		(at 72.39 39.37 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aca4ed8c-1fae-4381-add7-a0ce3714e291")
+		(property "Reference" "U2"
+			(at 89.7733 36.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "AS7058"
+			(at 89.7733 39.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 72.39 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://look.ams-osram.com/m/264ac284b30311c3/original/AS7058-IC-for-PPG-ECG-and-body-impedance-measurement.pdf"
+			(at 72.39 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 72.39 39.37 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "C4"
+			(uuid "e4b0f9f8-b903-44b5-ae45-700940965dad")
+		)
+		(pin "C3"
+			(uuid "d55600d7-4abe-4787-a22e-1f0745a88882")
+		)
+		(pin "C2"
+			(uuid "acf57393-e8cd-4f69-b7c9-5fab4cce186f")
+		)
+		(pin "C1"
+			(uuid "e459493c-4fe3-4c01-b693-2faad0693f95")
+		)
+		(pin "B6"
+			(uuid "b849adf7-e4a6-48bc-933d-ff73eb7573b6")
+		)
+		(pin "B4"
+			(uuid "92e88feb-fd3e-489c-9bbb-3d85d38ea920")
+		)
+		(pin "B3"
+			(uuid "7dc3ff1f-78c1-4ac0-b125-55356c4102f6")
+		)
+		(pin "B2"
+			(uuid "398e40e7-d20c-4537-8a9b-eda12e0a2151")
+		)
+		(pin "B2"
+			(uuid "83dddd25-2679-42ba-8dec-2caec63a50b0")
+		)
+		(pin "B1"
+			(uuid "5bfe7ec0-390c-4a9f-a1b7-b65a087bfa2c")
+		)
+		(pin "A6"
+			(uuid "e3911e56-dede-4208-9686-745799191a49")
+		)
+		(pin "A5"
+			(uuid "c3a3ff8f-4866-46b6-a6a0-ed1ee2e8a8e5")
+		)
+		(pin "A4"
+			(uuid "426b2c80-c2ff-4bac-86eb-8499887fd171")
+		)
+		(pin "A3"
+			(uuid "2eb1821c-7085-4bac-b6a7-7dc0da9b000b")
+		)
+		(pin "A2"
+			(uuid "6a0c3922-05c3-457b-80a3-f5ec182b1fdc")
+		)
+		(pin "A1"
+			(uuid "4ee7af3a-1bb1-4240-a0b9-565cea2aa335")
+		)
+		(pin "F5"
+			(uuid "c748a504-c2e1-40d9-bac3-dce0bdaa3021")
+		)
+		(pin "C5"
+			(uuid "a99e0cdf-e020-430d-b08b-e364eecf3596")
+		)
+		(pin "F3"
+			(uuid "357935fc-e540-41e4-9231-2631966c9e80")
+		)
+		(pin "F1"
+			(uuid "d9b681a3-ae03-474e-abb8-e5b1be49b329")
+		)
+		(pin "E6"
+			(uuid "9db24c79-ab4a-4e1d-bd7a-2b5653a8b069")
+		)
+		(pin "E5"
+			(uuid "46a7c59e-77e0-455a-bae2-4cb116b67fe2")
+		)
+		(pin "E3"
+			(uuid "a9445991-afec-4371-a0b1-4597ee9ec8b6")
+		)
+		(pin "E4"
+			(uuid "cbbe3f00-b069-4277-b672-5dec2389896b")
+		)
+		(pin "E2"
+			(uuid "5ceac103-d9b3-4293-8afc-4d920c588551")
+		)
+		(pin "E1"
+			(uuid "f6248a84-afa0-460e-a581-51d1616cead1")
+		)
+		(pin "D5"
+			(uuid "579afcd4-8fc9-4427-8acd-07689a539ab5")
+		)
+		(pin "D6"
+			(uuid "ecd8c5f0-c0ac-4795-8052-1631269bada0")
+		)
+		(pin "D4"
+			(uuid "a4801b29-4358-4826-8be0-7035f2eaa852")
+		)
+		(pin "D3"
+			(uuid "915d9569-2090-4184-be4c-db58ca25e058")
+		)
+		(pin "C6"
+			(uuid "36b85da4-5dd2-4b1d-91b5-da0f272757d2")
+		)
+		(pin "D2"
+			(uuid "47c05baf-f56a-47d1-a918-2e6343aa0b65")
+		)
+		(pin "D1"
+			(uuid "780b4a8a-6406-424b-b542-b3880299d9ae")
+		)
+		(pin "F4"
+			(uuid "a139d7a6-364a-421a-a118-3100cad46106")
+		)
+		(pin "G6"
+			(uuid "4f9e4505-a042-4184-ba18-e17f471c0100")
+		)
+		(pin "G5"
+			(uuid "b74c9144-00af-4c74-83c5-9b0f356e167f")
+		)
+		(pin "G4"
+			(uuid "f9d4812b-9a14-440a-87c6-b8ab3cf03fc7")
+		)
+		(pin "G3"
+			(uuid "1605cb54-b6b3-4058-8199-f546a29905d1")
+		)
+		(pin "G2"
+			(uuid "a1206db1-7e88-4e1a-8678-279561324c7a")
+		)
+		(pin "G1"
+			(uuid "94cbe5a1-8647-4261-9a90-20270f9fc79e")
+		)
+		(pin "F2"
+			(uuid "4aa64b1a-58e9-4a05-b96e-be264809c2c0")
+		)
+		(pin "F6"
+			(uuid "af3b5e93-f37b-4f9c-bf9a-6392b72f5489")
+		)
+		(instances
+			(project "LibrePulse"
+				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
+					(reference "U2")
 					(unit 1)
 				)
 			)

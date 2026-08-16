@@ -73,7 +73,7 @@
 					(type background)
 				)
 			)
-			(pin no_connect line
+			(pin unspecified line
 				(at -20.32 -29.21 0)
 				(length 2.54)
 				(name "LED5"
@@ -91,7 +91,7 @@
 					)
 				)
 			)
-			(pin no_connect line
+			(pin unspecified line
 				(at -20.32 -34.29 0)
 				(length 2.54)
 				(name "LED7"
@@ -181,7 +181,7 @@
 					)
 				)
 			)
-			(pin no_connect line
+			(pin unspecified line
 				(at -20.32 -31.75 0)
 				(length 2.54)
 				(name "LED6"
@@ -397,7 +397,7 @@
 					)
 				)
 			)
-			(pin no_connect line
+			(pin unspecified line
 				(at 13.97 -85.09 90)
 				(length 2.54)
 				(name "BIOZ2"
@@ -415,7 +415,7 @@
 					)
 				)
 			)
-			(pin no_connect line
+			(pin unspecified line
 				(at 8.89 -85.09 90)
 				(length 2.54)
 				(name "BIOZ1"
@@ -505,7 +505,7 @@
 					)
 				)
 			)
-			(pin no_connect line
+			(pin unspecified line
 				(at 16.51 -85.09 90)
 				(length 2.54)
 				(name "BIOZ4"
@@ -523,7 +523,7 @@
 					)
 				)
 			)
-			(pin no_connect line
+			(pin unspecified line
 				(at 11.43 -85.09 90)
 				(length 2.54)
 				(name "BIOZ4"
