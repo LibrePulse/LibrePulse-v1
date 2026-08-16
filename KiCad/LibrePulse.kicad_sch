@@ -12162,47 +12162,38 @@
 			(embedded_fonts no)
 		)
 		(symbol "Symbols:BQ51013CQWRHLRQ1"
+			(pin_names
+				(offset 1.016)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "IC"
-				(at 31.75 7.62 0)
+			(property "Reference" "U"
+				(at -12.7 26.162 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
+					(justify left bottom)
 				)
 			)
 			(property "Value" "BQ51013CQWRHLRQ1"
-				(at 31.75 5.08 0)
+				(at -12.7 -27.94 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
+					(justify left bottom)
 				)
 			)
-			(property "Footprint" "DRV8242HQRHLRQ1"
-				(at 31.75 -94.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Datasheet" "https://www.ti.com/lit/ds/symlink/bq51013c-q1.pdf?ts=1737373258314&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FBQ51013C-Q1%252Fpart-details%252FBQ51013CQWRHLRQ1%253Futm_source%253Dgoogle%2526utm_medium%253Dcpc%2526utm_campaign%253Dapp-null-null"
-				(at 31.75 -194.92 0)
+			(property "Footprint" "BQ51013CQWRHLRQ1:IC_BQ51013CQWRHLRQ1"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -12210,10 +12201,10 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
+					(justify bottom)
 				)
 			)
-			(property "Description" "Wireless Charging ICs Automotive WPC 2.0 c ompatible fully inte"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -12224,8 +12215,8 @@
 					)
 				)
 			)
-			(property "Height" "1"
-				(at 31.75 -394.92 0)
+			(property "Description" "Texas Instruments Automotive WPC 2.0 compatible fully integrated wireless power receiver IC"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -12233,11 +12224,11 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
+					(justify bottom)
 				)
 			)
-			(property "Mouser Part Number" "595-BQ51013CQWRHLRQ1"
-				(at 31.75 -494.92 0)
+			(property "MF" "Texas Instruments"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -12245,11 +12236,11 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
+					(justify bottom)
 				)
 			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/BQ51013CQWRHLRQ1?qs=olJun0bQHM%252BaTXBBUolwVQ%3D%3D"
-				(at 31.75 -594.92 0)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "1.00mm"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -12257,11 +12248,11 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
+					(justify bottom)
 				)
 			)
-			(property "Manufacturer_Name" "Texas Instruments"
-				(at 31.75 -694.92 0)
+			(property "CREATOR" "ANA"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -12269,11 +12260,11 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
+					(justify bottom)
 				)
 			)
-			(property "Manufacturer_Part_Number" "BQ51013CQWRHLRQ1"
-				(at 31.75 -794.92 0)
+			(property "Price" "None"
+				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -12281,13 +12272,121 @@
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
+					(justify bottom)
 				)
 			)
-			(symbol "BQ51013CQWRHLRQ1_1_1"
+			(property "Package" "None"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Check_prices" "https://www.snapeda.com/parts/BQ51013CQWRHLRQ1/Texas+Instruments/view-part/?ref=eda"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "PARTREV" "B"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "VERIFIER" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "SnapEDA_Link" "https://www.snapeda.com/parts/BQ51013CQWRHLRQ1/Texas+Instruments/view-part/?ref=snap"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MP" "BQ51013CQWRHLRQ1"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Availability" "In Stock"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "MANUFACTURER" "Texas Instruments"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(symbol "BQ51013CQWRHLRQ1_0_0"
 				(rectangle
-					(start 5.08 2.54)
-					(end 30.48 -35.56)
+					(start -12.7 -25.4)
+					(end 12.7 25.4)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -12296,488 +12395,381 @@
 						(type background)
 					)
 				)
-				(pin passive line
-					(at 0 0 0)
+				(pin power_in line
+					(at 17.78 -22.86 180)
 					(length 5.08)
-					(name "PGND_1"
+					(name "PGND"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin passive line
-					(at 0 -2.54 0)
+				(pin input line
+					(at -17.78 -5.08 0)
 					(length 5.08)
 					(name "AC1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin passive line
-					(at 0 -5.08 0)
+				(pin output line
+					(at 17.78 12.7 180)
 					(length 5.08)
 					(name "BOOT1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "3"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin passive line
-					(at 0 -7.62 0)
+				(pin output line
+					(at 17.78 22.86 180)
 					(length 5.08)
 					(name "OUT"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "4"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin passive line
-					(at 0 -10.16 0)
+				(pin output line
+					(at 17.78 0 180)
 					(length 5.08)
 					(name "CLAMP1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "5"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin passive line
-					(at 0 -12.7 0)
+				(pin output line
+					(at 17.78 -7.62 180)
 					(length 5.08)
 					(name "COMM1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "6"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin passive line
-					(at 0 -15.24 0)
+				(pin output line
+					(at 17.78 5.08 180)
 					(length 5.08)
 					(name "~{CHG}"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "7"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin passive line
-					(at 0 -17.78 0)
+				(pin output line
+					(at 17.78 17.78 180)
 					(length 5.08)
-					(name "~{AD-EN}"
+					(name "~{AD}-EN"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "8"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin passive line
-					(at 0 -20.32 0)
+				(pin input line
+					(at -17.78 17.78 0)
 					(length 5.08)
 					(name "AD"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "9"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin passive line
-					(at 0 -22.86 0)
+				(pin input line
+					(at -17.78 12.7 0)
 					(length 5.08)
 					(name "EN1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "10"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin passive line
-					(at 0 -25.4 0)
+				(pin input line
+					(at -17.78 10.16 0)
 					(length 5.08)
 					(name "EN2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "11"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin passive line
-					(at 0 -27.94 0)
+				(pin bidirectional line
+					(at -17.78 -12.7 0)
 					(length 5.08)
 					(name "ILIM"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "12"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin passive line
-					(at 0 -30.48 0)
+				(pin input line
+					(at -17.78 5.08 0)
 					(length 5.08)
 					(name "TS/CTRL"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "13"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin passive line
-					(at 0 -33.02 0)
+				(pin input line
+					(at -17.78 0 0)
 					(length 5.08)
 					(name "FOD"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "14"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin passive line
-					(at 35.56 0 180)
+				(pin output line
+					(at 17.78 -10.16 180)
 					(length 5.08)
 					(name "COMM2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "15"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin passive line
-					(at 35.56 -2.54 180)
+				(pin output line
+					(at 17.78 -2.54 180)
 					(length 5.08)
 					(name "CLAMP2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "16"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin passive line
-					(at 35.56 -5.08 180)
+				(pin output line
+					(at 17.78 10.16 180)
 					(length 5.08)
 					(name "BOOT2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "17"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin passive line
-					(at 35.56 -7.62 180)
+				(pin output line
+					(at 17.78 -15.24 180)
 					(length 5.08)
 					(name "RECT"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "18"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin passive line
-					(at 35.56 -10.16 180)
+				(pin input line
+					(at -17.78 -7.62 0)
 					(length 5.08)
 					(name "AC2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "19"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin passive line
-					(at 35.56 -12.7 180)
+				(pin power_in line
+					(at 17.78 -22.86 180)
 					(length 5.08)
-					(name "PGND_2"
+					(hide yes)
+					(name "PGND"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "20"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
-				(pin passive line
-					(at 35.56 -15.24 180)
+				(pin power_in line
+					(at 17.78 -20.32 180)
 					(length 5.08)
-					(name "EP_1"
+					(name "EXP"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "21"
 						(effects
 							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 35.56 -17.78 180)
-					(length 5.08)
-					(name "EP_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "22"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 35.56 -20.32 180)
-					(length 5.08)
-					(name "EP_3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "23"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 35.56 -22.86 180)
-					(length 5.08)
-					(name "EP_4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "24"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 35.56 -25.4 180)
-					(length 5.08)
-					(name "EP_5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "25"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 35.56 -27.94 180)
-					(length 5.08)
-					(name "EP_6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "26"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 35.56 -30.48 180)
-					(length 5.08)
-					(name "EP_7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "27"
-						(effects
-							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -20513,6 +20505,12 @@
 		(uuid "35dc7021-6b3c-40d1-83e8-44f5b92111f0")
 	)
 	(junction
+		(at 353.06 214.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "38da3834-4464-4dd0-973d-d68440c94d89")
+	)
+	(junction
 		(at 574.04 212.09)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -20625,12 +20623,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d5819296-936a-4dbb-b11f-e642cb373349")
-	)
-	(junction
-		(at 353.06 214.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "de887780-a56a-403c-a152-fb828098367b")
 	)
 	(junction
 		(at 441.96 87.63)
@@ -90051,223 +90043,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Symbols:BQ51013CQWRHLRQ1")
-		(at 760.73 148.59 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4ba11449-831e-40bc-a558-51f0511df090")
-		(property "Reference" "IC3"
-			(at 778.51 140.97 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BQ51013CQWRHLRQ1"
-			(at 778.51 143.51 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Footprints:DRV8242HQRHLRQ1"
-			(at 792.48 243.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/bq51013c-q1.pdf?ts=1737373258314&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FBQ51013C-Q1%252Fpart-details%252FBQ51013CQWRHLRQ1%253Futm_source%253Dgoogle%2526utm_medium%253Dcpc%2526utm_campaign%253Dapp-null-null"
-			(at 792.48 343.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "Wireless Charging ICs Automotive WPC 2.0 c ompatible fully inte"
-			(at 760.73 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "1"
-			(at 792.48 543.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" "595-BQ51013CQWRHLRQ1"
-			(at 792.48 643.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/BQ51013CQWRHLRQ1?qs=olJun0bQHM%252BaTXBBUolwVQ%3D%3D"
-			(at 792.48 743.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "Texas Instruments"
-			(at 792.48 843.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "BQ51013CQWRHLRQ1"
-			(at 792.48 943.51 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "7"
-			(uuid "9b91bcb8-09a6-450c-9100-591732f32f30")
-		)
-		(pin "2"
-			(uuid "c23e3c3a-5ddc-4364-84a1-a9c4ade1a262")
-		)
-		(pin "5"
-			(uuid "865f5eca-3d57-48cb-9a76-69d28440d289")
-		)
-		(pin "21"
-			(uuid "eea20a1b-7b24-4809-8296-8e9d870f4ab6")
-		)
-		(pin "19"
-			(uuid "b5abfc98-a414-4ed0-b9a1-0a7e9a84f621")
-		)
-		(pin "13"
-			(uuid "47423e82-95a0-41df-a4f5-0c0e0100d8d7")
-		)
-		(pin "15"
-			(uuid "fcc0a336-ae52-4c33-8a59-430c85aafdff")
-		)
-		(pin "17"
-			(uuid "e995e939-ddf1-4619-a00b-0b308f0d1131")
-		)
-		(pin "1"
-			(uuid "11eec47c-fddb-4786-a372-5409d5c32bd4")
-		)
-		(pin "23"
-			(uuid "6bddc492-2669-40cd-bcac-6ba2a8182c73")
-		)
-		(pin "8"
-			(uuid "dc0bcc9e-1bbb-4880-abb4-716dfa57f0df")
-		)
-		(pin "9"
-			(uuid "5b71e145-bee0-4f9c-8a31-1dfa3134f908")
-		)
-		(pin "20"
-			(uuid "25b938e3-fac4-47da-be8a-2c99e66936ab")
-		)
-		(pin "22"
-			(uuid "af7d2fa8-77a7-4885-8226-3e14ab21d5b3")
-		)
-		(pin "4"
-			(uuid "42ea077a-1704-4aeb-9de0-e426bb338bad")
-		)
-		(pin "3"
-			(uuid "77aa8b9a-598a-481e-ac7d-ab21b9190d1f")
-		)
-		(pin "14"
-			(uuid "4e977351-7e5d-4e55-9ce4-aa693c61b5a2")
-		)
-		(pin "12"
-			(uuid "28e51e5d-dc80-44ae-bbe8-8b511eaa622e")
-		)
-		(pin "11"
-			(uuid "49f3f40a-8812-4b96-b3bb-71a7a4edeb89")
-		)
-		(pin "16"
-			(uuid "0436712a-3745-4aa7-a61e-69a0b5f9ff17")
-		)
-		(pin "18"
-			(uuid "33741ee5-2f2f-4f50-bd39-7692fad16312")
-		)
-		(pin "6"
-			(uuid "c3707738-395b-4051-bfe2-e7b0c1efd3e1")
-		)
-		(pin "25"
-			(uuid "e1f32eb9-7946-4d5d-a59f-7c804535c48c")
-		)
-		(pin "26"
-			(uuid "b9f5ca73-f0a5-4cdd-8329-6b283ca6f0e1")
-		)
-		(pin "27"
-			(uuid "19d167c9-a355-4e9e-bc31-004948b8fc2a")
-		)
-		(pin "10"
-			(uuid "cc40d3f6-8a7e-4ded-9714-a735a63711d6")
-		)
-		(pin "24"
-			(uuid "05681794-b7f1-4269-88c9-1d47a7b1fa38")
-		)
-		(instances
-			(project "LibrePulse"
-				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "IC3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 473.71 265.43 270)
 		(unit 1)
@@ -114031,6 +113806,301 @@
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
 					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Symbols:BQ51013CQWRHLRQ1")
+		(at 765.81 156.21 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "76e59a86-f83e-4c2c-850f-88df7d9e1b58")
+		(property "Reference" "U3"
+			(at 765.81 125.73 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BQ51013CQWRHLRQ1"
+			(at 765.81 128.27 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BQ51013CQWRHLRQ1:IC_BQ51013CQWRHLRQ1"
+			(at 765.81 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Datasheet" ""
+			(at 765.81 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Texas Instruments Automotive WPC 2.0 compatible fully integrated wireless power receiver IC"
+			(at 765.81 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MF" "Texas Instruments"
+			(at 765.81 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "1.00mm"
+			(at 765.81 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "CREATOR" "ANA"
+			(at 765.81 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Price" "None"
+			(at 765.81 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Package" "None"
+			(at 765.81 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/BQ51013CQWRHLRQ1/Texas+Instruments/view-part/?ref=eda"
+			(at 765.81 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 765.81 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "PARTREV" "B"
+			(at 765.81 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "VERIFIER" ""
+			(at 765.81 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/BQ51013CQWRHLRQ1/Texas+Instruments/view-part/?ref=snap"
+			(at 765.81 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MP" "BQ51013CQWRHLRQ1"
+			(at 765.81 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 765.81 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(property "MANUFACTURER" "Texas Instruments"
+			(at 765.81 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+			)
+		)
+		(pin "4"
+			(uuid "b462c370-7478-4eee-ba83-550a090a70c5")
+		)
+		(pin "17"
+			(uuid "46115b49-c026-4df0-81c6-a960b7e94047")
+		)
+		(pin "10"
+			(uuid "d78d6cbc-17cb-4da0-b56b-0245579bbf1d")
+		)
+		(pin "9"
+			(uuid "e48f0674-a08c-4f3a-a653-95d2f8d47de6")
+		)
+		(pin "11"
+			(uuid "81f7deee-560c-4432-93c8-4705a39ab63e")
+		)
+		(pin "12"
+			(uuid "6f779a7b-192a-4839-b13c-11052b8fdc00")
+		)
+		(pin "13"
+			(uuid "809132af-b5f2-4d00-9f99-9151ef86226d")
+		)
+		(pin "1"
+			(uuid "f665684f-09d9-48da-ad4f-9800fc51a968")
+		)
+		(pin "2"
+			(uuid "d2375b86-87f4-4452-a95c-02389824ec78")
+		)
+		(pin "3"
+			(uuid "b152c554-b805-4fc6-b228-57768176da67")
+		)
+		(pin "7"
+			(uuid "1b595033-5165-4ec9-8aa1-f0cfc4ec6b4e")
+		)
+		(pin "8"
+			(uuid "25046bc8-91d6-44b1-ae9c-69dca3f63d12")
+		)
+		(pin "5"
+			(uuid "7fe0b27a-fc1c-4a98-9653-96f4d8c881da")
+		)
+		(pin "6"
+			(uuid "4c43be36-1aa2-4b95-9158-677d88b1969a")
+		)
+		(pin "15"
+			(uuid "f5e6db29-fb1e-40db-93ec-2f8aa3c3d47e")
+		)
+		(pin "14"
+			(uuid "e73d44ce-838a-4d00-8d2e-caba4c8f0d3d")
+		)
+		(pin "16"
+			(uuid "05005244-f54f-4602-853e-90a9195f6fa3")
+		)
+		(pin "21"
+			(uuid "b3789519-746a-4b96-bb6a-c22301458142")
+		)
+		(pin "20"
+			(uuid "de1d7c2f-c443-41b1-958a-780228aa4474")
+		)
+		(pin "19"
+			(uuid "2b51ddcb-6052-4eb1-b8b7-1a3f3c2993bd")
+		)
+		(pin "18"
+			(uuid "007d6a68-7423-4080-9eeb-4df65c022cd4")
+		)
+		(instances
+			(project "LibrePulse"
+				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -142693,7 +142763,7 @@
 	)
 	(symbol
 		(lib_id "Symbols:AS7058")
-		(at 72.39 39.37 0)
+		(at 128.27 44.45 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -142704,7 +142774,7 @@
 		(fields_autoplaced yes)
 		(uuid "aca4ed8c-1fae-4381-add7-a0ce3714e291")
 		(property "Reference" "U2"
-			(at 89.7733 36.83 0)
+			(at 145.6533 41.91 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -142715,7 +142785,7 @@
 			)
 		)
 		(property "Value" "AS7058"
-			(at 89.7733 39.37 0)
+			(at 145.6533 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -142726,7 +142796,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 72.39 39.37 0)
+			(at 128.27 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -142737,7 +142807,7 @@
 			)
 		)
 		(property "Datasheet" "https://look.ams-osram.com/m/264ac284b30311c3/original/AS7058-IC-for-PPG-ECG-and-body-impedance-measurement.pdf"
-			(at 72.39 38.1 0)
+			(at 128.27 43.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -142748,7 +142818,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 72.39 39.37 0)
+			(at 128.27 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -143056,85 +143126,6 @@
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
 					(reference "C10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 345.44 214.63 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "aeb0f43b-55de-4941-bc6b-937de5652407")
-		(property "Reference" "#PWR014"
-			(at 349.25 214.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 341.63 214.6301 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 345.44 214.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 345.44 214.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 345.44 214.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "6627ec8a-7949-44f3-adb0-712a74215c8c")
-		)
-		(instances
-			(project "LibrePulse"
-				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR014")
 					(unit 1)
 				)
 			)
