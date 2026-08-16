@@ -1,0 +1,3369 @@
+{
+  "board": {
+    "3dviewports": [],
+    "design_settings": {
+      "defaults": {
+        "apply_defaults_to_fp_barcodes": false,
+        "apply_defaults_to_fp_dimensions": false,
+        "apply_defaults_to_fp_fields": false,
+        "apply_defaults_to_fp_shapes": false,
+        "apply_defaults_to_fp_text": false,
+        "board_outline_line_width": 0.05,
+        "copper_line_width": 0.2,
+        "copper_text_italic": false,
+        "copper_text_size_h": 1.5,
+        "copper_text_size_v": 1.5,
+        "copper_text_thickness": 0.3,
+        "copper_text_upright": false,
+        "courtyard_line_width": 0.05,
+        "dimension_precision": 4,
+        "dimension_units": 3,
+        "dimensions": {
+          "arrow_length": 1270000,
+          "extension_offset": 500000,
+          "keep_text_aligned": true,
+          "suppress_zeroes": true,
+          "text_position": 0,
+          "units_format": 0
+        },
+        "fab_line_width": 0.1,
+        "fab_text_italic": false,
+        "fab_text_size_h": 1.0,
+        "fab_text_size_v": 1.0,
+        "fab_text_thickness": 0.15,
+        "fab_text_upright": false,
+        "other_line_width": 0.1,
+        "other_text_italic": false,
+        "other_text_size_h": 1.0,
+        "other_text_size_v": 1.0,
+        "other_text_thickness": 0.15,
+        "other_text_upright": false,
+        "pads": {
+          "drill": 0.8,
+          "height": 1.27,
+          "width": 1.27
+        },
+        "silk_line_width": 0.1,
+        "silk_text_italic": false,
+        "silk_text_size_h": 1.0,
+        "silk_text_size_v": 1.0,
+        "silk_text_thickness": 0.1,
+        "silk_text_upright": false,
+        "zones": {
+          "border_display_style": 2,
+          "border_hatch_pitch": 0.5,
+          "corner_radius": 0.0,
+          "corner_smoothing": 0,
+          "fill_mode": 0,
+          "hatch_gap": 1.5,
+          "hatch_orientation": 0.0,
+          "hatch_smoothing_level": 0,
+          "hatch_smoothing_value": 0.1,
+          "hatch_thickness": 1.0,
+          "min_clearance": 0.5,
+          "min_island_area": 10.0,
+          "min_thickness": 0.25,
+          "pad_connection": 1,
+          "remove_islands": 1,
+          "thermal_relief_gap": 0.5,
+          "thermal_relief_spoke_width": 0.5
+        }
+      },
+      "diff_pair_dimensions": [],
+      "drc_exclusions": [],
+      "meta": {
+        "version": 2
+      },
+      "rule_severities": {
+        "annular_width": "error",
+        "clearance": "error",
+        "connection_width": "warning",
+        "copper_edge_clearance": "error",
+        "copper_sliver": "warning",
+        "courtyards_overlap": "error",
+        "creepage": "error",
+        "diff_pair_gap_out_of_range": "error",
+        "diff_pair_uncoupled_length_too_long": "error",
+        "drill_out_of_range": "error",
+        "duplicate_footprints": "warning",
+        "extra_footprint": "warning",
+        "footprint": "error",
+        "footprint_filters_mismatch": "ignore",
+        "footprint_symbol_field_mismatch": "warning",
+        "footprint_symbol_mismatch": "warning",
+        "footprint_type_mismatch": "ignore",
+        "hole_clearance": "error",
+        "hole_to_hole": "warning",
+        "holes_co_located": "warning",
+        "invalid_outline": "error",
+        "isolated_copper": "warning",
+        "item_on_disabled_layer": "error",
+        "items_not_allowed": "error",
+        "length_out_of_range": "error",
+        "lib_footprint_issues": "warning",
+        "lib_footprint_mismatch": "warning",
+        "malformed_courtyard": "error",
+        "microvia_drill_out_of_range": "error",
+        "mirrored_text_on_front_layer": "warning",
+        "missing_courtyard": "ignore",
+        "missing_footprint": "warning",
+        "missing_tuning_profile": "warning",
+        "net_conflict": "warning",
+        "nonmirrored_text_on_back_layer": "warning",
+        "npth_inside_courtyard": "error",
+        "padstack": "warning",
+        "pth_inside_courtyard": "error",
+        "shorting_items": "error",
+        "silk_edge_clearance": "warning",
+        "silk_over_copper": "warning",
+        "silk_overlap": "warning",
+        "skew_out_of_range": "error",
+        "solder_mask_bridge": "error",
+        "starved_thermal": "error",
+        "text_height": "warning",
+        "text_on_edge_cuts": "error",
+        "text_thickness": "warning",
+        "through_hole_pad_without_hole": "error",
+        "too_many_vias": "error",
+        "track_angle": "error",
+        "track_dangling": "warning",
+        "track_not_centered_on_via": "ignore",
+        "track_on_post_machined_layer": "error",
+        "track_segment_length": "error",
+        "track_width": "error",
+        "tracks_crossing": "error",
+        "tuning_profile_track_geometries": "ignore",
+        "unconnected_items": "error",
+        "unresolved_variable": "error",
+        "via_dangling": "warning",
+        "zones_intersect": "error"
+      },
+      "rules": {
+        "max_error": 0.005,
+        "min_clearance": 0.0,
+        "min_connection": 0.0,
+        "min_copper_edge_clearance": 0.5,
+        "min_groove_width": 0.0,
+        "min_hole_clearance": 0.25,
+        "min_hole_to_hole": 0.25,
+        "min_microvia_diameter": 0.2,
+        "min_microvia_drill": 0.1,
+        "min_resolved_spokes": 2,
+        "min_silk_clearance": 0.0,
+        "min_text_height": 0.8,
+        "min_text_thickness": 0.08,
+        "min_through_hole_diameter": 0.3,
+        "min_track_width": 0.2,
+        "min_via_annular_width": 0.1,
+        "min_via_diameter": 0.5,
+        "solder_mask_to_copper_clearance": 0.0,
+        "use_height_for_length_calcs": true
+      },
+      "teardrop_options": [
+        {
+          "td_onpthpad": true,
+          "td_onroundshapesonly": false,
+          "td_onsmdpad": true,
+          "td_ontrackend": false,
+          "td_onvia": true
+        }
+      ],
+      "teardrop_parameters": [
+        {
+          "td_allow_use_two_tracks": true,
+          "td_curve_segcount": 0,
+          "td_height_ratio": 1.0,
+          "td_length_ratio": 0.5,
+          "td_maxheight": 2.0,
+          "td_maxlen": 1.0,
+          "td_on_pad_in_zone": false,
+          "td_target_name": "td_round_shape",
+          "td_width_to_size_filter_ratio": 0.9
+        },
+        {
+          "td_allow_use_two_tracks": true,
+          "td_curve_segcount": 0,
+          "td_height_ratio": 1.0,
+          "td_length_ratio": 0.5,
+          "td_maxheight": 2.0,
+          "td_maxlen": 1.0,
+          "td_on_pad_in_zone": false,
+          "td_target_name": "td_rect_shape",
+          "td_width_to_size_filter_ratio": 0.9
+        },
+        {
+          "td_allow_use_two_tracks": true,
+          "td_curve_segcount": 0,
+          "td_height_ratio": 1.0,
+          "td_length_ratio": 0.5,
+          "td_maxheight": 2.0,
+          "td_maxlen": 1.0,
+          "td_on_pad_in_zone": false,
+          "td_target_name": "td_track_end",
+          "td_width_to_size_filter_ratio": 0.9
+        }
+      ],
+      "track_widths": [],
+      "tuning_pattern_settings": {
+        "diff_pair_defaults": {
+          "corner_radius_percentage": 80,
+          "corner_style": 1,
+          "max_amplitude": 1.0,
+          "min_amplitude": 0.2,
+          "single_sided": false,
+          "spacing": 1.0
+        },
+        "diff_pair_skew_defaults": {
+          "corner_radius_percentage": 80,
+          "corner_style": 1,
+          "max_amplitude": 1.0,
+          "min_amplitude": 0.2,
+          "single_sided": false,
+          "spacing": 0.6
+        },
+        "single_track_defaults": {
+          "corner_radius_percentage": 80,
+          "corner_style": 1,
+          "max_amplitude": 1.0,
+          "min_amplitude": 0.2,
+          "single_sided": false,
+          "spacing": 0.6
+        }
+      },
+      "via_dimensions": [],
+      "zones_allow_external_fillets": false
+    },
+    "ipc2581": {
+      "bom_rev": "",
+      "dist": "",
+      "distpn": "",
+      "internal_id": "",
+      "mfg": "",
+      "mpn": "",
+      "sch_revision": ""
+    },
+    "layer_pairs": [],
+    "layer_presets": [],
+    "viewports": []
+  },
+  "boards": [],
+  "component_class_settings": {
+    "assignments": [],
+    "meta": {
+      "version": 0
+    },
+    "sheet_component_classes": {
+      "enabled": false
+    }
+  },
+  "cvpcb": {
+    "equivalence_files": []
+  },
+  "erc": {
+    "erc_exclusions": [],
+    "meta": {
+      "version": 0
+    },
+    "pin_map": [
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        2,
+        2,
+        2,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        1,
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        1,
+        1,
+        2,
+        1,
+        1,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        1,
+        1,
+        1,
+        1,
+        1,
+        0,
+        1,
+        1,
+        1,
+        1,
+        1,
+        2
+      ],
+      [
+        0,
+        0,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        0,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        1,
+        2,
+        0,
+        0,
+        1,
+        0,
+        2,
+        2,
+        2,
+        2
+      ],
+      [
+        0,
+        2,
+        0,
+        1,
+        0,
+        0,
+        1,
+        0,
+        2,
+        0,
+        0,
+        2
+      ],
+      [
+        0,
+        2,
+        1,
+        1,
+        0,
+        0,
+        1,
+        0,
+        2,
+        0,
+        0,
+        2
+      ],
+      [
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2,
+        2
+      ]
+    ],
+    "rule_severities": {
+      "bus_definition_conflict": "error",
+      "bus_entry_needed": "error",
+      "bus_to_bus_conflict": "error",
+      "bus_to_net_conflict": "error",
+      "different_unit_footprint": "error",
+      "different_unit_net": "error",
+      "duplicate_reference": "error",
+      "duplicate_sheet_names": "error",
+      "endpoint_off_grid": "warning",
+      "extra_units": "error",
+      "field_name_whitespace": "warning",
+      "footprint_filter": "ignore",
+      "footprint_link_issues": "warning",
+      "four_way_junction": "ignore",
+      "ground_pin_not_ground": "warning",
+      "hier_label_mismatch": "error",
+      "isolated_pin_label": "warning",
+      "label_dangling": "error",
+      "label_multiple_wires": "warning",
+      "lib_symbol_issues": "warning",
+      "lib_symbol_mismatch": "warning",
+      "missing_bidi_pin": "warning",
+      "missing_input_pin": "warning",
+      "missing_power_pin": "error",
+      "missing_unit": "warning",
+      "multiple_net_names": "warning",
+      "net_not_bus_member": "warning",
+      "no_connect_connected": "warning",
+      "no_connect_dangling": "warning",
+      "pin_not_connected": "ignore",
+      "pin_not_driven": "ignore",
+      "pin_to_pin": "error",
+      "power_pin_not_driven": "ignore",
+      "same_local_global_label": "warning",
+      "similar_label_and_power": "warning",
+      "similar_labels": "warning",
+      "similar_power": "warning",
+      "simulation_model_issue": "ignore",
+      "single_global_label": "ignore",
+      "stacked_pin_name": "warning",
+      "unannotated": "error",
+      "unconnected_wire_endpoint": "warning",
+      "undefined_netclass": "error",
+      "unit_value_mismatch": "error",
+      "unresolved_variable": "error",
+      "wire_dangling": "error"
+    }
+  },
+  "libraries": {
+    "pinned_footprint_libs": [],
+    "pinned_symbol_libs": [
+      "ET020AM03-HT"
+    ]
+  },
+  "meta": {
+    "filename": "LibrePulse.kicad_pro",
+    "version": 3
+  },
+  "net_settings": {
+    "classes": [
+      {
+        "bus_width": 12,
+        "clearance": 0.1,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "Default",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2147483647,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.1,
+        "tuning_profile": "",
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "clearance": 0.3,
+        "name": "Power",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.3,
+        "tuning_profile": ""
+      }
+    ],
+    "meta": {
+      "version": 5
+    },
+    "net_colors": null,
+    "netclass_assignments": null,
+    "netclass_patterns": []
+  },
+  "pcbnew": {
+    "last_paths": {
+      "idf": "",
+      "netlist": "",
+      "plot": "",
+      "specctra_dsn": "",
+      "step": "",
+      "vrml": ""
+    },
+    "page_layout_descr_file": ""
+  },
+  "schematic": {
+    "annotate_start_num": 0,
+    "annotation": {
+      "method": 0,
+      "sort_order": 0
+    },
+    "bom_export_filename": "Standardcsv",
+    "bom_fmt_presets": [],
+    "bom_fmt_settings": {
+      "field_delimiter": ";",
+      "keep_line_breaks": false,
+      "keep_tabs": false,
+      "name": "Semicolons",
+      "ref_delimiter": ",",
+      "ref_range_delimiter": "",
+      "string_delimiter": "'"
+    },
+    "bom_presets": [],
+    "bom_settings": {
+      "exclude_dnp": false,
+      "fields_ordered": [
+        {
+          "group_by": false,
+          "label": "Reference",
+          "name": "Reference",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Qty",
+          "name": "${QUANTITY}",
+          "show": true
+        },
+        {
+          "group_by": true,
+          "label": "Value",
+          "name": "Value",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "DNP",
+          "name": "${DNP}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Exclude from BOM",
+          "name": "${EXCLUDE_FROM_BOM}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Exclude from Board",
+          "name": "${EXCLUDE_FROM_BOARD}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Exclude from Simulation",
+          "name": "${EXCLUDE_FROM_SIM}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Exclude from Position Files",
+          "name": "${EXCLUDE_FROM_POS_FILES}",
+          "show": false
+        },
+        {
+          "group_by": true,
+          "label": "Footprint",
+          "name": "Footprint",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Datasheet",
+          "name": "Datasheet",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "MANUFACTURER",
+          "name": "MANUFACTURER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MAXIMUM_PACKAGE_HEIGHT",
+          "name": "MAXIMUM_PACKAGE_HEIGHT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MF",
+          "name": "MF",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MP",
+          "name": "MP",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PACKAGE",
+          "name": "PACKAGE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PARTREV",
+          "name": "PARTREV",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PRICE",
+          "name": "PRICE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Package",
+          "name": "Package",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Price",
+          "name": "Price",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Purchase-URL",
+          "name": "Purchase-URL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SNAPEDA_PN",
+          "name": "SNAPEDA_PN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "STANDARD",
+          "name": "STANDARD",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Type",
+          "name": "Sim.Type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SnapEDA_Link",
+          "name": "SnapEDA_Link",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Check_prices",
+          "name": "Check_prices",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Availability",
+          "name": "Availability",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "AVAILABILITY",
+          "name": "AVAILABILITY",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field119",
+          "name": "Field119",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field12",
+          "name": "Field12",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field120",
+          "name": "Field120",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field121",
+          "name": "Field121",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field122",
+          "name": "Field122",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field123",
+          "name": "Field123",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field124",
+          "name": "Field124",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field125",
+          "name": "Field125",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field126",
+          "name": "Field126",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field127",
+          "name": "Field127",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field128",
+          "name": "Field128",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field129",
+          "name": "Field129",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field13",
+          "name": "Field13",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field130",
+          "name": "Field130",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field131",
+          "name": "Field131",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field132",
+          "name": "Field132",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field133",
+          "name": "Field133",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field134",
+          "name": "Field134",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field135",
+          "name": "Field135",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field136",
+          "name": "Field136",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field137",
+          "name": "Field137",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field138",
+          "name": "Field138",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field139",
+          "name": "Field139",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field14",
+          "name": "Field14",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field140",
+          "name": "Field140",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field141",
+          "name": "Field141",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field142",
+          "name": "Field142",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field143",
+          "name": "Field143",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field144",
+          "name": "Field144",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field145",
+          "name": "Field145",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field146",
+          "name": "Field146",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field147",
+          "name": "Field147",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field148",
+          "name": "Field148",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field149",
+          "name": "Field149",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field15",
+          "name": "Field15",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field150",
+          "name": "Field150",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field151",
+          "name": "Field151",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field152",
+          "name": "Field152",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field153",
+          "name": "Field153",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field154",
+          "name": "Field154",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field155",
+          "name": "Field155",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field156",
+          "name": "Field156",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field157",
+          "name": "Field157",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field158",
+          "name": "Field158",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field159",
+          "name": "Field159",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field16",
+          "name": "Field16",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field160",
+          "name": "Field160",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field161",
+          "name": "Field161",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field162",
+          "name": "Field162",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field163",
+          "name": "Field163",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field164",
+          "name": "Field164",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field165",
+          "name": "Field165",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field166",
+          "name": "Field166",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field167",
+          "name": "Field167",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field168",
+          "name": "Field168",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field169",
+          "name": "Field169",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field17",
+          "name": "Field17",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field170",
+          "name": "Field170",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field171",
+          "name": "Field171",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field172",
+          "name": "Field172",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field173",
+          "name": "Field173",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field174",
+          "name": "Field174",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field175",
+          "name": "Field175",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field176",
+          "name": "Field176",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field177",
+          "name": "Field177",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field178",
+          "name": "Field178",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field179",
+          "name": "Field179",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field18",
+          "name": "Field18",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field180",
+          "name": "Field180",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field181",
+          "name": "Field181",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field182",
+          "name": "Field182",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field183",
+          "name": "Field183",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field184",
+          "name": "Field184",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field185",
+          "name": "Field185",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field186",
+          "name": "Field186",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field187",
+          "name": "Field187",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field188",
+          "name": "Field188",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field189",
+          "name": "Field189",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field19",
+          "name": "Field19",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field190",
+          "name": "Field190",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field191",
+          "name": "Field191",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field192",
+          "name": "Field192",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field193",
+          "name": "Field193",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field194",
+          "name": "Field194",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field195",
+          "name": "Field195",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field196",
+          "name": "Field196",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field197",
+          "name": "Field197",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field198",
+          "name": "Field198",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field199",
+          "name": "Field199",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field20",
+          "name": "Field20",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field200",
+          "name": "Field200",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field201",
+          "name": "Field201",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field202",
+          "name": "Field202",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field203",
+          "name": "Field203",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field204",
+          "name": "Field204",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field205",
+          "name": "Field205",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field206",
+          "name": "Field206",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field207",
+          "name": "Field207",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field208",
+          "name": "Field208",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field209",
+          "name": "Field209",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field21",
+          "name": "Field21",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field210",
+          "name": "Field210",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field211",
+          "name": "Field211",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field212",
+          "name": "Field212",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field213",
+          "name": "Field213",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field214",
+          "name": "Field214",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field215",
+          "name": "Field215",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field216",
+          "name": "Field216",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field217",
+          "name": "Field217",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field218",
+          "name": "Field218",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field219",
+          "name": "Field219",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field22",
+          "name": "Field22",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field220",
+          "name": "Field220",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field221",
+          "name": "Field221",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field222",
+          "name": "Field222",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field223",
+          "name": "Field223",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field224",
+          "name": "Field224",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field225",
+          "name": "Field225",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field226",
+          "name": "Field226",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field227",
+          "name": "Field227",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field228",
+          "name": "Field228",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field229",
+          "name": "Field229",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field23",
+          "name": "Field23",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field230",
+          "name": "Field230",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field231",
+          "name": "Field231",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field232",
+          "name": "Field232",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field233",
+          "name": "Field233",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field234",
+          "name": "Field234",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field235",
+          "name": "Field235",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field236",
+          "name": "Field236",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field237",
+          "name": "Field237",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field238",
+          "name": "Field238",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field239",
+          "name": "Field239",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field24",
+          "name": "Field24",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field240",
+          "name": "Field240",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field241",
+          "name": "Field241",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field242",
+          "name": "Field242",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field243",
+          "name": "Field243",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field244",
+          "name": "Field244",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field245",
+          "name": "Field245",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field246",
+          "name": "Field246",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field247",
+          "name": "Field247",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field248",
+          "name": "Field248",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field249",
+          "name": "Field249",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field25",
+          "name": "Field25",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field250",
+          "name": "Field250",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field251",
+          "name": "Field251",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field252",
+          "name": "Field252",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field253",
+          "name": "Field253",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field254",
+          "name": "Field254",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field255",
+          "name": "Field255",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field256",
+          "name": "Field256",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field257",
+          "name": "Field257",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field258",
+          "name": "Field258",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field259",
+          "name": "Field259",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field26",
+          "name": "Field26",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field260",
+          "name": "Field260",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field261",
+          "name": "Field261",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field262",
+          "name": "Field262",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field263",
+          "name": "Field263",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field264",
+          "name": "Field264",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field265",
+          "name": "Field265",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field266",
+          "name": "Field266",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field267",
+          "name": "Field267",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field268",
+          "name": "Field268",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field269",
+          "name": "Field269",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field27",
+          "name": "Field27",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field270",
+          "name": "Field270",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field271",
+          "name": "Field271",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field272",
+          "name": "Field272",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field273",
+          "name": "Field273",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field274",
+          "name": "Field274",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field275",
+          "name": "Field275",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field276",
+          "name": "Field276",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field277",
+          "name": "Field277",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field278",
+          "name": "Field278",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field279",
+          "name": "Field279",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field28",
+          "name": "Field28",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field280",
+          "name": "Field280",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field281",
+          "name": "Field281",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field282",
+          "name": "Field282",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field283",
+          "name": "Field283",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field284",
+          "name": "Field284",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field285",
+          "name": "Field285",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field286",
+          "name": "Field286",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field287",
+          "name": "Field287",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field288",
+          "name": "Field288",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field289",
+          "name": "Field289",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field29",
+          "name": "Field29",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field290",
+          "name": "Field290",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field291",
+          "name": "Field291",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field292",
+          "name": "Field292",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field293",
+          "name": "Field293",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field294",
+          "name": "Field294",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field295",
+          "name": "Field295",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field296",
+          "name": "Field296",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field297",
+          "name": "Field297",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field298",
+          "name": "Field298",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field299",
+          "name": "Field299",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field30",
+          "name": "Field30",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field300",
+          "name": "Field300",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field301",
+          "name": "Field301",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field302",
+          "name": "Field302",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field303",
+          "name": "Field303",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field304",
+          "name": "Field304",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field305",
+          "name": "Field305",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field306",
+          "name": "Field306",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field307",
+          "name": "Field307",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field308",
+          "name": "Field308",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field309",
+          "name": "Field309",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field31",
+          "name": "Field31",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field310",
+          "name": "Field310",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field311",
+          "name": "Field311",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field312",
+          "name": "Field312",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field313",
+          "name": "Field313",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field314",
+          "name": "Field314",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field315",
+          "name": "Field315",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field316",
+          "name": "Field316",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field317",
+          "name": "Field317",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field318",
+          "name": "Field318",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field319",
+          "name": "Field319",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field32",
+          "name": "Field32",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field320",
+          "name": "Field320",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field321",
+          "name": "Field321",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field322",
+          "name": "Field322",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field323",
+          "name": "Field323",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field324",
+          "name": "Field324",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field325",
+          "name": "Field325",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field326",
+          "name": "Field326",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field327",
+          "name": "Field327",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field328",
+          "name": "Field328",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field329",
+          "name": "Field329",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field33",
+          "name": "Field33",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field330",
+          "name": "Field330",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field331",
+          "name": "Field331",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field332",
+          "name": "Field332",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field333",
+          "name": "Field333",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field334",
+          "name": "Field334",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field335",
+          "name": "Field335",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field336",
+          "name": "Field336",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field337",
+          "name": "Field337",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field338",
+          "name": "Field338",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field339",
+          "name": "Field339",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field34",
+          "name": "Field34",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field340",
+          "name": "Field340",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field341",
+          "name": "Field341",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field342",
+          "name": "Field342",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field343",
+          "name": "Field343",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field344",
+          "name": "Field344",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field345",
+          "name": "Field345",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field346",
+          "name": "Field346",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field347",
+          "name": "Field347",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field348",
+          "name": "Field348",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field349",
+          "name": "Field349",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field35",
+          "name": "Field35",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field350",
+          "name": "Field350",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field351",
+          "name": "Field351",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field352",
+          "name": "Field352",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field353",
+          "name": "Field353",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field354",
+          "name": "Field354",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field355",
+          "name": "Field355",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field356",
+          "name": "Field356",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field357",
+          "name": "Field357",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field358",
+          "name": "Field358",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field359",
+          "name": "Field359",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field36",
+          "name": "Field36",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field360",
+          "name": "Field360",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field361",
+          "name": "Field361",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field362",
+          "name": "Field362",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field363",
+          "name": "Field363",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field364",
+          "name": "Field364",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field365",
+          "name": "Field365",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field366",
+          "name": "Field366",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field367",
+          "name": "Field367",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field368",
+          "name": "Field368",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field369",
+          "name": "Field369",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field37",
+          "name": "Field37",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field370",
+          "name": "Field370",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field371",
+          "name": "Field371",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field38",
+          "name": "Field38",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field39",
+          "name": "Field39",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field40",
+          "name": "Field40",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field41",
+          "name": "Field41",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field42",
+          "name": "Field42",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field43",
+          "name": "Field43",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field44",
+          "name": "Field44",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field45",
+          "name": "Field45",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field46",
+          "name": "Field46",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field47",
+          "name": "Field47",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field48",
+          "name": "Field48",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field49",
+          "name": "Field49",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field5",
+          "name": "Field5",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field50",
+          "name": "Field50",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field51",
+          "name": "Field51",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field52",
+          "name": "Field52",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field53",
+          "name": "Field53",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field54",
+          "name": "Field54",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field55",
+          "name": "Field55",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field56",
+          "name": "Field56",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field57",
+          "name": "Field57",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field58",
+          "name": "Field58",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field59",
+          "name": "Field59",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field6",
+          "name": "Field6",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field60",
+          "name": "Field60",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field61",
+          "name": "Field61",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field62",
+          "name": "Field62",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field63",
+          "name": "Field63",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field64",
+          "name": "Field64",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field65",
+          "name": "Field65",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field66",
+          "name": "Field66",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field67",
+          "name": "Field67",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field68",
+          "name": "Field68",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field69",
+          "name": "Field69",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field7",
+          "name": "Field7",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field70",
+          "name": "Field70",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field71",
+          "name": "Field71",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field72",
+          "name": "Field72",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field73",
+          "name": "Field73",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field74",
+          "name": "Field74",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field75",
+          "name": "Field75",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field76",
+          "name": "Field76",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field77",
+          "name": "Field77",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field78",
+          "name": "Field78",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field79",
+          "name": "Field79",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field8",
+          "name": "Field8",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field80",
+          "name": "Field80",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field81",
+          "name": "Field81",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field82",
+          "name": "Field82",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field83",
+          "name": "Field83",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field84",
+          "name": "Field84",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field85",
+          "name": "Field85",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field86",
+          "name": "Field86",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field87",
+          "name": "Field87",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field88",
+          "name": "Field88",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field89",
+          "name": "Field89",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field9",
+          "name": "Field9",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field90",
+          "name": "Field90",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field91",
+          "name": "Field91",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field92",
+          "name": "Field92",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field93",
+          "name": "Field93",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field94",
+          "name": "Field94",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field95",
+          "name": "Field95",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field96",
+          "name": "Field96",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field97",
+          "name": "Field97",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field98",
+          "name": "Field98",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field99",
+          "name": "Field99",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field10",
+          "name": "Field10",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field100",
+          "name": "Field100",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field101",
+          "name": "Field101",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field102",
+          "name": "Field102",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field103",
+          "name": "Field103",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field104",
+          "name": "Field104",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field105",
+          "name": "Field105",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field106",
+          "name": "Field106",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field107",
+          "name": "Field107",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field108",
+          "name": "Field108",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field109",
+          "name": "Field109",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field11",
+          "name": "Field11",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field110",
+          "name": "Field110",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field111",
+          "name": "Field111",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field112",
+          "name": "Field112",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field113",
+          "name": "Field113",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field114",
+          "name": "Field114",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field115",
+          "name": "Field115",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field116",
+          "name": "Field116",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field117",
+          "name": "Field117",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field118",
+          "name": "Field118",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "E_MIN",
+          "name": "E_MIN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "E_NOM",
+          "name": "E_NOM",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "E_MAX",
+          "name": "E_MAX",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "IPC",
+          "name": "IPC",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "JEDEC",
+          "name": "JEDEC",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "L1_MAX",
+          "name": "L1_MAX",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "L1_MIN",
+          "name": "L1_MIN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "L1_NOM",
+          "name": "L1_NOM",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "L_MAX",
+          "name": "L_MAX",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "L_MIN",
+          "name": "L_MIN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "L_NOM",
+          "name": "L_NOM",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "BALL_COLUMNS",
+          "name": "BALL_COLUMNS",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "BALL_ROWS",
+          "name": "BALL_ROWS",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "BODY_DIAMETER",
+          "name": "BODY_DIAMETER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "B_MAX",
+          "name": "B_MAX",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "B_MIN",
+          "name": "B_MIN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PACKAGE_TYPE",
+          "name": "PACKAGE_TYPE",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "B_NOM",
+          "name": "B_NOM",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PART_REV",
+          "name": "PART_REV",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PINS",
+          "name": "PINS",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PIN_COLUMNS",
+          "name": "PIN_COLUMNS",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PIN_COUNT",
+          "name": "PIN_COUNT",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "D_NOM",
+          "name": "D_NOM",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "D1_MAX",
+          "name": "D1_MAX",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "D1_MIN",
+          "name": "D1_MIN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "D1_NOM",
+          "name": "D1_NOM",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SNAPEDA_PACKAGE_ID",
+          "name": "SNAPEDA_PACKAGE_ID",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "D2_NOM",
+          "name": "D2_NOM",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DMAX",
+          "name": "DMAX",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DMIN",
+          "name": "DMIN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DNOM",
+          "name": "DNOM",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "D_MAX",
+          "name": "D_MAX",
+          "show": false
+        },
+        {
+          "group_by": true,
+          "label": "D_MIN",
+          "name": "D_MIN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "THERMAL_PAD",
+          "name": "THERMAL_PAD",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "VACANCIES",
+          "name": "VACANCIES",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "EMAX",
+          "name": "EMAX",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "E2_NOM",
+          "name": "E2_NOM",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "A_MAX",
+          "name": "A_MAX",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "EMIN",
+          "name": "EMIN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ENOM",
+          "name": "ENOM",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Author",
+          "name": "Author",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "License",
+          "name": "License",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MOUSER-PURCHASE-URL",
+          "name": "MOUSER-PURCHASE-URL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MPN",
+          "name": "MPN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "TEXAS_INSTRUMENTS-PURCHASE-URL",
+          "name": "TEXAS_INSTRUMENTS-PURCHASE-URL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PATREV",
+          "name": "PATREV",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC",
+          "name": "LCSC",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Height",
+          "name": "Height",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Name",
+          "name": "Manufacturer_Name",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PROD_ID_SENSOR",
+          "name": "PROD_ID_SENSOR",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Part_Number",
+          "name": "Manufacturer_Part_Number",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Part Number",
+          "name": "Mouser Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Price/Stock",
+          "name": "Mouser Price/Stock",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "PROD_ID",
+          "name": "PROD_ID",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Arrow Price/Stock",
+          "name": "Arrow Price/Stock",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Arrow Part Number",
+          "name": "Arrow Part Number",
+          "show": false
+        }
+      ],
+      "filter_string": "",
+      "group_symbols": true,
+      "include_excluded_from_bom": true,
+      "name": "",
+      "sort_asc": true,
+      "sort_field": "Value"
+    },
+    "bus_aliases": {},
+    "connection_grid_size": 50.0,
+    "drawing": {
+      "dashed_lines_dash_length_ratio": 12.0,
+      "dashed_lines_gap_length_ratio": 3.0,
+      "default_line_thickness": 6.0,
+      "default_text_size": 50.0,
+      "field_names": [],
+      "hop_over_size_choice": 0,
+      "intersheets_ref_own_page": false,
+      "intersheets_ref_prefix": "",
+      "intersheets_ref_short": false,
+      "intersheets_ref_show": false,
+      "intersheets_ref_suffix": "",
+      "junction_size_choice": 3,
+      "label_size_ratio": 0.375,
+      "operating_point_overlay_i_precision": 3,
+      "operating_point_overlay_i_range": "~A",
+      "operating_point_overlay_v_precision": 3,
+      "operating_point_overlay_v_range": "~V",
+      "overbar_offset_ratio": 1.23,
+      "pin_symbol_size": 25.0,
+      "text_offset_ratio": 0.15
+    },
+    "legacy_lib_dir": "",
+    "legacy_lib_list": [],
+    "meta": {
+      "version": 1
+    },
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
+    "page_layout_descr_file": "",
+    "plot_directory": "",
+    "reuse_designators": true,
+    "subpart_first_id": 65,
+    "subpart_id_separator": 0,
+    "top_level_sheets": [
+      {
+        "filename": "LibrePulse.kicad_sch",
+        "name": "LibrePulse",
+        "uuid": "dde8bbc5-4a47-4680-87fc-161d82785f37"
+      }
+    ],
+    "used_designators": "J1-5,U1-31,D1-3,A1,C1-90,LNA_EN1,SENSOR1,JP1,L1-5,FB1-5,LS1,Q1,RT1-2,BT1-2,DISP1,M1,R1-20,LED1-2,#PWR1-217,V1,MK1-2,TH1-2,#FLG1-2,IC1-11,NT1",
+    "variants": []
+  },
+  "sheets": [
+    [
+      "dde8bbc5-4a47-4680-87fc-161d82785f37",
+      "LibrePulse"
+    ]
+  ],
+  "text_variables": {},
+  "tuning_profiles": {
+    "meta": {
+      "version": 0
+    },
+    "tuning_profiles_impedance_geometric": []
+  }
+}
