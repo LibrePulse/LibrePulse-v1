@@ -54,4 +54,4 @@ Schematic and PCB work is actively in progress (KiCad files are in the repositor
   - [ ] Write Drivers
   - [ ] Integrate Zephyr RTOS using Rust
   - [ ] Write UI in Slint
-  ## NOTE: this roadmap is a simplified overview for the full roadmap [ROADMAP.md)](ROADMAP.md)
+  ## NOTE: this roadmap is a simplified overview for the full roadmap [ROADMAP.md](ROADMAP.md)
