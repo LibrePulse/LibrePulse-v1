@@ -22100,6 +22100,280 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Symbols:TPSM81299VCMR"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "TPSM81299VCMR"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "VCM0007A-MFG"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.ti.com/lit/gpn/tpsm81299"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "TPSM81299VCMR"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "VCM0007A-MFG"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TPSM81299VCMR_0_1"
+				(polyline
+					(pts
+						(xy 5.08 5.08) (xy 5.08 -15.24)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -15.24) (xy 30.48 -15.24)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 30.48 5.08) (xy 5.08 5.08)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 30.48 -15.24) (xy 30.48 5.08)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 -12.7 0)
+					(length 5.08)
+					(name "VSEL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 35.56 0 180)
+					(length 5.08)
+					(name "VOUT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 35.56 -12.7 180)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 0 0)
+					(length 5.08)
+					(name "AVIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "PVIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 35.56 -5.08 180)
+					(length 5.08)
+					(name "SW"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "EN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+3.3V"
 			(power global)
 			(pin_numbers
@@ -22983,7 +23257,7 @@
 		)
 		(uuid "15a0168e-4632-4a7a-8b44-4063303ce091")
 	)
-	(text "TPS63020"
+	(text "TPSM81299"
 		(exclude_from_sim no)
 		(at 606.298 184.15 0)
 		(effects
@@ -23246,6 +23520,12 @@
 		(uuid "5cc22414-45ce-4169-b796-6afbd308ac5f")
 	)
 	(junction
+		(at 567.69 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "610f41af-8847-4e34-830c-f271b3d56d2e")
+	)
+	(junction
 		(at 684.53 220.98)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -23310,12 +23590,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a05619d8-75c7-4b24-9ec1-d0b79f262707")
-	)
-	(junction
-		(at 548.64 93.98)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "adb0c260-03f4-4e44-8032-a06cd440fb2c")
 	)
 	(junction
 		(at 287.02 300.99)
@@ -23691,6 +23965,16 @@
 	)
 	(wire
 		(pts
+			(xy 589.28 227.33) (xy 589.28 229.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "258bc005-73c8-4e33-ad79-14f0879fe808")
+	)
+	(wire
+		(pts
 			(xy 77.47 492.76) (xy 77.47 488.95)
 		)
 		(stroke
@@ -23811,26 +24095,6 @@
 	)
 	(wire
 		(pts
-			(xy 548.64 93.98) (xy 567.69 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3f0fe79c-9996-41a7-8172-66ab224e7199")
-	)
-	(wire
-		(pts
-			(xy 542.29 93.98) (xy 548.64 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "430c3718-182e-4c76-8c58-9c44028250f9")
-	)
-	(wire
-		(pts
 			(xy 474.98 77.47) (xy 496.57 77.47)
 		)
 		(stroke
@@ -23938,6 +24202,16 @@
 			(type default)
 		)
 		(uuid "5303b2f2-6642-4828-8d9a-3d90e239a172")
+	)
+	(wire
+		(pts
+			(xy 567.69 104.14) (xy 567.69 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53a693f4-e388-4c68-a961-e8e3e6c7919d")
 	)
 	(wire
 		(pts
@@ -24251,6 +24525,16 @@
 	)
 	(wire
 		(pts
+			(xy 537.21 93.98) (xy 567.69 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1a68236-dbcb-48f8-bb24-7067bc190487")
+	)
+	(wire
+		(pts
 			(xy 151.13 212.09) (xy 151.13 210.82)
 		)
 		(stroke
@@ -24431,7 +24715,7 @@
 	)
 	(wire
 		(pts
-			(xy 567.69 99.06) (xy 567.69 118.11)
+			(xy 567.69 99.06) (xy 567.69 104.14)
 		)
 		(stroke
 			(width 0)
@@ -25360,7 +25644,7 @@
 		(uuid "91cdf2b8-aad6-4e0e-ba19-dddffa55c6aa")
 	)
 	(label "U6_4"
-		(at 542.29 93.98 0)
+		(at 539.75 93.98 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -48252,6 +48536,103 @@
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
 					(reference "LNA_EN1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Symbols:TPSM81299VCMR")
+		(at 589.28 227.33 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2a216548-2b9e-40b9-af0e-1623f47fe1c0")
+		(property "Reference" "U10"
+			(at 607.06 217.17 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "TPSM81299VCMR"
+			(at 607.06 219.71 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "VCM0007A-MFG"
+			(at 589.28 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/gpn/tpsm81299"
+			(at 589.28 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 589.28 227.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bea63f9c-56a4-4b3c-af5b-b9a4430ebffa")
+		)
+		(pin "6"
+			(uuid "236918b4-9628-471f-8b87-87b5dd6d66cc")
+		)
+		(pin "7"
+			(uuid "113d2369-4600-4b93-8cc1-e6c7929f34ef")
+		)
+		(pin "2"
+			(uuid "06b863a7-b7ea-4407-84b1-4b46a6a6a37a")
+		)
+		(pin "5"
+			(uuid "cc9f4606-4e8d-4080-b508-31423ea64681")
+		)
+		(pin "3"
+			(uuid "0cb5ba81-dcdc-469a-ac23-9b6b26c72e9b")
+		)
+		(pin "4"
+			(uuid "6608be32-5e58-45d6-ba49-63ae6b6d8b1b")
+		)
+		(instances
+			(project "LibrePulse"
+				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
+					(reference "U10")
 					(unit 1)
 				)
 			)
@@ -120008,7 +120389,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 548.64 106.68 0)
+		(at 537.21 106.68 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -120018,7 +120399,7 @@
 		(dnp no)
 		(uuid "7cfa3d74-6351-4f73-b65a-c06fbae87c88")
 		(property "Reference" "#PWR020"
-			(at 548.64 113.03 0)
+			(at 537.21 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -120029,7 +120410,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 548.6399 110.49 90)
+			(at 537.2099 110.49 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -120040,7 +120421,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 548.64 106.68 0)
+			(at 537.21 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -120051,7 +120432,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 548.64 106.68 0)
+			(at 537.21 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -120062,7 +120443,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 548.64 106.68 0)
+			(at 537.21 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -138940,85 +139321,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 554.99 118.11 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9fe719a3-bce6-4244-96f8-07226481ef7e")
-		(property "Reference" "#PWR023"
-			(at 548.64 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 551.18 118.1099 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 554.99 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 554.99 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 554.99 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "899cb284-40c7-4ce9-b284-f8a8382afac2")
-		)
-		(instances
-			(project "LibrePulse"
-				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR023")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Symbols:GRM21BZ71E106KE15L")
 		(at 717.55 139.7 0)
 		(unit 1)
@@ -151918,7 +152220,7 @@
 	)
 	(symbol
 		(lib_id "Symbols:GRM188Z71E225KE43J")
-		(at 548.64 93.98 270)
+		(at 537.21 93.98 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -151929,7 +152231,7 @@
 		(fields_autoplaced yes)
 		(uuid "bf8351f4-d1be-40d2-a753-9bdc5b8d8b71")
 		(property "Reference" "C5"
-			(at 552.45 99.0599 90)
+			(at 541.02 99.0599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -151940,7 +152242,7 @@
 			)
 		)
 		(property "Value" "2.2uF"
-			(at 552.45 101.5999 90)
+			(at 541.02 101.5999 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -151951,7 +152253,7 @@
 			)
 		)
 		(property "Footprint" "Footprints:GRM18x"
-			(at 452.45 102.87 0)
+			(at 441.02 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -151963,7 +152265,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188Z71E225KE43-01A.pdf"
-			(at 352.45 102.87 0)
+			(at 341.02 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -151975,7 +152277,7 @@
 			)
 		)
 		(property "Description" "MLCC, 0603"
-			(at 548.64 93.98 0)
+			(at 537.21 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -151986,7 +152288,7 @@
 			)
 		)
 		(property "Height" "0.9"
-			(at 152.45 102.87 0)
+			(at 141.02 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -151998,7 +152300,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Murata Electronics"
-			(at 52.45 102.87 0)
+			(at 41.02 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -152010,7 +152312,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "GRM188Z71E225KE43J"
-			(at -47.55 102.87 0)
+			(at -58.98 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -152022,7 +152324,7 @@
 			)
 		)
 		(property "Mouser Part Number" "81-GRM188Z71E225KE3J"
-			(at -147.55 102.87 0)
+			(at -158.98 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -152034,7 +152336,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=81-GRM188Z71E225KE3J"
-			(at -247.55 102.87 0)
+			(at -258.98 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -152046,7 +152348,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at -347.55 102.87 0)
+			(at -358.98 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -152058,7 +152360,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at -447.55 102.87 0)
+			(at -458.98 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -178475,6 +178777,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 554.99 104.14 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dd794a17-c368-497e-97ec-9c38cacce312")
+		(property "Reference" "#PWR023"
+			(at 548.64 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 551.18 104.1399 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 554.99 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 554.99 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 554.99 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d7ba48ea-5854-4c8c-9c76-15b6e8a5970c")
+		)
+		(instances
+			(project "LibrePulse"
+				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Symbols:GRM3195C1H103FA01D")
 		(at 684.53 187.96 0)
 		(unit 1)
@@ -178958,172 +179339,6 @@
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
 					(reference "#PWR059")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Symbols:GRM21BZ71E106KE15L")
-		(at 567.69 118.11 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e2c99db5-82ba-458d-9733-5a4382e8f23a")
-		(property "Reference" "C7"
-			(at 561.34 110.49 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10uF"
-			(at 561.34 113.03 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Footprints:GRM21BR60J226ME39L"
-			(at 558.8 21.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BZ71E106KE15-01A.pdf"
-			(at 558.8 -78.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "MLCC, 0805"
-			(at 567.69 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "1.45"
-			(at 558.8 -278.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "Murata Electronics"
-			(at 558.8 -378.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "GRM21BZ71E106KE15L"
-			(at 558.8 -478.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" "81-GRM21BZ71E106KE5L"
-			(at 558.8 -578.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM21BZ71E106KE15L?qs=Ey7%2FXF42M3fdXe9bIpCO9w%3D%3D"
-			(at 558.8 -678.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Arrow Part Number" "GRM21BZ71E106KE15L"
-			(at 558.8 -778.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/grm21bz71e106ke15l/murata-manufacturing.html?utm_currency=USD&region=europe"
-			(at 558.8 -878.08 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "2"
-			(uuid "3c146fad-b91b-4c71-bc7a-e33cff61e7f1")
-		)
-		(pin "1"
-			(uuid "43f426ea-8933-400d-a404-e87a279b99b9")
-		)
-		(instances
-			(project "LibrePulse"
-				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -189568,6 +189783,172 @@
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
 					(reference "C23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Symbols:GRM21BZ71E106KE15L")
+		(at 567.69 104.14 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eb22da9c-00ef-4d4e-b0ca-214bc7330a70")
+		(property "Reference" "C7"
+			(at 561.34 96.52 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10uF"
+			(at 561.34 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Footprints:GRM21BR60J226ME39L"
+			(at 558.8 7.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BZ71E106KE15-01A.pdf"
+			(at 558.8 -92.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "MLCC, 0805"
+			(at 567.69 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "1.45"
+			(at 558.8 -292.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Murata Electronics"
+			(at 558.8 -392.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "GRM21BZ71E106KE15L"
+			(at 558.8 -492.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "81-GRM21BZ71E106KE5L"
+			(at 558.8 -592.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM21BZ71E106KE15L?qs=Ey7%2FXF42M3fdXe9bIpCO9w%3D%3D"
+			(at 558.8 -692.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Part Number" "GRM21BZ71E106KE15L"
+			(at 558.8 -792.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/grm21bz71e106ke15l/murata-manufacturing.html?utm_currency=USD&region=europe"
+			(at 558.8 -892.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "2"
+			(uuid "b19a54bd-1be0-47da-8db7-cb2a00077532")
+		)
+		(pin "1"
+			(uuid "008abae6-f36f-4de7-a237-1abdc6720dd4")
+		)
+		(instances
+			(project "LibrePulse"
+				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
+					(reference "C7")
 					(unit 1)
 				)
 			)
