@@ -13359,6 +13359,609 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Symbols:ERJU01F1004C"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 13.97 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "ERJU01F1004C"
+				(at 13.97 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "ERJU01_(0201)"
+				(at 13.97 -96.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "http://industrial.panasonic.com/cdbs/www-data/pdf/RDP0000/AOA0000C334.pdf"
+				(at 13.97 -196.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "Anti-Sulfurated Thick Film Chip Resistor, 0201, 0.05W"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" "0.15"
+				(at 13.97 -396.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Name" "Panasonic"
+				(at 13.97 -496.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Part_Number" "ERJU01F1004C"
+				(at 13.97 -596.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Part Number" ""
+				(at 13.97 -696.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Price/Stock" ""
+				(at 13.97 -796.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Arrow Part Number" ""
+				(at 13.97 -896.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Arrow Price/Stock" ""
+				(at 13.97 -996.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(symbol "ERJU01F1004C_1_1"
+				(rectangle
+					(start 5.08 1.27)
+					(end 12.7 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Symbols:ERJU01F1202C"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 13.97 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "ERJU01F1202C"
+				(at 13.97 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "ERJU01_(0201)"
+				(at 13.97 -96.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "http://industrial.panasonic.com/cdbs/www-data/pdf/RDP0000/AOA0000C334.pdf"
+				(at 13.97 -196.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "Anti-Sulfurated Thick Film Chip Resistor, 0201, 0.05W"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" "0.15"
+				(at 13.97 -396.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Name" "Panasonic"
+				(at 13.97 -496.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Part_Number" "ERJU01F1202C"
+				(at 13.97 -596.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Part Number" ""
+				(at 13.97 -696.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Price/Stock" ""
+				(at 13.97 -796.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Arrow Part Number" ""
+				(at 13.97 -896.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Arrow Price/Stock" ""
+				(at 13.97 -996.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(symbol "ERJU01F1202C_1_1"
+				(rectangle
+					(start 5.08 1.27)
+					(end 12.7 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Symbols:ERJU01F1272C"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 13.97 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "ERJU01F1272C"
+				(at 13.97 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "ERJU01_(0201)"
+				(at 13.97 -96.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "http://industrial.panasonic.com/cdbs/www-data/pdf/RDP0000/AOA0000C334.pdf"
+				(at 13.97 -196.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "Anti-Sulfurated Thick Film Chip Resistor, 0201, 0.05W"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" "0.15"
+				(at 13.97 -396.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Name" "Panasonic"
+				(at 13.97 -496.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Part_Number" "ERJU01F1272C"
+				(at 13.97 -596.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Part Number" ""
+				(at 13.97 -696.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Price/Stock" ""
+				(at 13.97 -796.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Arrow Part Number" ""
+				(at 13.97 -896.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Arrow Price/Stock" ""
+				(at 13.97 -996.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(symbol "ERJU01F1272C_1_1"
+				(rectangle
+					(start 5.08 1.27)
+					(end 12.7 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Symbols:ERJU01F1602C"
 			(pin_names
 				(hide yes)
@@ -13761,6 +14364,408 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Symbols:ERJU01F2403C"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 13.97 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "ERJU01F2403C"
+				(at 13.97 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "ERJU01_(0201)"
+				(at 13.97 -96.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "http://industrial.panasonic.com/cdbs/www-data/pdf/RDP0000/AOA0000C334.pdf"
+				(at 13.97 -196.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "Anti-Sulfurated Thick Film Chip Resistor, 0201, 0.05W"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" "0.15"
+				(at 13.97 -396.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Name" "Panasonic"
+				(at 13.97 -496.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Part_Number" "ERJU01F2403C"
+				(at 13.97 -596.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Part Number" ""
+				(at 13.97 -696.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Price/Stock" ""
+				(at 13.97 -796.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Arrow Part Number" ""
+				(at 13.97 -896.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Arrow Price/Stock" ""
+				(at 13.97 -996.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(symbol "ERJU01F2403C_1_1"
+				(rectangle
+					(start 5.08 1.27)
+					(end 12.7 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Symbols:ERJU01F3002C"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 13.97 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "ERJU01F3002C"
+				(at 13.97 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "ERJU01_(0201)"
+				(at 13.97 -96.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "http://industrial.panasonic.com/cdbs/www-data/pdf/RDP0000/AOA0000C334.pdf"
+				(at 13.97 -196.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "Anti-Sulfurated Thick Film Chip Resistor, 0201, 0.05W"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" "0.15"
+				(at 13.97 -396.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Name" "Panasonic"
+				(at 13.97 -496.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Part_Number" "ERJU01F3002C"
+				(at 13.97 -596.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Part Number" ""
+				(at 13.97 -696.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Price/Stock" ""
+				(at 13.97 -796.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Arrow Part Number" ""
+				(at 13.97 -896.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Arrow Price/Stock" ""
+				(at 13.97 -996.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(symbol "ERJU01F3002C_1_1"
+				(rectangle
+					(start 5.08 1.27)
+					(end 12.7 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Symbols:ERJU01F7871C"
 			(pin_names
 				(hide yes)
@@ -13912,6 +14917,207 @@
 				)
 			)
 			(symbol "ERJU01F7871C_1_1"
+				(rectangle
+					(start 5.08 1.27)
+					(end 12.7 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Symbols:ERJU01F9092C"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 13.97 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "ERJU01F9092C"
+				(at 13.97 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "ERJU01_(0201)"
+				(at 13.97 -96.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "http://industrial.panasonic.com/cdbs/www-data/pdf/RDP0000/AOA0000C334.pdf"
+				(at 13.97 -196.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "Anti-Sulfurated Thick Film Chip Resistor, 0201, 0.05W"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" "0.15"
+				(at 13.97 -396.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Name" "Panasonic"
+				(at 13.97 -496.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Part_Number" "ERJU01F9092C"
+				(at 13.97 -596.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Part Number" ""
+				(at 13.97 -696.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Price/Stock" ""
+				(at 13.97 -796.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Arrow Part Number" ""
+				(at 13.97 -896.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Arrow Price/Stock" ""
+				(at 13.97 -996.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(symbol "ERJU01F9092C_1_1"
 				(rectangle
 					(start 5.08 1.27)
 					(end 12.7 -1.27)
@@ -15819,6 +17025,244 @@
 				)
 			)
 			(symbol "GRM033Z71C104KE14J_1_1"
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 5.588 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.588 2.54) (xy 5.588 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 2.54) (xy 7.112 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Symbols:GRM155D71E105KE11J"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 8.89 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "GRM155D71E105KE11J"
+				(at 8.89 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "GRM155R61H334ME01D"
+				(at 8.89 -96.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155D71E105KE11-01A.pdf"
+				(at 8.89 -196.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "Ceramic Capacitors (SMD) 0402 (1005M) X7T(EIA) 25V 1.0uF +/-10%"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" "0.7"
+				(at 8.89 -396.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Name" "Murata Electronics"
+				(at 8.89 -496.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Part_Number" "GRM155D71E105KE11J"
+				(at 8.89 -596.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Part Number" ""
+				(at 8.89 -696.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Price/Stock" ""
+				(at 8.89 -796.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Arrow Part Number" ""
+				(at 8.89 -896.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Arrow Price/Stock" ""
+				(at 8.89 -996.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(symbol "GRM155D71E105KE11J_1_1"
 				(polyline
 					(pts
 						(xy 5.08 0) (xy 5.588 0)
@@ -23905,7 +25349,7 @@
 		)
 	)
 	(rectangle
-		(start 584.2 129.54)
+		(start 600.71 129.54)
 		(end 668.02 170.18)
 		(stroke
 			(width 0)
@@ -23965,8 +25409,8 @@
 		(uuid "54a08eb8-25be-42e5-ad68-9c7bf4cabe0f")
 	)
 	(rectangle
-		(start 594.36 246.38)
-		(end 678.18 298.45)
+		(start 588.01 245.11)
+		(end 679.45 297.18)
 		(stroke
 			(width 0)
 			(type default)
@@ -23990,7 +25434,7 @@
 	)
 	(rectangle
 		(start 494.03 127)
-		(end 582.93 170.18)
+		(end 582.93 173.99)
 		(stroke
 			(width 0)
 			(type default)
@@ -24061,8 +25505,8 @@
 		(uuid "9a7cf3af-67ea-4530-be04-98fb9eda8e00")
 	)
 	(rectangle
-		(start 497.84 246.634)
-		(end 581.66 298.45)
+		(start 499.11 246.634)
+		(end 585.47 298.45)
 		(stroke
 			(width 0)
 			(type default)
@@ -24142,7 +25586,7 @@
 	)
 	(text "TPSM81299"
 		(exclude_from_sim no)
-		(at 541.528 177.8 0)
+		(at 541.528 178.562 0)
 		(effects
 			(font
 				(size 6.35 6.35)
@@ -24182,7 +25626,7 @@
 	)
 	(text "BQ27427YZFR"
 		(exclude_from_sim no)
-		(at 539.242 122.936 0)
+		(at 539.242 122.428 0)
 		(effects
 			(font
 				(size 6.35 6.35)
@@ -24331,6 +25775,12 @@
 		(uuid "f8e5290c-2f16-4ecb-8273-4bc74c4b63ae")
 	)
 	(junction
+		(at 557.53 269.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0077b14e-8462-4545-9827-18a3aaf11226")
+	)
+	(junction
 		(at 41.91 471.17)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -24379,6 +25829,12 @@
 		(uuid "230419bf-6467-43c2-99f3-95700adbae3d")
 	)
 	(junction
+		(at 521.97 294.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2c132688-6b05-4198-a92d-70d0f0fc05ac")
+	)
+	(junction
 		(at 250.19 424.18)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -24403,10 +25859,28 @@
 		(uuid "3e3fa19e-67ed-48d4-bcd3-2e0b1266df8f")
 	)
 	(junction
+		(at 560.07 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3f27051b-930a-4f8f-80ff-421d33fbc771")
+	)
+	(junction
 		(at 687.07 168.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "42ea6c5b-dd8a-4010-a39e-02434d37bc48")
+	)
+	(junction
+		(at 610.87 294.64)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "432ed1a1-2fcf-4e89-9d0e-55845a2b1384")
+	)
+	(junction
+		(at 646.43 269.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4553496b-dbaf-4fce-ab00-c7e55d1fadb6")
 	)
 	(junction
 		(at 687.07 224.79)
@@ -24421,10 +25895,10 @@
 		(uuid "4a43e546-9c2a-427c-9495-a65a28e4316a")
 	)
 	(junction
-		(at 610.87 149.86)
+		(at 615.95 269.24)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "509bf2c6-bc6a-4a34-bc49-ea483eb75847")
+		(uuid "4c8f1b3f-aad1-47ce-995f-9a950bfe7cb1")
 	)
 	(junction
 		(at 746.76 209.55)
@@ -24449,6 +25923,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "66f412d7-b67d-42c5-a23f-0eb00b3f9da8")
+	)
+	(junction
+		(at 648.97 261.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6906226b-258a-4a38-ae5f-2c629e089e93")
 	)
 	(junction
 		(at 563.88 203.2)
@@ -24493,6 +25973,12 @@
 		(uuid "8a88999f-924d-48ec-b77a-c428bc2568a9")
 	)
 	(junction
+		(at 547.37 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8ec91cc8-3283-49a3-91ed-481218c70c1c")
+	)
+	(junction
 		(at 615.95 266.7)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -24535,10 +26021,28 @@
 		(uuid "a05619d8-75c7-4b24-9ec1-d0b79f262707")
 	)
 	(junction
+		(at 560.07 261.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a853b8f8-bdfe-4b2e-9c85-8086cc7e7b81")
+	)
+	(junction
 		(at 251.46 203.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aece55db-7731-47d8-8cc4-6dc2064fcdbf")
+	)
+	(junction
+		(at 646.43 271.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b57278fe-d7bf-45d0-b53a-2f6fdeab0a6f")
+	)
+	(junction
+		(at 648.97 259.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b95df1ae-3fce-420d-9857-bff9f4f8dfce")
 	)
 	(junction
 		(at 48.26 445.77)
@@ -24559,10 +26063,22 @@
 		(uuid "c1db34dc-b501-4cad-a1ac-944d66a0dc73")
 	)
 	(junction
+		(at 514.35 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c233149f-95c5-45d2-b70b-df91db4eafd8")
+	)
+	(junction
 		(at 77.47 488.95)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c25af21c-908c-4525-b1f1-99c717d4e041")
+	)
+	(junction
+		(at 516.89 151.13)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c2b156f3-7d64-423a-a3d6-107900dcd311")
 	)
 	(junction
 		(at 374.65 427.99)
@@ -24589,10 +26105,10 @@
 		(uuid "d5819296-936a-4dbb-b11f-e642cb373349")
 	)
 	(junction
-		(at 652.78 259.08)
+		(at 527.05 269.24)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d9a4fe0d-d821-4708-a2e4-07e7e7d22e2b")
+		(uuid "d5a1575d-90bc-4ab4-8c91-4a7e4781b2ce")
 	)
 	(junction
 		(at 793.75 116.84)
@@ -24649,12 +26165,32 @@
 		(uuid "febab859-d545-4a5b-913e-7ee4ced03a73")
 	)
 	(no_connect
+		(at 631.19 251.46)
+		(uuid "1c752925-76e9-4057-8c86-8bf2bc0dba5c")
+	)
+	(no_connect
 		(at 261.62 431.8)
 		(uuid "21b892e2-bf5a-42fa-8d93-601bbda5137d")
 	)
 	(no_connect
-		(at 557.53 266.7)
-		(uuid "2e225113-3dd1-4750-af6d-395f22cbbfbf")
+		(at 544.83 251.46)
+		(uuid "237429a4-edb6-41c6-b2f9-9b0ea5f36dd5")
+	)
+	(no_connect
+		(at 631.19 292.1)
+		(uuid "24cb1fa0-bed8-455c-a97e-ae66160b8e5a")
+	)
+	(no_connect
+		(at 553.72 270.51)
+		(uuid "293c3069-969f-4c93-ba16-c6d488a47a80")
+	)
+	(no_connect
+		(at 539.75 292.1)
+		(uuid "2ae27fe2-ee9b-41fd-b89d-5980e0ebbecd")
+	)
+	(no_connect
+		(at 633.73 251.46)
+		(uuid "2df9b993-bd59-4e68-befa-6efd1930d376")
 	)
 	(no_connect
 		(at 49.53 255.27)
@@ -24685,6 +26221,10 @@
 		(uuid "6f6dddee-71c9-425d-b67a-fd1d235393fc")
 	)
 	(no_connect
+		(at 542.29 292.1)
+		(uuid "7588d167-e5b0-4a69-8ed7-b65447af2afd")
+	)
+	(no_connect
 		(at 39.37 501.65)
 		(uuid "7837c893-67eb-487f-8e69-73cf586f9c8a")
 	)
@@ -24695,6 +26235,14 @@
 	(no_connect
 		(at 39.37 496.57)
 		(uuid "83d41eb1-e5a2-40b5-92b6-8ef94eb10c0d")
+	)
+	(no_connect
+		(at 628.65 292.1)
+		(uuid "83de08c7-fde2-4f11-91cb-4c8b3f543cbf")
+	)
+	(no_connect
+		(at 628.65 251.46)
+		(uuid "869088ed-339b-4a1e-b565-7d6ed17faa86")
 	)
 	(no_connect
 		(at 646.43 154.94)
@@ -24721,12 +26269,20 @@
 		(uuid "c35bb7d8-9a4e-47bc-80cb-5a6240b2b7c1")
 	)
 	(no_connect
+		(at 542.29 251.46)
+		(uuid "c4332fe6-6b1b-41d7-9720-9cd2ba3bbb75")
+	)
+	(no_connect
 		(at 261.62 408.94)
 		(uuid "d170a7ff-26dc-41c8-9cea-c8918bf62d82")
 	)
 	(no_connect
 		(at 711.2 83.82)
 		(uuid "d7d3e066-278b-4804-99bc-306848cf5f18")
+	)
+	(no_connect
+		(at 539.75 251.46)
+		(uuid "e0497025-8b0c-4d3c-9f4f-62ef0c86eb6f")
 	)
 	(no_connect
 		(at 261.62 449.58)
@@ -24739,10 +26295,6 @@
 	(no_connect
 		(at 261.62 439.42)
 		(uuid "fcd73a95-2525-46e4-b073-37d80d9411fa")
-	)
-	(no_connect
-		(at 527.05 269.24)
-		(uuid "ff0624e2-827d-4d35-a6e1-db1e39e1bedd")
 	)
 	(wire
 		(pts
@@ -24766,6 +26318,16 @@
 	)
 	(wire
 		(pts
+			(xy 560.07 161.29) (xy 547.37 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02335972-d057-4e35-9731-1076f4fe5d92")
+	)
+	(wire
+		(pts
 			(xy 394.97 427.99) (xy 394.97 429.26)
 		)
 		(stroke
@@ -24773,6 +26335,16 @@
 			(type default)
 		)
 		(uuid "05462030-6ad6-4b02-96db-272c3d0cd210")
+	)
+	(wire
+		(pts
+			(xy 628.65 294.64) (xy 673.1 294.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "06ab7aa6-9bb1-4140-9022-48ce8104e411")
 	)
 	(wire
 		(pts
@@ -24806,6 +26378,16 @@
 	)
 	(wire
 		(pts
+			(xy 673.1 261.62) (xy 648.97 261.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0afc5bfe-2861-46b4-8d2f-995b7200c829")
+	)
+	(wire
+		(pts
 			(xy 811.53 134.62) (xy 811.53 147.32)
 		)
 		(stroke
@@ -24816,6 +26398,26 @@
 	)
 	(wire
 		(pts
+			(xy 523.24 156.21) (xy 516.89 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0be248b1-a86f-46d8-9d52-aa0f075a6194")
+	)
+	(wire
+		(pts
+			(xy 557.53 266.7) (xy 557.53 269.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e9f02cf-27e7-42b3-9b8a-2e4091288b1e")
+	)
+	(wire
+		(pts
 			(xy 381 434.34) (xy 381 448.31)
 		)
 		(stroke
@@ -24823,6 +26425,16 @@
 			(type default)
 		)
 		(uuid "0f423ad6-9955-44de-a68b-ff7569216712")
+	)
+	(wire
+		(pts
+			(xy 648.97 259.08) (xy 652.78 259.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11fb262f-9cd9-4eb7-b5df-41187fdb331d")
 	)
 	(wire
 		(pts
@@ -24846,6 +26458,16 @@
 	)
 	(wire
 		(pts
+			(xy 651.51 276.86) (xy 646.43 276.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1390b02c-4d0a-4eb9-98cf-0b9b7fe3584f")
+	)
+	(wire
+		(pts
 			(xy 231.14 203.2) (xy 231.14 194.31)
 		)
 		(stroke
@@ -24866,7 +26488,17 @@
 	)
 	(wire
 		(pts
-			(xy 652.78 259.08) (xy 652.78 269.24)
+			(xy 646.43 269.24) (xy 646.43 271.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17e3f984-8353-4c15-9e3a-98f73e48a2fc")
+	)
+	(wire
+		(pts
+			(xy 648.97 259.08) (xy 648.97 261.62)
 		)
 		(stroke
 			(width 0)
@@ -24896,6 +26528,16 @@
 	)
 	(wire
 		(pts
+			(xy 610.87 276.86) (xy 615.95 276.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bdd9c70-3a47-47eb-87bd-1809d675acde")
+	)
+	(wire
+		(pts
 			(xy 687.07 213.36) (xy 687.07 224.79)
 		)
 		(stroke
@@ -24916,6 +26558,16 @@
 	)
 	(wire
 		(pts
+			(xy 529.59 171.45) (xy 529.59 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "225def44-a2a1-4038-a76a-b58a1b674b83")
+	)
+	(wire
+		(pts
 			(xy 568.96 90.17) (xy 560.07 90.17)
 		)
 		(stroke
@@ -24933,6 +26585,16 @@
 			(type default)
 		)
 		(uuid "2370af0e-2723-44c5-a8c4-5439a030eb55")
+	)
+	(wire
+		(pts
+			(xy 584.2 261.62) (xy 560.07 261.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "245aada7-2f70-416d-b3a5-4ff33af2b478")
 	)
 	(wire
 		(pts
@@ -24963,6 +26625,16 @@
 			(type default)
 		)
 		(uuid "2694918d-0e31-44c2-a4b1-a06e01bb3d5a")
+	)
+	(wire
+		(pts
+			(xy 527.05 266.7) (xy 527.05 269.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27724b48-568f-4a19-b29d-612ae87c46ee")
 	)
 	(wire
 		(pts
@@ -25023,6 +26695,26 @@
 			(type default)
 		)
 		(uuid "2e26ee24-b4de-4e7d-b424-fccb0d520c9b")
+	)
+	(wire
+		(pts
+			(xy 673.1 294.64) (xy 673.1 261.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30a8ad26-8cc9-4006-a93c-f7983adcb79e")
+	)
+	(wire
+		(pts
+			(xy 520.7 278.13) (xy 520.7 274.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31d4627a-31b3-4bd9-84d7-0247e665ee45")
 	)
 	(wire
 		(pts
@@ -25116,6 +26808,16 @@
 	)
 	(wire
 		(pts
+			(xy 615.95 266.7) (xy 615.95 269.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "467da636-f1fd-4581-9767-eb1f41bf0f90")
+	)
+	(wire
+		(pts
 			(xy 720.09 132.08) (xy 720.09 143.51)
 		)
 		(stroke
@@ -25146,6 +26848,16 @@
 	)
 	(wire
 		(pts
+			(xy 527.05 269.24) (xy 501.65 269.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "492b8a41-5f91-42ee-8155-7943e7a4bbf7")
+	)
+	(wire
+		(pts
 			(xy 740.41 116.84) (xy 775.97 116.84)
 		)
 		(stroke
@@ -25153,6 +26865,16 @@
 			(type default)
 		)
 		(uuid "49f9d9de-9d9a-41e8-a2e4-22879fb6b5da")
+	)
+	(wire
+		(pts
+			(xy 541.02 161.29) (xy 547.37 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a45bab0-9ada-49fb-8ca5-dc2764788630")
 	)
 	(wire
 		(pts
@@ -25196,6 +26918,26 @@
 	)
 	(wire
 		(pts
+			(xy 521.97 276.86) (xy 521.97 294.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e96072e-d901-433a-9e90-4cdf4cf0b0bf")
+	)
+	(wire
+		(pts
+			(xy 615.95 269.24) (xy 589.28 269.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fad6f48-00e0-499f-ae52-d095ed770235")
+	)
+	(wire
+		(pts
 			(xy 48.26 445.77) (xy 52.07 445.77)
 		)
 		(stroke
@@ -25223,6 +26965,16 @@
 			(type default)
 		)
 		(uuid "5303b2f2-6642-4828-8d9a-3d90e239a172")
+	)
+	(wire
+		(pts
+			(xy 610.87 276.86) (xy 610.87 294.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5471b63c-171f-45fa-96be-af04795f6668")
 	)
 	(wire
 		(pts
@@ -25256,6 +27008,36 @@
 	)
 	(wire
 		(pts
+			(xy 516.89 151.13) (xy 547.37 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58158149-20b0-4027-916d-7fb657c22b50")
+	)
+	(wire
+		(pts
+			(xy 547.37 146.05) (xy 547.37 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "592bbf69-5868-4ada-8735-2b474a56a10e")
+	)
+	(wire
+		(pts
+			(xy 652.78 288.29) (xy 650.24 288.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "593a21dc-690a-488b-96fb-3d3d3f8264cf")
+	)
+	(wire
+		(pts
 			(xy 251.46 203.2) (xy 251.46 194.31)
 		)
 		(stroke
@@ -25283,6 +27065,16 @@
 			(type default)
 		)
 		(uuid "5b674153-9b51-4480-9170-65d68fa6dabb")
+	)
+	(wire
+		(pts
+			(xy 646.43 266.7) (xy 646.43 269.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c55a1ec-5c86-45fa-9681-e1b06dd82068")
 	)
 	(wire
 		(pts
@@ -25316,6 +27108,16 @@
 	)
 	(wire
 		(pts
+			(xy 565.15 161.29) (xy 560.07 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f958487-a9a1-4445-9a6c-9806e2d983dd")
+	)
+	(wire
+		(pts
 			(xy 250.19 419.1) (xy 261.62 419.1)
 		)
 		(stroke
@@ -25346,6 +27148,16 @@
 	)
 	(wire
 		(pts
+			(xy 508 143.51) (xy 514.35 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66b190cc-9374-4375-b36b-b832287b3abe")
+	)
+	(wire
+		(pts
 			(xy 52.07 445.77) (xy 52.07 471.17)
 		)
 		(stroke
@@ -25366,7 +27178,27 @@
 	)
 	(wire
 		(pts
-			(xy 560.07 269.24) (xy 557.53 269.24)
+			(xy 516.89 165.1) (xy 516.89 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69bd85a0-4984-4caf-84cd-dd893d11637a")
+	)
+	(wire
+		(pts
+			(xy 650.24 274.32) (xy 646.43 274.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6ac9f1fd-afc5-4784-9786-82f30792c8ba")
+	)
+	(wire
+		(pts
+			(xy 557.53 269.24) (xy 560.07 269.24)
 		)
 		(stroke
 			(width 0)
@@ -25396,6 +27228,16 @@
 	)
 	(wire
 		(pts
+			(xy 648.97 261.62) (xy 648.97 269.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e5ddd81-ab4a-4a5f-86b8-21ed641e500d")
+	)
+	(wire
+		(pts
 			(xy 795.02 152.4) (xy 775.97 152.4)
 		)
 		(stroke
@@ -25416,6 +27258,16 @@
 	)
 	(wire
 		(pts
+			(xy 521.97 276.86) (xy 527.05 276.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7394469f-e323-4177-8f30-209ddd7fb00c")
+	)
+	(wire
+		(pts
 			(xy 687.07 201.93) (xy 687.07 213.36)
 		)
 		(stroke
@@ -25423,6 +27275,26 @@
 			(type default)
 		)
 		(uuid "75071759-927e-4c7b-886b-e36fbb8eeee9")
+	)
+	(wire
+		(pts
+			(xy 560.07 140.97) (xy 560.07 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7598f7b8-1bea-4288-b576-2c117c366c82")
+	)
+	(wire
+		(pts
+			(xy 584.2 294.64) (xy 584.2 261.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "771c2237-af57-4c24-80b2-4bafa3f31908")
 	)
 	(wire
 		(pts
@@ -25443,6 +27315,26 @@
 			(type default)
 		)
 		(uuid "8272218a-55ad-4a29-b359-57c604ce7280")
+	)
+	(wire
+		(pts
+			(xy 547.37 151.13) (xy 547.37 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "830ad88f-dd6c-44a9-80a6-4ddcb218aaca")
+	)
+	(wire
+		(pts
+			(xy 519.43 278.13) (xy 520.7 278.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8518206a-dc45-4935-8456-d090c17de084")
 	)
 	(wire
 		(pts
@@ -25506,6 +27398,16 @@
 	)
 	(wire
 		(pts
+			(xy 646.43 269.24) (xy 648.97 269.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bccde54-3b48-4221-b58e-8709355b7f4b")
+	)
+	(wire
+		(pts
 			(xy 740.41 170.18) (xy 740.41 196.85)
 		)
 		(stroke
@@ -25556,6 +27458,46 @@
 	)
 	(wire
 		(pts
+			(xy 609.6 274.32) (xy 615.95 274.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "97d9d86a-b8ee-4dbf-90b8-bb49fa95e2c3")
+	)
+	(wire
+		(pts
+			(xy 609.6 278.13) (xy 609.6 274.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a5df6e4-ab29-4205-9184-8327e50dd7bd")
+	)
+	(wire
+		(pts
+			(xy 514.35 143.51) (xy 514.35 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9cf32165-b48f-4f1e-a8cc-2c7382d8e7ca")
+	)
+	(wire
+		(pts
+			(xy 565.15 149.86) (xy 565.15 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a12afa55-a268-49a7-b9ae-24e43798d2fc")
+	)
+	(wire
+		(pts
 			(xy 501.65 87.63) (xy 532.13 87.63)
 		)
 		(stroke
@@ -25596,7 +27538,7 @@
 	)
 	(wire
 		(pts
-			(xy 560.07 256.54) (xy 560.07 269.24)
+			(xy 560.07 256.54) (xy 560.07 261.62)
 		)
 		(stroke
 			(width 0)
@@ -25623,6 +27565,36 @@
 			(type default)
 		)
 		(uuid "af3a3f6d-f780-4d98-a541-0f286e908014")
+	)
+	(wire
+		(pts
+			(xy 539.75 294.64) (xy 584.2 294.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b464bde1-b6fd-474c-9681-64531f2fe940")
+	)
+	(wire
+		(pts
+			(xy 523.24 161.29) (xy 523.24 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7cf037d-13b9-4cbd-9160-07e6730e8b71")
+	)
+	(wire
+		(pts
+			(xy 560.07 261.62) (xy 560.07 269.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8c3cf98-75ac-4949-8856-7f33effad2f3")
 	)
 	(wire
 		(pts
@@ -25656,6 +27628,36 @@
 	)
 	(wire
 		(pts
+			(xy 529.59 165.1) (xy 516.89 165.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "be313cc5-6d91-43b1-83a2-98d2e7a34c4d")
+	)
+	(wire
+		(pts
+			(xy 501.65 269.24) (xy 501.65 278.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c045b4bb-5551-4f2f-9311-805c36b993ba")
+	)
+	(wire
+		(pts
+			(xy 514.35 151.13) (xy 516.89 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c07e97ff-c974-4d85-9c6d-05dd2ec4c26d")
+	)
+	(wire
+		(pts
 			(xy 72.39 313.69) (xy 74.93 313.69)
 		)
 		(stroke
@@ -25673,6 +27675,16 @@
 			(type default)
 		)
 		(uuid "c1f0b775-0f7e-4178-912e-a4cecf5c88ea")
+	)
+	(wire
+		(pts
+			(xy 650.24 288.29) (xy 650.24 274.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c286f783-e5c6-4ef8-b44f-6fda46d65222")
 	)
 	(wire
 		(pts
@@ -25726,6 +27738,16 @@
 	)
 	(wire
 		(pts
+			(xy 589.28 269.24) (xy 589.28 278.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "caabe21b-1fc2-49b1-aa02-190d1cc7c17b")
+	)
+	(wire
+		(pts
 			(xy 528.32 83.82) (xy 532.13 83.82)
 		)
 		(stroke
@@ -25756,6 +27778,16 @@
 	)
 	(wire
 		(pts
+			(xy 514.35 143.51) (xy 516.89 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d19e81eb-423a-4a6b-a1ad-987fb275670b")
+	)
+	(wire
+		(pts
 			(xy 389.89 427.99) (xy 394.97 427.99)
 		)
 		(stroke
@@ -25766,6 +27798,16 @@
 	)
 	(wire
 		(pts
+			(xy 607.06 278.13) (xy 609.6 278.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d52fd410-d32e-4f45-a7ed-37df75ce3ed0")
+	)
+	(wire
+		(pts
 			(xy 687.07 168.91) (xy 687.07 180.34)
 		)
 		(stroke
@@ -25773,6 +27815,16 @@
 			(type default)
 		)
 		(uuid "d721a65f-f3d0-4d48-b1b5-54d2a0dd8cf8")
+	)
+	(wire
+		(pts
+			(xy 520.7 274.32) (xy 527.05 274.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d733b0c5-6ef1-4621-ba56-45b281bcb0e3")
 	)
 	(wire
 		(pts
@@ -25793,16 +27845,6 @@
 			(type default)
 		)
 		(uuid "d8cbfa78-85f9-4973-a941-46ad14f9d822")
-	)
-	(wire
-		(pts
-			(xy 652.78 269.24) (xy 646.43 269.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d9901c09-63e6-4e90-8ba8-d12efd8c2adb")
 	)
 	(wire
 		(pts
@@ -25833,6 +27875,16 @@
 			(type default)
 		)
 		(uuid "e40fa83c-77f0-4e20-9f3a-bd455d422556")
+	)
+	(wire
+		(pts
+			(xy 547.37 171.45) (xy 547.37 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e415c4ea-48ee-4a07-ba78-d1e8c1df3fe0")
 	)
 	(wire
 		(pts
@@ -25966,16 +28018,6 @@
 	)
 	(wire
 		(pts
-			(xy 596.9 149.86) (xy 610.87 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fea1abee-54ae-4e2d-882c-16bfe6991652")
-	)
-	(wire
-		(pts
 			(xy 450.85 429.26) (xy 450.85 435.61)
 		)
 		(stroke
@@ -25994,15 +28036,15 @@
 		)
 		(uuid "ffc9d500-47d0-46b5-8d3a-128ee487f9c7")
 	)
-	(wire
-		(pts
-			(xy 655.32 259.08) (xy 652.78 259.08)
+	(label "SYS"
+		(at 510.54 203.2 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
 		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ffd2d30f-8865-4104-96b5-9057f5b5d822")
+		(uuid "00d788e1-ff73-4bb9-9a3c-66b22d7af0a0")
 	)
 	(label "BMM350_INT"
 		(at 120.65 283.21 180)
@@ -26074,6 +28116,16 @@
 		)
 		(uuid "0c2cb6d6-a787-4b16-988b-5fcab648a1a3")
 	)
+	(label "SYS"
+		(at 610.87 149.86 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0fd89ff0-6fb4-409f-81b0-8cf043e32b38")
+	)
 	(label "U6_14"
 		(at 775.97 139.7 0)
 		(effects
@@ -26093,16 +28145,6 @@
 			(justify left bottom)
 		)
 		(uuid "131d772a-2ef4-4981-b6dc-d44014df0c1a")
-	)
-	(label "5V"
-		(at 510.54 203.2 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "133e11b5-ee18-468d-b8a6-7f6c3abfa706")
 	)
 	(label "PACK+"
 		(at 711.2 78.74 0)
@@ -26144,16 +28186,6 @@
 		)
 		(uuid "1730708e-f3f1-4b6c-a7a3-01541958715c")
 	)
-	(label "5V"
-		(at 532.13 99.06 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "17787432-cb2f-4b17-9384-57a1eb3686fb")
-	)
 	(label "BME690_CSB"
 		(at 181.61 205.74 0)
 		(effects
@@ -26183,16 +28215,6 @@
 			(justify left bottom)
 		)
 		(uuid "1ae44d77-f1b0-4fba-bdc2-81a54e5e9d30")
-	)
-	(label "1.9V"
-		(at 532.13 109.22 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "1b3f3e32-3e22-4c0f-b5ec-0820eb229d96")
 	)
 	(label "U16_B2"
 		(at 344.17 205.74 0)
@@ -26313,16 +28335,6 @@
 			(justify left bottom)
 		)
 		(uuid "393a22da-2fa7-48ab-8d89-35f74de8ce2f")
-	)
-	(label "3.3V"
-		(at 596.9 149.86 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "3e079c44-e760-4ad0-b6b3-6488ddfd9d54")
 	)
 	(label "U10_7"
 		(at 524.51 210.82 180)
@@ -26814,26 +28826,6 @@
 		)
 		(uuid "97c7a277-6e74-47e6-a3c5-5b24d1e4336c")
 	)
-	(label "1.2V"
-		(at 532.13 104.14 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9887c14b-3e69-4c75-8f75-b41e087a9f95")
-	)
-	(label "1.8V"
-		(at 532.13 106.68 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "98f0470f-dcba-4b43-a82b-b49e77d2b025")
-	)
 	(label "SDA"
 		(at 181.61 208.28 0)
 		(effects
@@ -26974,6 +28966,16 @@
 		)
 		(uuid "ab70bfe6-ef35-435d-a3b2-a729bce9c84f")
 	)
+	(label "SYS"
+		(at 547.37 161.29 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ab8a0ae5-502a-46ea-ab07-60cbabac240b")
+	)
 	(label "U6_7"
 		(at 740.41 152.4 180)
 		(effects
@@ -27034,16 +29036,6 @@
 		)
 		(uuid "bbf48cd9-c19e-42b9-af35-e9e61442d9a5")
 	)
-	(label "4.5V"
-		(at 532.13 101.6 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c02c7f6b-2772-41b5-b011-f78898c98576")
-	)
 	(label "IC2_A1"
 		(at 532.13 83.82 90)
 		(effects
@@ -27073,16 +29065,6 @@
 			(justify right bottom)
 		)
 		(uuid "c7b2de99-1d1f-43f2-93b4-3749409931cd")
-	)
-	(label "3.3V"
-		(at 532.13 111.76 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c8edd761-3f57-4931-bee3-6bec4a04c8c7")
 	)
 	(label "RXD"
 		(at 344.17 220.98 0)
@@ -27173,6 +29155,26 @@
 			(justify right bottom)
 		)
 		(uuid "e6f6fbb1-4baf-40d0-ab96-1a34c3d27fee")
+	)
+	(label "SYS"
+		(at 532.13 111.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e74a0bb3-de7e-41e7-8e88-c5040a55e6e0")
+	)
+	(label "PACK+"
+		(at 508 143.51 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e8d6c7f9-083d-4a59-8d6e-51de19af9679")
 	)
 	(label "IC1_C1"
 		(at 640.08 78.74 0)
@@ -27495,6 +29497,172 @@
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
 					(reference "#PWR0108")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Symbols:ERJU01J103C")
+		(at 547.37 149.86 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0233fe7b-3335-46b0-abec-5f5189f710d9")
+		(property "Reference" "R26"
+			(at 556.26 143.51 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 556.26 146.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ERJU01_(0201)"
+			(at 561.34 246.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "http://industrial.panasonic.com/cdbs/www-data/pdf/RDP0000/AOA0000C334.pdf"
+			(at 561.34 346.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Anti-Sulfurated Thick Film Chip Resistor, 0201, 0.05W"
+			(at 547.37 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.15"
+			(at 561.34 546.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Panasonic"
+			(at 561.34 646.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ERJU01J103C"
+			(at 561.34 746.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 561.34 846.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 561.34 946.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 561.34 1046.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 561.34 1146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "2"
+			(uuid "0d8a790d-3e6d-49f7-99ca-1bfe406bba74")
+		)
+		(pin "1"
+			(uuid "846bf370-c46c-4a4e-9aa8-3b47c65b7f61")
+		)
+		(instances
+			(project "LibrePulse"
+				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
+					(reference "R26")
 					(unit 1)
 				)
 			)
@@ -37975,6 +40143,172 @@
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
 					(reference "#PWR0138")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Symbols:GRM21BZ71E106KE15L")
+		(at 646.43 271.78 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0c272ddd-0317-4b2c-8b81-8f889f117199")
+		(property "Reference" "C70"
+			(at 652.78 264.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10uF"
+			(at 652.78 266.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "GRM21BR60J226ME39L"
+			(at 655.32 367.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BZ71E106KE15-01A.pdf"
+			(at 655.32 467.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "MLCC, 0805"
+			(at 646.43 271.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "1.45"
+			(at 655.32 667.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Murata Electronics"
+			(at 655.32 767.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "GRM21BZ71E106KE15L"
+			(at 655.32 867.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "81-GRM21BZ71E106KE5L"
+			(at 655.32 967.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM21BZ71E106KE15L?qs=Ey7%2FXF42M3fdXe9bIpCO9w%3D%3D"
+			(at 655.32 1067.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Part Number" "GRM21BZ71E106KE15L"
+			(at 655.32 1167.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/grm21bz71e106ke15l/murata-manufacturing.html?utm_currency=USD&region=europe"
+			(at 655.32 1267.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "2"
+			(uuid "dc1c8b95-a622-404d-ab9b-c23e06b29198")
+		)
+		(pin "1"
+			(uuid "0480fd7b-af61-423c-996b-3ea98009a340")
+		)
+		(instances
+			(project "LibrePulse"
+				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
+					(reference "C70")
 					(unit 1)
 				)
 			)
@@ -55572,6 +57906,85 @@
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
 					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 508 130.81 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "376610f2-520d-489c-879d-3d07c50f1a81")
+		(property "Reference" "#PWR0198"
+			(at 514.35 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 511.81 130.8099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 508 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 508 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 508 130.81 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "37d68f7d-ba33-4afc-99f3-572fb5989311")
+		)
+		(instances
+			(project "LibrePulse"
+				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
+					(reference "#PWR0198")
 					(unit 1)
 				)
 			)
@@ -108841,6 +111254,84 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 593.09 294.64 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5fb936e4-5bad-4d98-ab13-5c1b167896cf")
+		(property "Reference" "#PWR0197"
+			(at 593.09 288.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 593.09 289.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 593.09 294.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 593.09 294.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 593.09 294.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "dd2264dd-ed9e-4776-a649-84bc10a3582c")
+		)
+		(instances
+			(project "LibrePulse"
+				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
+					(reference "#PWR0197")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 572.77 256.54 90)
 		(unit 1)
 		(body_style 1)
@@ -108913,6 +111404,172 @@
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
 					(reference "#PWR064")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Symbols:GRM188Z71E225KE43J")
+		(at 547.37 140.97 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "60e99d64-4ad2-4cc5-a4e7-1a5cb79946eb")
+		(property "Reference" "C72"
+			(at 553.72 133.35 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.2uF"
+			(at 553.72 135.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "GRM18x"
+			(at 556.26 237.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188Z71E225KE43-01A.pdf"
+			(at 556.26 337.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "MLCC, 0603"
+			(at 547.37 140.97 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.9"
+			(at 556.26 537.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Murata Electronics"
+			(at 556.26 637.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "GRM188Z71E225KE43J"
+			(at 556.26 737.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "81-GRM188Z71E225KE3J"
+			(at 556.26 837.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=81-GRM188Z71E225KE3J"
+			(at 556.26 937.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 556.26 1037.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 556.26 1137.16 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "1"
+			(uuid "6a3ff142-a0ed-4318-84f9-ff0a558e2192")
+		)
+		(pin "2"
+			(uuid "2b26b82b-1b1c-40c9-a273-9b3035b5d204")
+		)
+		(instances
+			(project "LibrePulse"
+				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
+					(reference "C72")
 					(unit 1)
 				)
 			)
@@ -109164,6 +111821,172 @@
 		)
 	)
 	(symbol
+		(lib_id "Symbols:ERJU01F1272C")
+		(at 504.19 294.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "623212cb-2b7c-4623-8d9c-af3f59b18d8a")
+		(property "Reference" "R22"
+			(at 513.08 288.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "12.7k"
+			(at 513.08 290.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ERJU01_(0201)"
+			(at 518.16 390.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "http://industrial.panasonic.com/cdbs/www-data/pdf/RDP0000/AOA0000C334.pdf"
+			(at 518.16 490.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Anti-Sulfurated Thick Film Chip Resistor, 0201, 0.05W"
+			(at 504.19 294.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.15"
+			(at 518.16 690.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Panasonic"
+			(at 518.16 790.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ERJU01F1272C"
+			(at 518.16 890.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 518.16 990.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 518.16 1090.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 518.16 1190.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 518.16 1290.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "1"
+			(uuid "94411db9-7d28-44d8-8c16-ee1cf1018af5")
+		)
+		(pin "2"
+			(uuid "b4602146-3b0a-4674-b8a4-e75fd563c712")
+		)
+		(instances
+			(project "LibrePulse"
+				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
+					(reference "R22")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GNDD")
 		(at 361.95 528.32 270)
 		(unit 1)
@@ -109409,6 +112232,172 @@
 		)
 	)
 	(symbol
+		(lib_id "Symbols:ERJU01F1272C")
+		(at 593.09 294.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "631dfc76-51a5-43f6-87bb-178b052761a2")
+		(property "Reference" "R24"
+			(at 601.98 288.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "12.7k"
+			(at 601.98 290.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ERJU01_(0201)"
+			(at 607.06 390.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "http://industrial.panasonic.com/cdbs/www-data/pdf/RDP0000/AOA0000C334.pdf"
+			(at 607.06 490.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Anti-Sulfurated Thick Film Chip Resistor, 0201, 0.05W"
+			(at 593.09 294.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.15"
+			(at 607.06 690.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Panasonic"
+			(at 607.06 790.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ERJU01F1272C"
+			(at 607.06 890.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 607.06 990.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 607.06 1090.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 607.06 1190.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 607.06 1290.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "1"
+			(uuid "8f54a479-067c-4030-aa81-2800dadb1232")
+		)
+		(pin "2"
+			(uuid "8afcf6a0-3e74-4399-bff8-57402e4a3a6d")
+		)
+		(instances
+			(project "LibrePulse"
+				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
+					(reference "R24")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Symbols:744777002")
 		(at 640.08 76.2 0)
 		(unit 1)
@@ -109575,6 +112564,172 @@
 		)
 	)
 	(symbol
+		(lib_id "Symbols:ERJU01J103C")
+		(at 607.06 278.13 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "65b086ce-752e-4d7d-8da3-f54a5549cc8a")
+		(property "Reference" "R20"
+			(at 598.17 271.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 598.17 274.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ERJU01_(0201)"
+			(at 593.09 181.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "http://industrial.panasonic.com/cdbs/www-data/pdf/RDP0000/AOA0000C334.pdf"
+			(at 593.09 81.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Anti-Sulfurated Thick Film Chip Resistor, 0201, 0.05W"
+			(at 607.06 278.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.15"
+			(at 593.09 -118.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Panasonic"
+			(at 593.09 -218.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ERJU01J103C"
+			(at 593.09 -318.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 593.09 -418.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 593.09 -518.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 593.09 -618.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 593.09 -718.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "1"
+			(uuid "9b81e7f8-272a-4d1b-a3b3-a50ef4537e3b")
+		)
+		(pin "2"
+			(uuid "7c986fb8-8797-4875-8e36-c8e42fe01aa5")
+		)
+		(instances
+			(project "LibrePulse"
+				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
+					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 610.87 509.27 90)
 		(unit 1)
@@ -109648,6 +112803,84 @@
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
 					(reference "#PWR0140")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 504.19 294.64 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "69731494-6f81-4e1b-8921-54f1bd32a633")
+		(property "Reference" "#PWR0196"
+			(at 504.19 288.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 504.19 289.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 504.19 294.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 504.19 294.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 504.19 294.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e718fa59-ec47-4adc-9852-be12bb33711b")
+		)
+		(instances
+			(project "LibrePulse"
+				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
+					(reference "#PWR0196")
 					(unit 1)
 				)
 			)
@@ -111394,6 +114627,172 @@
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Symbols:ERJU01F2403C")
+		(at 521.97 294.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "73da7ad6-7eae-48ad-8e99-2cf342352a2f")
+		(property "Reference" "R23"
+			(at 530.86 288.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "240k"
+			(at 530.86 290.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ERJU01_(0201)"
+			(at 535.94 390.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "http://industrial.panasonic.com/cdbs/www-data/pdf/RDP0000/AOA0000C334.pdf"
+			(at 535.94 490.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Anti-Sulfurated Thick Film Chip Resistor, 0201, 0.05W"
+			(at 521.97 294.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.15"
+			(at 535.94 690.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Panasonic"
+			(at 535.94 790.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ERJU01F2403C"
+			(at 535.94 890.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 535.94 990.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 535.94 1090.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 535.94 1190.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 535.94 1290.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "1"
+			(uuid "18a5d23c-515f-48f4-a29f-5741639091aa")
+		)
+		(pin "2"
+			(uuid "96a4c6d1-cdbd-4139-8df6-1bce3b62bace")
+		)
+		(instances
+			(project "LibrePulse"
+				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
+					(reference "R23")
 					(unit 1)
 				)
 			)
@@ -122328,6 +125727,85 @@
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
 					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 651.51 276.86 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7b860228-62b2-4225-8af0-9aa1363ffcd7")
+		(property "Reference" "#PWR0192"
+			(at 657.86 276.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 655.32 276.8599 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 651.51 276.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 651.51 276.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 651.51 276.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0cf9dc0f-b976-4368-b28b-bc25e696ff4d")
+		)
+		(instances
+			(project "LibrePulse"
+				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
+					(reference "#PWR0192")
 					(unit 1)
 				)
 			)
@@ -133774,6 +137252,84 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 499.11 148.59 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8a8b03cb-b3d5-4e81-a424-31bb29c36062")
+		(property "Reference" "#PWR0199"
+			(at 499.11 154.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 499.11 153.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 499.11 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 499.11 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 499.11 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f803973f-1e6a-4661-9985-3c7d49f7ce22")
+		)
+		(instances
+			(project "LibrePulse"
+				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
+					(reference "#PWR0199")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 711.2 76.2 270)
 		(unit 1)
@@ -133854,7 +137410,7 @@
 	)
 	(symbol
 		(lib_id "Symbols:BQ27427YZFR")
-		(at 532.13 148.59 0)
+		(at 532.13 151.13 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -133865,16 +137421,6 @@
 		(fields_autoplaced yes)
 		(uuid "8c66c689-1d4e-4b15-9ee1-3b704ea9c100")
 		(property "Reference" "U5"
-			(at 532.13 130.81 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BQ27427YZFR"
 			(at 532.13 133.35 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -133884,8 +137430,18 @@
 				)
 			)
 		)
+		(property "Value" "BQ27427YZFR"
+			(at 532.13 135.89 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Footprint" "Footprints:BQ27427YZFR"
-			(at 532.13 148.59 0)
+			(at 532.13 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -133897,7 +137453,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 532.13 148.59 0)
+			(at 532.13 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -133908,7 +137464,7 @@
 			)
 		)
 		(property "Description" "Single-cell battery fuel gauge with pre-programmed chemistry and integrated sense resistor"
-			(at 532.13 148.59 0)
+			(at 532.13 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -133920,7 +137476,7 @@
 			)
 		)
 		(property "MF" "Texas Instruments"
-			(at 532.13 148.59 0)
+			(at 532.13 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -133932,7 +137488,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" "0.625mm"
-			(at 532.13 148.59 0)
+			(at 532.13 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -133944,7 +137500,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at 532.13 148.59 0)
+			(at 532.13 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -133956,7 +137512,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 532.13 148.59 0)
+			(at 532.13 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -133968,7 +137524,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/BQ27427YZFR/Texas+Instruments/view-part/?ref=eda"
-			(at 532.13 148.59 0)
+			(at 532.13 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -133980,7 +137536,7 @@
 			)
 		)
 		(property "STANDARD" "Manufacturer Recommendations"
-			(at 532.13 148.59 0)
+			(at 532.13 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -133992,7 +137548,7 @@
 			)
 		)
 		(property "PARTREV" "December 2022"
-			(at 532.13 148.59 0)
+			(at 532.13 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -134004,7 +137560,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/BQ27427YZFR/Texas+Instruments/view-part/?ref=snap"
-			(at 532.13 148.59 0)
+			(at 532.13 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -134016,7 +137572,7 @@
 			)
 		)
 		(property "MP" "BQ27427YZFR"
-			(at 532.13 148.59 0)
+			(at 532.13 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -134028,7 +137584,7 @@
 			)
 		)
 		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=12533771&manufacturer=Texas Instruments&part_name=BQ27427YZFR&search_term=bq27427"
-			(at 532.13 148.59 0)
+			(at 532.13 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -134040,7 +137596,7 @@
 			)
 		)
 		(property "SNAPEDA_PN" "BQ27427YZFR"
-			(at 532.13 148.59 0)
+			(at 532.13 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -134052,7 +137608,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 532.13 148.59 0)
+			(at 532.13 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -134064,7 +137620,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Texas Instruments"
-			(at 532.13 148.59 0)
+			(at 532.13 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -142011,7 +145567,7 @@
 	)
 	(symbol
 		(lib_id "Symbols:GRM31CZ71C226ME15L")
-		(at 655.32 259.08 0)
+		(at 652.78 259.08 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -142022,7 +145578,7 @@
 		(fields_autoplaced yes)
 		(uuid "a3202cc0-a734-4a9d-8b32-1f4ca0df067c")
 		(property "Reference" "C28"
-			(at 661.67 251.46 0)
+			(at 659.13 251.46 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -142032,7 +145588,7 @@
 			)
 		)
 		(property "Value" "22uF"
-			(at 661.67 254 0)
+			(at 659.13 254 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -142042,7 +145598,7 @@
 			)
 		)
 		(property "Footprint" "GRM31x"
-			(at 664.21 355.27 0)
+			(at 661.67 355.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -142054,7 +145610,7 @@
 			)
 		)
 		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM31CZ71C226ME15-01A.pdf"
-			(at 664.21 455.27 0)
+			(at 661.67 455.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -142066,7 +145622,7 @@
 			)
 		)
 		(property "Description" "MLCC, 1206"
-			(at 655.32 259.08 0)
+			(at 652.78 259.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -142077,7 +145633,7 @@
 			)
 		)
 		(property "Height" "1.25"
-			(at 664.21 655.27 0)
+			(at 661.67 655.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -142089,7 +145645,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Murata Electronics"
-			(at 664.21 755.27 0)
+			(at 661.67 755.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -142101,7 +145657,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "GRM31CZ71C226ME15L"
-			(at 664.21 855.27 0)
+			(at 661.67 855.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -142113,7 +145669,7 @@
 			)
 		)
 		(property "Mouser Part Number" "81-GRM31CZ71C226ME5L"
-			(at 664.21 955.27 0)
+			(at 661.67 955.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -142125,7 +145681,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=81-GRM31CZ71C226ME5L"
-			(at 664.21 1055.27 0)
+			(at 661.67 1055.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -142137,7 +145693,7 @@
 			)
 		)
 		(property "Arrow Part Number" "GRM31CZ71C226ME15L"
-			(at 664.21 1155.27 0)
+			(at 661.67 1155.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -142149,7 +145705,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/grm31cz71c226me15l/murata-manufacturing.html?utm_currency=USD&region=nac"
-			(at 664.21 1255.27 0)
+			(at 661.67 1255.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -142657,7 +146213,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 668.02 259.08 90)
+		(at 665.48 259.08 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -142668,7 +146224,7 @@
 		(fields_autoplaced yes)
 		(uuid "a7a79b20-e8e4-476d-b600-6c7f868e5da1")
 		(property "Reference" "#PWR0186"
-			(at 674.37 259.08 0)
+			(at 671.83 259.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -142679,7 +146235,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 671.83 259.0799 90)
+			(at 669.29 259.0799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -142690,7 +146246,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 668.02 259.08 0)
+			(at 665.48 259.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -142701,7 +146257,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 668.02 259.08 0)
+			(at 665.48 259.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -142712,7 +146268,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 668.02 259.08 0)
+			(at 665.48 259.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -142974,6 +146530,85 @@
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
 					(reference "C37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 575.31 274.32 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ac42bcc1-bd18-4432-a0cd-4bbd4b2c6606")
+		(property "Reference" "#PWR0194"
+			(at 581.66 274.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 579.12 274.3199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 575.31 274.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 575.31 274.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 575.31 274.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "db8be713-d42f-4937-99cd-bf9669e1ad68")
+		)
+		(instances
+			(project "LibrePulse"
+				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
+					(reference "#PWR0194")
 					(unit 1)
 				)
 			)
@@ -143254,6 +146889,172 @@
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
 					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Symbols:ERJU01F9092C")
+		(at 610.87 294.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "adbc4833-e4ec-4ed9-83a9-c49eebe135e4")
+		(property "Reference" "R25"
+			(at 619.76 288.29 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "90.9k"
+			(at 619.76 290.83 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ERJU01_(0201)"
+			(at 624.84 390.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "http://industrial.panasonic.com/cdbs/www-data/pdf/RDP0000/AOA0000C334.pdf"
+			(at 624.84 490.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Anti-Sulfurated Thick Film Chip Resistor, 0201, 0.05W"
+			(at 610.87 294.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.15"
+			(at 624.84 690.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Panasonic"
+			(at 624.84 790.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ERJU01F9092C"
+			(at 624.84 890.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 624.84 990.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 624.84 1090.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 624.84 1190.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 624.84 1290.83 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "1"
+			(uuid "f5d8fd83-49fa-4bac-bf31-545400929122")
+		)
+		(pin "2"
+			(uuid "6e97e78d-76d1-43cc-af8f-90e85093f87b")
+		)
+		(instances
+			(project "LibrePulse"
+				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
+					(reference "R25")
 					(unit 1)
 				)
 			)
@@ -149428,6 +153229,172 @@
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
 					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Symbols:ERJU01F1202C")
+		(at 652.78 288.29 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b7d1f945-9422-4ec8-8e43-8531a6368190")
+		(property "Reference" "R19"
+			(at 661.67 281.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "30k"
+			(at 661.67 284.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ERJU01_(0201)"
+			(at 666.75 384.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "http://industrial.panasonic.com/cdbs/www-data/pdf/RDP0000/AOA0000C334.pdf"
+			(at 666.75 484.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Anti-Sulfurated Thick Film Chip Resistor, 0201, 0.05W"
+			(at 652.78 288.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.15"
+			(at 666.75 684.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Panasonic"
+			(at 666.75 784.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ERJU01F1202C"
+			(at 666.75 884.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 666.75 984.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 666.75 1084.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 666.75 1184.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 666.75 1284.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "1"
+			(uuid "ac36e1bf-4be8-4512-bab3-868743060148")
+		)
+		(pin "2"
+			(uuid "f5400697-4009-4053-a5d0-8cac550cc54c")
+		)
+		(instances
+			(project "LibrePulse"
+				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -165274,6 +169241,172 @@
 		)
 	)
 	(symbol
+		(lib_id "Symbols:ERJU01F1004C")
+		(at 523.24 161.29 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c2b59d71-7a9c-4b33-895f-3003a8298ffc")
+		(property "Reference" "R28"
+			(at 532.13 154.94 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1M"
+			(at 532.13 157.48 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ERJU01_(0201)"
+			(at 537.21 257.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "http://industrial.panasonic.com/cdbs/www-data/pdf/RDP0000/AOA0000C334.pdf"
+			(at 537.21 357.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Anti-Sulfurated Thick Film Chip Resistor, 0201, 0.05W"
+			(at 523.24 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.15"
+			(at 537.21 557.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Panasonic"
+			(at 537.21 657.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ERJU01F1004C"
+			(at 537.21 757.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 537.21 857.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 537.21 957.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 537.21 1057.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 537.21 1157.48 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "2"
+			(uuid "d10c8c30-e7ef-4fd0-a4de-8466aceb3de2")
+		)
+		(pin "1"
+			(uuid "97086152-d726-479f-a75a-191fe43eec19")
+		)
+		(instances
+			(project "LibrePulse"
+				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
+					(reference "R28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Symbols:GRM31CZ71C226ME15L")
 		(at 560.07 256.54 0)
 		(unit 1)
@@ -170792,6 +174925,173 @@
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
 					(reference "#PWR0169")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Symbols:ERTJ0EG103FA")
+		(at 516.89 148.59 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "cbd9294d-829b-4b05-8111-d769bade7822")
+		(property "Reference" "R_{NTC}2"
+			(at 509.2701 152.4 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10K"
+			(at 506.7301 152.4 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Footprints:ERTJ0EA101H"
+			(at 502.92 52.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://na.industrial.panasonic.com/sites/default/pidsa/files/downloads/files/ertjm-series-datasheet.pdf"
+			(at 502.92 -47.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Series/Type: NTC Thermistor(Chip type), Style: 0402, B Value (K): 3301 to 3400, Resistance Tolerance (%): +/-1, Resistance R25 (): 10000"
+			(at 516.89 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.55"
+			(at 502.92 -247.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Panasonic"
+			(at 502.92 -347.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ERTJ0EG103FA"
+			(at 502.92 -447.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 502.92 -547.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 502.92 -647.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 502.92 -747.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 502.92 -847.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "2"
+			(uuid "f356e6c4-439c-44b4-a062-384dcccc74f7")
+		)
+		(pin "1"
+			(uuid "2204de1e-31ac-4df0-a662-7d4b0d37e5c6")
+		)
+		(instances
+			(project "LibrePulse"
+				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
+					(reference "R_{NTC}2")
 					(unit 1)
 				)
 			)
@@ -176628,7 +180928,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 652.78 259.08 0)
+		(at 648.97 259.08 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -176638,7 +180938,7 @@
 		(dnp no)
 		(uuid "d416154e-abc8-4d2c-b311-82fcd5496cae")
 		(property "Reference" "#PWR0189"
-			(at 652.78 262.89 0)
+			(at 648.97 262.89 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -176649,7 +180949,7 @@
 			)
 		)
 		(property "Value" "+1.8V"
-			(at 652.7799 255.27 90)
+			(at 648.9699 255.27 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -176660,7 +180960,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 652.78 259.08 0)
+			(at 648.97 259.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -176671,7 +180971,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 652.78 259.08 0)
+			(at 648.97 259.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -176682,7 +180982,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 652.78 259.08 0)
+			(at 648.97 259.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -182112,6 +186412,85 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 659.13 271.78 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d8454fd9-29b3-4c8a-970d-3dd88c111a85")
+		(property "Reference" "#PWR0195"
+			(at 665.48 271.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 662.94 271.7799 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 659.13 271.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 659.13 271.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 659.13 271.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f4f746fe-a0af-4b12-883b-93745e2c60c2")
+		)
+		(instances
+			(project "LibrePulse"
+				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
+					(reference "#PWR0195")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 80.01 280.67 90)
 		(unit 1)
 		(body_style 1)
@@ -182674,6 +187053,172 @@
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
 					(reference "#PWR0172")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Symbols:ERJU01F3002C")
+		(at 557.53 274.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "df80ffb3-e5e6-48d2-8c0e-d3b6506d8ea7")
+		(property "Reference" "R18"
+			(at 566.42 267.97 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "30k"
+			(at 566.42 270.51 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ERJU01_(0201)"
+			(at 571.5 370.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "http://industrial.panasonic.com/cdbs/www-data/pdf/RDP0000/AOA0000C334.pdf"
+			(at 571.5 470.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Anti-Sulfurated Thick Film Chip Resistor, 0201, 0.05W"
+			(at 557.53 274.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.15"
+			(at 571.5 670.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Panasonic"
+			(at 571.5 770.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ERJU01F3002C"
+			(at 571.5 870.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 571.5 970.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 571.5 1070.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 571.5 1170.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 571.5 1270.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "2"
+			(uuid "5dc1fdd9-cdd3-4766-965c-2a85df1e1dba")
+		)
+		(pin "1"
+			(uuid "ef2035d8-b3cf-4015-be45-eb6db9949206")
+		)
+		(instances
+			(project "LibrePulse"
+				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -192877,7 +197422,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 593.09 162.56 270)
+		(at 610.87 162.56 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -192888,7 +197433,7 @@
 		(fields_autoplaced yes)
 		(uuid "e5778a10-4c0e-4c24-8cf0-8d2684c44cd5")
 		(property "Reference" "#PWR066"
-			(at 586.74 162.56 0)
+			(at 604.52 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -192899,7 +197444,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 589.28 162.5599 90)
+			(at 607.06 162.5599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -192910,7 +197455,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 593.09 162.56 0)
+			(at 610.87 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -192921,7 +197466,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 593.09 162.56 0)
+			(at 610.87 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -192932,7 +197477,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 593.09 162.56 0)
+			(at 610.87 162.56 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -193875,6 +198420,172 @@
 		)
 	)
 	(symbol
+		(lib_id "Symbols:ERJU01J103C")
+		(at 519.43 278.13 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "eed4c86c-c95c-472f-8489-2f5381649501")
+		(property "Reference" "R21"
+			(at 510.54 271.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 510.54 274.32 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ERJU01_(0201)"
+			(at 505.46 181.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "http://industrial.panasonic.com/cdbs/www-data/pdf/RDP0000/AOA0000C334.pdf"
+			(at 505.46 81.94 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Anti-Sulfurated Thick Film Chip Resistor, 0201, 0.05W"
+			(at 519.43 278.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.15"
+			(at 505.46 -118.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Panasonic"
+			(at 505.46 -218.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ERJU01J103C"
+			(at 505.46 -318.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 505.46 -418.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 505.46 -518.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 505.46 -618.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 505.46 -718.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "1"
+			(uuid "9ec36532-9245-4647-865c-561cf4836d5f")
+		)
+		(pin "2"
+			(uuid "270c64f0-96a8-42c2-8e93-aeb7f3252b16")
+		)
+		(instances
+			(project "LibrePulse"
+				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
+					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 497.84 535.94 90)
 		(unit 1)
@@ -194352,6 +199063,172 @@
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
 					(reference "#PWR083")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Symbols:ERJU01F1004C")
+		(at 529.59 171.45 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f10d394f-9c3f-4ac9-bb26-04f3efb5c986")
+		(property "Reference" "R27"
+			(at 538.48 165.1 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1M"
+			(at 538.48 167.64 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ERJU01_(0201)"
+			(at 543.56 267.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "http://industrial.panasonic.com/cdbs/www-data/pdf/RDP0000/AOA0000C334.pdf"
+			(at 543.56 367.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Anti-Sulfurated Thick Film Chip Resistor, 0201, 0.05W"
+			(at 529.59 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.15"
+			(at 543.56 567.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Panasonic"
+			(at 543.56 667.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ERJU01F1004C"
+			(at 543.56 767.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 543.56 867.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 543.56 967.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 543.56 1067.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 543.56 1167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "2"
+			(uuid "83270df5-0b2f-437b-8dca-74637157a5ae")
+		)
+		(pin "1"
+			(uuid "ca21c6df-705a-4471-8dd0-5ff559bf80e1")
+		)
+		(instances
+			(project "LibrePulse"
+				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -210471,172 +215348,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Symbols:ERJU01F7871C")
-		(at 610.87 162.56 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "fc8cf165-150d-4dc5-a0c1-c26d454ab3e6")
-		(property "Reference" "R18"
-			(at 601.98 156.21 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "7.87k"
-			(at 601.98 158.75 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "ERJU01_(0201)"
-			(at 596.9 66.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "http://industrial.panasonic.com/cdbs/www-data/pdf/RDP0000/AOA0000C334.pdf"
-			(at 596.9 -33.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "Anti-Sulfurated Thick Film Chip Resistor, 0201, 0.05W"
-			(at 610.87 162.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "0.15"
-			(at 596.9 -233.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "Panasonic"
-			(at 596.9 -333.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "ERJU01F7871C"
-			(at 596.9 -433.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 596.9 -533.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 596.9 -633.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 596.9 -733.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 596.9 -833.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "1"
-			(uuid "b33af4c3-4b51-4c54-b2c9-8cdaf620d933")
-		)
-		(pin "2"
-			(uuid "f1755163-615b-4963-ae57-ab3e629bcf2e")
-		)
-		(instances
-			(project "LibrePulse"
-				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "R18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3.3V")
 		(at 287.02 184.15 270)
 		(unit 1)
@@ -210710,6 +215421,253 @@
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
 					(reference "#PWR090")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 670.56 288.29 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fe346fdf-a809-4338-819c-83899a70f4e7")
+		(property "Reference" "#PWR0193"
+			(at 676.91 288.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 674.37 288.2899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 670.56 288.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 670.56 288.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 670.56 288.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "02b4cdd2-4a35-40b9-b8d3-56626ccef8b5")
+		)
+		(instances
+			(project "LibrePulse"
+				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
+					(reference "#PWR0193")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Symbols:GRM155D71E105KE11J")
+		(at 508 143.51 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fe4439cd-11dc-4cf3-a720-d1ccf77b353c")
+		(property "Reference" "C71"
+			(at 511.81 135.8899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "1uF"
+			(at 511.81 138.4299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "GRM155R61H334ME01D"
+			(at 604.19 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM155D71E105KE11-01A.pdf"
+			(at 704.19 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Ceramic Capacitors (SMD) 0402 (1005M) X7T(EIA) 25V 1.0uF +/-10%"
+			(at 508 143.51 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.7"
+			(at 904.19 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Murata Electronics"
+			(at 1004.19 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "GRM155D71E105KE11J"
+			(at 1104.19 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 1204.19 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 1304.19 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 1404.19 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 1504.19 134.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "1"
+			(uuid "1b6882f3-1cb6-4076-b264-8c9398a4d75a")
+		)
+		(pin "2"
+			(uuid "fbe144a3-6176-4b34-97e7-3040632aafb2")
+		)
+		(instances
+			(project "LibrePulse"
+				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
+					(reference "C71")
 					(unit 1)
 				)
 			)
