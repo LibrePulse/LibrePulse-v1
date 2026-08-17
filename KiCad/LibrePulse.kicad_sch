@@ -13380,6 +13380,207 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Symbols:ERJU01J103C"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 13.97 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "ERJU01J103C"
+				(at 13.97 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "ERJU01_(0201)"
+				(at 13.97 -96.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "http://industrial.panasonic.com/cdbs/www-data/pdf/RDP0000/AOA0000C334.pdf"
+				(at 13.97 -196.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "Anti-Sulfurated Thick Film Chip Resistor, 0201, 0.05W"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" "0.15"
+				(at 13.97 -396.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Name" "Panasonic"
+				(at 13.97 -496.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Part_Number" "ERJU01J103C"
+				(at 13.97 -596.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Part Number" ""
+				(at 13.97 -696.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Price/Stock" ""
+				(at 13.97 -796.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Arrow Part Number" ""
+				(at 13.97 -896.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Arrow Price/Stock" ""
+				(at 13.97 -996.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(symbol "ERJU01J103C_1_1"
+				(rectangle
+					(start 5.08 1.27)
+					(end 12.7 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 17.78 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Symbols:ERJU01J152C"
 			(pin_names
 				(hide yes)
@@ -14798,6 +14999,244 @@
 				)
 			)
 			(symbol "GRM033Z71C104KE14J_1_1"
+				(polyline
+					(pts
+						(xy 5.08 0) (xy 5.588 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.588 2.54) (xy 5.588 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 2.54) (xy 7.112 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.112 0) (xy 7.62 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 12.7 0 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Symbols:GRM188Z71E225KE43J"
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 8.89 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "GRM188Z71E225KE43J"
+				(at 8.89 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "GRM18x"
+				(at 8.89 -96.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188Z71E225KE43-01A.pdf"
+				(at 8.89 -196.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "MLCC, 0603"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" "0.9"
+				(at 8.89 -396.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Name" "Murata Electronics"
+				(at 8.89 -496.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Part_Number" "GRM188Z71E225KE43J"
+				(at 8.89 -596.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Part Number" "81-GRM188Z71E225KE3J"
+				(at 8.89 -696.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=81-GRM188Z71E225KE3J"
+				(at 8.89 -796.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Arrow Part Number" ""
+				(at 8.89 -896.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Arrow Price/Stock" ""
+				(at 8.89 -996.19 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(symbol "GRM188Z71E225KE43J_1_1"
 				(polyline
 					(pts
 						(xy 5.08 0) (xy 5.588 0)
@@ -22302,7 +22741,7 @@
 		)
 	)
 	(rectangle
-		(start 549.91 50.8)
+		(start 532.13 50.8)
 		(end 820.42 265.43)
 		(stroke
 			(width 0)
@@ -22338,7 +22777,7 @@
 		(uuid "2dcee2e6-2684-4caf-9ebc-e5d9dd276627")
 	)
 	(rectangle
-		(start 624.84 69.85)
+		(start 627.38 69.85)
 		(end 693.42 105.41)
 		(stroke
 			(width 0)
@@ -22422,8 +22861,8 @@
 		(uuid "95a96975-bc53-4e57-ac5c-d23fb6e9ac58")
 	)
 	(rectangle
-		(start 554.99 72.39)
-		(end 618.49 116.84)
+		(start 533.4 72.39)
+		(end 624.84 120.65)
 		(stroke
 			(width 0)
 			(type default)
@@ -22563,7 +23002,7 @@
 	)
 	(text "BQ21088"
 		(exclude_from_sim no)
-		(at 584.454 65.786 0)
+		(at 580.644 65.786 0)
 		(effects
 			(font
 				(size 6.35 6.35)
@@ -22712,6 +23151,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "230419bf-6467-43c2-99f3-95700adbae3d")
+	)
+	(junction
+		(at 548.64 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2afcc884-6f6a-4659-9651-b1d78699e37a")
 	)
 	(junction
 		(at 463.55 87.63)
@@ -23081,16 +23526,6 @@
 	)
 	(wire
 		(pts
-			(xy 737.87 204.47) (xy 737.87 177.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "02430d2e-2858-4185-b7bf-731a7502b954")
-	)
-	(wire
-		(pts
 			(xy 394.97 427.99) (xy 394.97 429.26)
 		)
 		(stroke
@@ -23118,6 +23553,16 @@
 			(type default)
 		)
 		(uuid "0828f894-a531-4253-9238-2e1b44cbd879")
+	)
+	(wire
+		(pts
+			(xy 565.15 80.01) (xy 565.15 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0a30fc36-ea96-49bb-bdb2-ecf2bb59bf8f")
 	)
 	(wire
 		(pts
@@ -23181,6 +23626,16 @@
 	)
 	(wire
 		(pts
+			(xy 603.25 109.22) (xy 603.25 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18c36ae3-0b0a-4ca2-bd43-1ca2c65bcdd6")
+	)
+	(wire
+		(pts
 			(xy 87.63 321.31) (xy 97.79 321.31)
 		)
 		(stroke
@@ -23218,6 +23673,16 @@
 			(type default)
 		)
 		(uuid "209ff631-d015-4915-8fcd-602eb35f0beb")
+	)
+	(wire
+		(pts
+			(xy 604.52 96.52) (xy 595.63 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "236b185d-dfb5-49f6-ab17-5ea94f331eb0")
 	)
 	(wire
 		(pts
@@ -23381,6 +23846,26 @@
 	)
 	(wire
 		(pts
+			(xy 548.64 93.98) (xy 567.69 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "429d9659-6fb8-4e13-ad7d-20a4e18fa3d1")
+	)
+	(wire
+		(pts
+			(xy 542.29 93.98) (xy 548.64 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "430c3718-182e-4c76-8c58-9c44028250f9")
+	)
+	(wire
+		(pts
 			(xy 474.98 77.47) (xy 496.57 77.47)
 		)
 		(stroke
@@ -23458,6 +23943,16 @@
 			(type default)
 		)
 		(uuid "50462f40-5ea1-4042-b288-373273eafb11")
+	)
+	(wire
+		(pts
+			(xy 567.69 90.17) (xy 567.69 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "527952db-4b54-4aaa-89d5-06a4967da888")
 	)
 	(wire
 		(pts
@@ -23741,6 +24236,16 @@
 	)
 	(wire
 		(pts
+			(xy 737.87 177.8) (xy 737.87 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d70f250-5d32-4413-8eaa-9d6896f8708a")
+	)
+	(wire
+		(pts
 			(xy 146.05 203.2) (xy 151.13 203.2)
 		)
 		(stroke
@@ -23748,6 +24253,16 @@
 			(type default)
 		)
 		(uuid "91111038-64d9-4602-a765-56ae9d0efe6a")
+	)
+	(wire
+		(pts
+			(xy 603.25 93.98) (xy 595.63 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9375ed8c-51cb-4d97-8375-7bfd5a0af197")
 	)
 	(wire
 		(pts
@@ -23798,6 +24313,16 @@
 			(type default)
 		)
 		(uuid "ab40c512-6e04-4b54-a9b1-30cf3ad63853")
+	)
+	(wire
+		(pts
+			(xy 567.69 118.11) (xy 567.69 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3630ecc-9b5a-4521-a890-ea1d2d1b5db5")
 	)
 	(wire
 		(pts
@@ -23911,6 +24436,16 @@
 	)
 	(wire
 		(pts
+			(xy 563.88 90.17) (xy 567.69 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd406666-4b35-4e16-8cac-9aa4dacb04ae")
+	)
+	(wire
+		(pts
 			(xy 773.43 124.46) (xy 791.21 124.46)
 		)
 		(stroke
@@ -23948,6 +24483,16 @@
 			(type default)
 		)
 		(uuid "d721a65f-f3d0-4d48-b1b5-54d2a0dd8cf8")
+	)
+	(wire
+		(pts
+			(xy 565.15 96.52) (xy 567.69 96.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d882b3ea-5bff-4ad1-83d3-11bf7238d3f5")
 	)
 	(wire
 		(pts
@@ -24131,6 +24676,16 @@
 	)
 	(wire
 		(pts
+			(xy 595.63 87.63) (xy 595.63 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd5fd225-f6d8-428c-a140-0570b7bad844")
+	)
+	(wire
+		(pts
 			(xy 450.85 429.26) (xy 450.85 435.61)
 		)
 		(stroke
@@ -24158,6 +24713,16 @@
 			(justify right bottom)
 		)
 		(uuid "05144895-2634-491f-8622-7e1b2f5bf48f")
+	)
+	(label "PACK+"
+		(at 603.25 109.22 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "05b7ae09-ab8f-4589-b9d2-9bd5177a222f")
 	)
 	(label "U16_C3"
 		(at 398.78 273.05 0)
@@ -24308,6 +24873,36 @@
 			(justify left bottom)
 		)
 		(uuid "1d5fb3cb-6ff7-47db-a034-b337e2636140")
+	)
+	(label "SCL"
+		(at 565.15 80.01 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "20ab7400-8a59-4374-a8b6-0a1d0204124f")
+	)
+	(label "U6_4"
+		(at 737.87 177.8 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "214ade3e-eec8-4a65-a931-bfb80bffaa9e")
+	)
+	(label "SYS"
+		(at 567.69 118.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "2872a114-bedd-4ffc-947e-03a3c52cad28")
 	)
 	(label "U6_15"
 		(at 737.87 144.78 180)
@@ -24559,6 +25154,16 @@
 		)
 		(uuid "6290325b-e42f-41e4-9c6f-28d27baf79c2")
 	)
+	(label "SDA"
+		(at 595.63 87.63 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "62d07800-512e-4923-bb73-b0fe043d8504")
+	)
 	(label "BMI270_VDDIO"
 		(at 49.53 275.59 180)
 		(effects
@@ -24568,6 +25173,16 @@
 			(justify right bottom)
 		)
 		(uuid "66ace1a6-d71d-4a16-aaa8-d8732c0d2256")
+	)
+	(label "PACK-"
+		(at 595.63 99.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "673dd1f4-e780-4640-854d-67974b24b14c")
 	)
 	(label "U7_P8"
 		(at 474.98 100.33 180)
@@ -24798,6 +25413,16 @@
 			(justify right bottom)
 		)
 		(uuid "91cdf2b8-aad6-4e0e-ba19-dddffa55c6aa")
+	)
+	(label "U6_4"
+		(at 542.29 93.98 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "92f2e03d-5211-459e-9c8f-50db4628fe78")
 	)
 	(label "SCL"
 		(at 120.65 288.29 180)
@@ -25078,6 +25703,16 @@
 			(justify right bottom)
 		)
 		(uuid "bd1470a9-8b05-40af-b6af-0f3c5957ec5b")
+	)
+	(label "IC2_A1"
+		(at 567.69 90.17 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c1e68a32-6eb3-48d9-ac37-bce5f79a6e62")
 	)
 	(label "U16_B2"
 		(at 394.97 441.96 180)
@@ -25370,7 +26005,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "01862ec0-6c52-4f5e-893f-a974e292ff72")
-		(property "Reference" "#PWR084"
+		(property "Reference" "#PWR091"
 			(at 191.77 288.29 0)
 			(hide yes)
 			(show_name no)
@@ -25431,7 +26066,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR084")
+					(reference "#PWR091")
 					(unit 1)
 				)
 			)
@@ -25449,7 +26084,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "01a69448-5cd3-40db-afa6-57a4e032587a")
-		(property "Reference" "#PWR099"
+		(property "Reference" "#PWR0106"
 			(at 468.63 397.51 0)
 			(hide yes)
 			(show_name no)
@@ -25509,7 +26144,173 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR099")
+					(reference "#PWR0106")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Symbols:ERJU01J103C")
+		(at 604.52 96.52 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "03d3b3e3-c0d0-44f6-b3b5-57d878822f2c")
+		(property "Reference" "R15"
+			(at 613.41 90.17 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 613.41 92.71 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ERJU01_(0201)"
+			(at 618.49 192.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "http://industrial.panasonic.com/cdbs/www-data/pdf/RDP0000/AOA0000C334.pdf"
+			(at 618.49 292.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Anti-Sulfurated Thick Film Chip Resistor, 0201, 0.05W"
+			(at 604.52 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.15"
+			(at 618.49 492.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Panasonic"
+			(at 618.49 592.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ERJU01J103C"
+			(at 618.49 692.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 618.49 792.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 618.49 892.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 618.49 992.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 618.49 1092.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "2"
+			(uuid "1db2aceb-4267-4d2b-b70f-2aa34575792a")
+		)
+		(pin "1"
+			(uuid "7c97c95a-8c8c-4838-8147-ca682a12cfa8")
+		)
+		(instances
+			(project "LibrePulse"
+				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -25527,7 +26328,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0541acfc-4b1f-41f7-b7ed-ec1c8fbc7590")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR015"
 			(at 748.03 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -25588,7 +26389,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR013")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -25606,7 +26407,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "05915fc2-3a3f-443c-8731-467d9bdd6e93")
-		(property "Reference" "#PWR040"
+		(property "Reference" "#PWR046"
 			(at 134.62 208.28 0)
 			(hide yes)
 			(show_name no)
@@ -25667,7 +26468,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR040")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -25685,7 +26486,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "069e2924-d277-4015-bd65-d5c2ffad33c3")
-		(property "Reference" "#PWR076"
+		(property "Reference" "#PWR083"
 			(at 469.9 273.05 0)
 			(hide yes)
 			(show_name no)
@@ -25746,7 +26547,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR076")
+					(reference "#PWR083")
 					(unit 1)
 				)
 			)
@@ -25764,7 +26565,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "06c282ea-314b-4422-b95e-c1d2b552ca59")
-		(property "Reference" "C33"
+		(property "Reference" "C40"
 			(at 41.91 438.15 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30466,7 +31267,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "C33")
+					(reference "C40")
 					(unit 1)
 				)
 			)
@@ -30484,7 +31285,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "07a8df60-3fd1-4e5e-8059-7cea17f7266b")
-		(property "Reference" "#PWR0175"
+		(property "Reference" "#PWR025"
 			(at 731.52 134.62 0)
 			(hide yes)
 			(show_name no)
@@ -30545,7 +31346,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR0175")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -30563,7 +31364,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "07c532e9-0685-4280-b4d1-e39475c7ce6d")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR059"
 			(at 469.9 229.87 0)
 			(hide yes)
 			(show_name no)
@@ -30624,7 +31425,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR052")
+					(reference "#PWR059")
 					(unit 1)
 				)
 			)
@@ -30642,7 +31443,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "09551f2e-8acc-4276-96ca-b9d9fa3acaa2")
-		(property "Reference" "C41"
+		(property "Reference" "C48"
 			(at 636.27 501.65 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -30790,7 +31591,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "C41")
+					(reference "C48")
 					(unit 1)
 				)
 			)
@@ -30808,7 +31609,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "098e86ab-e6ca-4cb9-a118-5abfcb663c5e")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR041"
 			(at 632.46 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -30868,7 +31669,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR035")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -30885,7 +31686,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0a94675f-5aec-4c32-aefc-ee03d7535e69")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR034"
 			(at 64.77 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -30946,7 +31747,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR028")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -30964,7 +31765,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0afcd6bf-096b-4570-aea2-ae0a26399499")
-		(property "Reference" "C24"
+		(property "Reference" "C31"
 			(at 97.79 255.2699 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -35668,7 +36469,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "C24")
+					(reference "C31")
 					(unit 1)
 				)
 			)
@@ -35686,7 +36487,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0beb0f9c-41e5-4311-9cc0-690e2cbd3fb7")
-		(property "Reference" "#PWR0129"
+		(property "Reference" "#PWR0136"
 			(at 582.93 509.27 0)
 			(hide yes)
 			(show_name no)
@@ -35747,7 +36548,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR0129")
+					(reference "#PWR0136")
 					(unit 1)
 				)
 			)
@@ -35765,7 +36566,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0cc4bba6-1b4c-4f94-9b58-cff6e3bd661f")
-		(property "Reference" "#PWR0146"
+		(property "Reference" "#PWR0153"
 			(at 100.33 532.13 0)
 			(hide yes)
 			(show_name no)
@@ -35826,7 +36627,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR0146")
+					(reference "#PWR0153")
 					(unit 1)
 				)
 			)
@@ -36011,7 +36812,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "106434d3-71b3-4c6e-bc24-078618127d80")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR071"
 			(at 469.9 247.65 0)
 			(hide yes)
 			(show_name no)
@@ -36072,7 +36873,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR064")
+					(reference "#PWR071")
 					(unit 1)
 				)
 			)
@@ -36090,7 +36891,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "10844e39-a482-4096-91fb-767c25536e95")
-		(property "Reference" "#PWR0102"
+		(property "Reference" "#PWR0109"
 			(at 468.63 425.45 0)
 			(hide yes)
 			(show_name no)
@@ -36150,7 +36951,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR0102")
+					(reference "#PWR0109")
 					(unit 1)
 				)
 			)
@@ -36168,7 +36969,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "109b3fa5-e7aa-4a6c-a761-d6e84d1cc0b1")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR037"
 			(at 68.58 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -36229,7 +37030,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR031")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -36247,7 +37048,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1113d032-6f64-4903-9684-431717417f0c")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR069"
 			(at 622.3 248.92 0)
 			(hide yes)
 			(show_name no)
@@ -36307,7 +37108,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR062")
+					(reference "#PWR069")
 					(unit 1)
 				)
 			)
@@ -36325,7 +37126,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "113914d5-dd0b-40c4-b0b1-7ef5979054f5")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR011"
 			(at 774.7 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -36385,7 +37186,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR010")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -36569,7 +37370,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "12a31f92-f781-4912-8202-e8b3a32009c1")
-		(property "Reference" "C26"
+		(property "Reference" "C33"
 			(at 167.64 278.13 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -36717,7 +37518,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "C26")
+					(reference "C33")
 					(unit 1)
 				)
 			)
@@ -36735,7 +37536,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "15618a0a-ee2e-4df3-b235-cfb8cbc003c5")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR023"
 			(at 468.63 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -36796,7 +37597,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR018")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -36814,7 +37615,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1709000c-1115-43a9-bed5-8ed2eaa713f9")
-		(property "Reference" "#PWR085"
+		(property "Reference" "#PWR092"
 			(at 114.3 290.83 0)
 			(hide yes)
 			(show_name no)
@@ -36875,7 +37676,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR085")
+					(reference "#PWR092")
 					(unit 1)
 				)
 			)
@@ -36893,7 +37694,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "17b21115-c02d-48ef-b74e-87111fcebb3f")
-		(property "Reference" "#PWR0155"
+		(property "Reference" "#PWR0162"
 			(at 582.93 535.94 0)
 			(hide yes)
 			(show_name no)
@@ -36954,7 +37755,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR0155")
+					(reference "#PWR0162")
 					(unit 1)
 				)
 			)
@@ -36972,7 +37773,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1a37a646-74e1-47a2-b687-b30b76867ccb")
-		(property "Reference" "C22"
+		(property "Reference" "C8"
 			(at 723.9 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -37120,7 +37921,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "C22")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -37138,7 +37939,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1ab169ba-c6e7-4925-8b3e-308a3dd98395")
-		(property "Reference" "#PWR0120"
+		(property "Reference" "#PWR0127"
 			(at 125.73 504.19 0)
 			(hide yes)
 			(show_name no)
@@ -37199,7 +38000,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR0120")
+					(reference "#PWR0127")
 					(unit 1)
 				)
 			)
@@ -37217,7 +38018,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1af3ab64-0b10-474b-8e3d-f09466d0d324")
-		(property "Reference" "#PWR0149"
+		(property "Reference" "#PWR0156"
 			(at 425.45 529.59 0)
 			(hide yes)
 			(show_name no)
@@ -37278,7 +38079,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR0149")
+					(reference "#PWR0156")
 					(unit 1)
 				)
 			)
@@ -37296,7 +38097,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1b3ee7f8-ad38-4631-b74f-4137e8049253")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR058"
 			(at 469.9 224.79 0)
 			(hide yes)
 			(show_name no)
@@ -37357,7 +38158,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR051")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -37375,7 +38176,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1b4fe3d6-5d25-4983-b18b-60906b79532f")
-		(property "Reference" "#PWR080"
+		(property "Reference" "#PWR087"
 			(at 469.9 280.67 0)
 			(hide yes)
 			(show_name no)
@@ -37436,7 +38237,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR080")
+					(reference "#PWR087")
 					(unit 1)
 				)
 			)
@@ -37454,7 +38255,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1ef93e0a-92c8-4ca5-9e2d-c9bf9a1ac87c")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR072"
 			(at 629.92 254 0)
 			(hide yes)
 			(show_name no)
@@ -37514,7 +38315,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR065")
+					(reference "#PWR072")
 					(unit 1)
 				)
 			)
@@ -37531,7 +38332,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "20d4c0dc-9708-4427-b810-42c6b01a0c33")
-		(property "Reference" "#PWR0134"
+		(property "Reference" "#PWR0141"
 			(at 501.65 521.97 0)
 			(hide yes)
 			(show_name no)
@@ -37592,7 +38393,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR0134")
+					(reference "#PWR0141")
 					(unit 1)
 				)
 			)
@@ -37610,7 +38411,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "20f0b8ce-523e-4353-898b-6bc2e446ef0a")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR068"
 			(at 612.14 248.92 0)
 			(hide yes)
 			(show_name no)
@@ -37670,7 +38471,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR061")
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -37688,7 +38489,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "218d2ef0-054d-42e2-908d-9472144b5a0e")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR017"
 			(at 468.63 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -37749,7 +38550,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR015")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -37767,7 +38568,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "218ed69c-24cb-47a5-a1ca-996da8017aef")
-		(property "Reference" "#PWR089"
+		(property "Reference" "#PWR096"
 			(at 247.65 300.99 0)
 			(hide yes)
 			(show_name no)
@@ -37828,7 +38629,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR089")
+					(reference "#PWR096")
 					(unit 1)
 				)
 			)
@@ -37846,7 +38647,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "22090f60-0255-404c-a2ea-5483e25e5f8b")
-		(property "Reference" "C35"
+		(property "Reference" "C42"
 			(at 45.72 463.5499 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -42550,7 +43351,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "C35")
+					(reference "C42")
 					(unit 1)
 				)
 			)
@@ -42568,7 +43369,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "227d00fa-a124-4555-944e-b142a7f9ed38")
-		(property "Reference" "#PWR0101"
+		(property "Reference" "#PWR0108"
 			(at 435.61 410.21 0)
 			(hide yes)
 			(show_name no)
@@ -42628,7 +43429,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR0101")
+					(reference "#PWR0108")
 					(unit 1)
 				)
 			)
@@ -42646,7 +43447,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "230dda8f-d9a8-418a-9399-fb84f59e4816")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR021"
 			(at 468.63 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -42707,7 +43508,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR016")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -42725,7 +43526,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "23232529-de0d-494d-8061-d02d5ca44315")
-		(property "Reference" "#PWR0170"
+		(property "Reference" "#PWR0177"
 			(at 615.95 548.64 0)
 			(hide yes)
 			(show_name no)
@@ -42786,7 +43587,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR0170")
+					(reference "#PWR0177")
 					(unit 1)
 				)
 			)
@@ -42804,7 +43605,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "244af712-baff-46fe-b974-dfd864bc7d63")
-		(property "Reference" "#PWR0126"
+		(property "Reference" "#PWR0133"
 			(at 535.94 509.27 0)
 			(hide yes)
 			(show_name no)
@@ -42865,7 +43666,173 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR0126")
+					(reference "#PWR0133")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Symbols:GRM3195C1H103FA01D")
+		(at 603.25 109.22 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "24e58912-6993-435d-8830-56af4c2a3d8b")
+		(property "Reference" "C6"
+			(at 609.6 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1uF"
+			(at 609.6 104.14 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CAPC3216X95N"
+			(at 612.14 205.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "http://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.pdf"
+			(at 612.14 305.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Multilayer Ceramic Capacitors MLCC - SMD/SMT 1206 0.01uF 50volts C0G 1%"
+			(at 603.25 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.95"
+			(at 612.14 505.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Murata Electronics"
+			(at 612.14 605.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "GRM3195C1H103FA01D"
+			(at 612.14 705.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "81-GRM3195C1H103FA1D"
+			(at 612.14 805.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 612.14 905.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 612.14 1005.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 612.14 1105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "2"
+			(uuid "ce780615-5124-4899-911c-2aed7bc3da8b")
+		)
+		(pin "1"
+			(uuid "6536283c-6f66-4ed5-ad4a-a5460ba1bacf")
+		)
+		(instances
+			(project "LibrePulse"
+				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -42883,7 +43850,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "25e67af4-8ce3-4571-bd80-60e86cc287c8")
-		(property "Reference" "#PWR0128"
+		(property "Reference" "#PWR0135"
 			(at 567.69 509.27 0)
 			(hide yes)
 			(show_name no)
@@ -42944,7 +43911,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR0128")
+					(reference "#PWR0135")
 					(unit 1)
 				)
 			)
@@ -42962,7 +43929,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2703b207-ed32-4d53-a4d4-cb8ebd2b87e4")
-		(property "Reference" "C55"
+		(property "Reference" "C62"
 			(at 505.46 541.02 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -43110,7 +44077,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "C55")
+					(reference "C62")
 					(unit 1)
 				)
 			)
@@ -43128,7 +44095,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "27977f16-304b-496c-9962-42e2b90ea4dc")
-		(property "Reference" "#PWR0113"
+		(property "Reference" "#PWR0120"
 			(at 77.47 469.9 0)
 			(hide yes)
 			(show_name no)
@@ -43189,7 +44156,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR0113")
+					(reference "#PWR0120")
 					(unit 1)
 				)
 			)
@@ -43207,7 +44174,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "279d9226-b864-4010-ad77-d62c555bc97b")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR052"
 			(at 469.9 217.17 0)
 			(hide yes)
 			(show_name no)
@@ -43268,7 +44235,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR046")
+					(reference "#PWR052")
 					(unit 1)
 				)
 			)
@@ -48004,7 +48971,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2ac264f3-275c-4407-afaf-b117ccd19b85")
-		(property "Reference" "C20"
+		(property "Reference" "C11"
 			(at 690.88 168.91 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -48152,7 +49119,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "C20")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -48170,7 +49137,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2b1601c4-cc59-4875-ab59-11c61f4324e8")
-		(property "Reference" "#PWR078"
+		(property "Reference" "#PWR085"
 			(at 469.9 275.59 0)
 			(hide yes)
 			(show_name no)
@@ -48231,7 +49198,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR078")
+					(reference "#PWR085")
 					(unit 1)
 				)
 			)
@@ -48249,7 +49216,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2c41acf5-54ea-4cca-9522-b547794c18ca")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR024"
 			(at 468.63 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -48310,7 +49277,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR019")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -48328,7 +49295,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2dba287d-b519-4efa-a129-4c6f1c9cfee0")
-		(property "Reference" "#PWR0145"
+		(property "Reference" "#PWR0152"
 			(at 88.9 532.13 0)
 			(hide yes)
 			(show_name no)
@@ -48389,7 +49356,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR0145")
+					(reference "#PWR0152")
 					(unit 1)
 				)
 			)
@@ -53099,7 +54066,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "35a24a52-dfa5-4ef0-8488-4373a24ec829")
-		(property "Reference" "C54"
+		(property "Reference" "C61"
 			(at 635 528.32 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -53247,7 +54214,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "C54")
+					(reference "C61")
 					(unit 1)
 				)
 			)
@@ -62741,7 +63708,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3aa3fc04-d559-4060-955d-dbedb87b310e")
-		(property "Reference" "#PWR0114"
+		(property "Reference" "#PWR0121"
 			(at 172.72 492.76 0)
 			(hide yes)
 			(show_name no)
@@ -62801,7 +63768,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR0114")
+					(reference "#PWR0121")
 					(unit 1)
 				)
 			)
@@ -67701,7 +68668,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3d0d3dac-cdb2-4c35-83a0-58120c28cfe4")
-		(property "Reference" "R10"
+		(property "Reference" "R5"
 			(at 782.32 148.59 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -67849,7 +68816,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "R10")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -67867,7 +68834,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3dec087d-3124-4d15-ba7c-a5187b5060df")
-		(property "Reference" "#PWR0158"
+		(property "Reference" "#PWR0165"
 			(at 632.46 535.94 0)
 			(hide yes)
 			(show_name no)
@@ -67928,7 +68895,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR0158")
+					(reference "#PWR0165")
 					(unit 1)
 				)
 			)
@@ -67936,7 +68903,7 @@
 	)
 	(symbol
 		(lib_id "Symbols:BQ21088YBGR")
-		(at 571.5 91.44 0)
+		(at 567.69 91.44 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -67947,7 +68914,7 @@
 		(fields_autoplaced yes)
 		(uuid "3e58b336-33b6-4028-890a-62a1af3ccaf0")
 		(property "Reference" "IC2"
-			(at 585.47 83.82 0)
+			(at 581.66 83.82 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -67957,7 +68924,7 @@
 			)
 		)
 		(property "Value" "BQ21088YBGR"
-			(at 585.47 86.36 0)
+			(at 581.66 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -67967,7 +68934,7 @@
 			)
 		)
 		(property "Footprint" "Footprints:BGA8C40P2X4_100X155X50"
-			(at 595.63 186.36 0)
+			(at 591.82 186.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -67979,7 +68946,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/bq21088.pdf?ts=1737930663374&ref_url=https%253A%252F%252Fwww.ti.com%252Fbattery-management%252Fcharger-ics%252Fproducts.html"
-			(at 595.63 286.36 0)
+			(at 591.82 286.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -67991,7 +68958,7 @@
 			)
 		)
 		(property "Description" "2C, 1A single cell linear battery charger, 5V input, powerpath, ship mode and battery tracking, -40C ~ 85C"
-			(at 571.5 91.44 0)
+			(at 567.69 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -68002,7 +68969,7 @@
 			)
 		)
 		(property "Height" "0.5"
-			(at 595.63 486.36 0)
+			(at 591.82 486.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -68014,7 +68981,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "Texas Instruments"
-			(at 595.63 586.36 0)
+			(at 591.82 586.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -68026,7 +68993,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "BQ21088YBGR"
-			(at 595.63 686.36 0)
+			(at 591.82 686.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -68038,7 +69005,7 @@
 			)
 		)
 		(property "Mouser Part Number" "595-BQ21088YBGR"
-			(at 595.63 786.36 0)
+			(at 591.82 786.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -68050,7 +69017,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/BQ21088YBGR?qs=a2MtRaTmNOTQ8jgqUsjiUg%3D%3D"
-			(at 595.63 886.36 0)
+			(at 591.82 886.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -68062,7 +69029,7 @@
 			)
 		)
 		(property "Arrow Part Number" "BQ21088YBGR"
-			(at 595.63 986.36 0)
+			(at 591.82 986.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -68074,7 +69041,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/bq21088ybgr/texas-instruments.html?utm_currency=USD&region=nac"
-			(at 595.63 1086.36 0)
+			(at 591.82 1086.36 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -68130,7 +69097,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3ff26812-13b4-4c8f-8144-e1c9d52d87d6")
-		(property "Reference" "C27"
+		(property "Reference" "C34"
 			(at 182.88 292.1 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -72832,7 +73799,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "C27")
+					(reference "C34")
 					(unit 1)
 				)
 			)
@@ -72850,7 +73817,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4154a324-9439-4106-82c6-e1f31fa94410")
-		(property "Reference" "#PWR0115"
+		(property "Reference" "#PWR0122"
 			(at 125.73 491.49 0)
 			(hide yes)
 			(show_name no)
@@ -72911,7 +73878,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR0115")
+					(reference "#PWR0122")
 					(unit 1)
 				)
 			)
@@ -72929,7 +73896,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "419a8148-049f-4ab6-ae3a-ab220ae9de58")
-		(property "Reference" "#PWR083"
+		(property "Reference" "#PWR090"
 			(at 180.34 285.75 0)
 			(hide yes)
 			(show_name no)
@@ -72990,7 +73957,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR083")
+					(reference "#PWR090")
 					(unit 1)
 				)
 			)
@@ -87316,7 +88283,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "438bd2b4-8a23-4e22-8dac-8fcb0147e736")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR028"
 			(at 468.63 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -87377,7 +88344,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR022")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -87395,7 +88362,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "44404427-5bc9-46b9-9a5e-a9f4eefb9a72")
-		(property "Reference" "R2"
+		(property "Reference" "R6"
 			(at 773.43 198.12 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -87543,7 +88510,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "R2")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -87561,7 +88528,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "45004726-bc31-46f0-b423-029fd8559fae")
-		(property "Reference" "R1"
+		(property "Reference" "R3"
 			(at 782.32 135.89 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -87709,7 +88676,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "R1")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -87884,6 +88851,172 @@
 		)
 	)
 	(symbol
+		(lib_id "Symbols:ERJU01J103C")
+		(at 565.15 80.01 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "45377bc3-ed7c-4718-a8fd-ee5fed12d801")
+		(property "Reference" "R1"
+			(at 556.26 73.66 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 556.26 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ERJU01_(0201)"
+			(at 551.18 -16.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "http://industrial.panasonic.com/cdbs/www-data/pdf/RDP0000/AOA0000C334.pdf"
+			(at 551.18 -116.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Anti-Sulfurated Thick Film Chip Resistor, 0201, 0.05W"
+			(at 565.15 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.15"
+			(at 551.18 -316.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Panasonic"
+			(at 551.18 -416.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ERJU01J103C"
+			(at 551.18 -516.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 551.18 -616.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 551.18 -716.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 551.18 -816.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 551.18 -916.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "2"
+			(uuid "ea2bd8a1-7f51-41fd-9269-b5e8b67b1d4d")
+		)
+		(pin "1"
+			(uuid "8bd96f41-b52a-4af7-940a-928627c67adb")
+		)
+		(instances
+			(project "LibrePulse"
+				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
 		(at 441.96 87.63 90)
 		(unit 1)
@@ -87895,7 +89028,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4581d5ba-16d4-45a2-9848-399496b3c25e")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR012"
 			(at 445.77 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -87956,7 +89089,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR011")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -87974,7 +89107,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4674d7d1-1553-4a9e-adff-4c60976101a9")
-		(property "Reference" "#PWR0135"
+		(property "Reference" "#PWR0142"
 			(at 516.89 521.97 0)
 			(hide yes)
 			(show_name no)
@@ -88035,7 +89168,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR0135")
+					(reference "#PWR0142")
 					(unit 1)
 				)
 			)
@@ -88053,7 +89186,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "469b10d2-9417-4d4f-bcbb-9479a191a2a0")
-		(property "Reference" "#PWR0112"
+		(property "Reference" "#PWR0119"
 			(at 45.72 471.17 0)
 			(hide yes)
 			(show_name no)
@@ -88114,7 +89247,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR0112")
+					(reference "#PWR0119")
 					(unit 1)
 				)
 			)
@@ -88132,7 +89265,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "46cbcc4e-3136-4792-8d7f-f8218d42a9de")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR036"
 			(at 165.1 191.77 0)
 			(hide yes)
 			(show_name no)
@@ -88193,7 +89326,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR030")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -88211,7 +89344,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4717076c-e24e-40c1-b6c9-fef88b1c968b")
-		(property "Reference" "C9"
+		(property "Reference" "C15"
 			(at 690.88 191.77 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -88359,7 +89492,85 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "C9")
+					(reference "C15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 613.41 87.63 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4717ea5b-f42d-441e-b293-2203b55d9dbd")
+		(property "Reference" "#PWR013"
+			(at 609.6 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 617.22 87.6299 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 613.41 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 613.41 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 613.41 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "284608d7-5a20-46cb-b779-6f7a37ef29b2")
+		)
+		(instances
+			(project "LibrePulse"
+				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -88555,7 +89766,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "47c92b7e-6845-4a8c-8d6b-e851dd7a65b6")
-		(property "Reference" "C13"
+		(property "Reference" "C20"
 			(at 588.01 204.4699 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -88705,7 +89916,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "C13")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -93978,7 +95189,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "49f44950-2c58-42a0-827e-cd632bee969f")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR064"
 			(at 574.04 243.84 0)
 			(hide yes)
 			(show_name no)
@@ -94038,7 +95249,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR057")
+					(reference "#PWR064")
 					(unit 1)
 				)
 			)
@@ -94056,7 +95267,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4b4bf83f-3ea0-4aa9-a2f0-bf8e417c9015")
-		(property "Reference" "#PWR0161"
+		(property "Reference" "#PWR0168"
 			(at 386.08 541.02 0)
 			(hide yes)
 			(show_name no)
@@ -94117,7 +95328,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR0161")
+					(reference "#PWR0168")
 					(unit 1)
 				)
 			)
@@ -94135,7 +95346,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4c4d0b86-a4d0-471e-afb6-fb48b94a8cdd")
-		(property "Reference" "#PWR072"
+		(property "Reference" "#PWR079"
 			(at 469.9 265.43 0)
 			(hide yes)
 			(show_name no)
@@ -94196,7 +95407,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR072")
+					(reference "#PWR079")
 					(unit 1)
 				)
 			)
@@ -94392,7 +95603,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4d01c96a-0d08-401f-8ee7-cc581ad89240")
-		(property "Reference" "#PWR0143"
+		(property "Reference" "#PWR0150"
 			(at 648.97 521.97 0)
 			(hide yes)
 			(show_name no)
@@ -94453,7 +95664,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR0143")
+					(reference "#PWR0150")
 					(unit 1)
 				)
 			)
@@ -95090,7 +96301,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4dcb765a-b1c5-4841-9d35-b06ba28f78d2")
-		(property "Reference" "R4"
+		(property "Reference" "R8"
 			(at 313.69 275.59 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -95238,7 +96449,85 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "R4")
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 622.3 96.52 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4e5ef529-004e-450b-ad6e-a9f688246d45")
+		(property "Reference" "#PWR0183"
+			(at 622.3 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 622.3 101.6 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 622.3 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 622.3 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 622.3 96.52 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "20157eb2-5b6c-4e54-bac4-acca18e522e2")
+		)
+		(instances
+			(project "LibrePulse"
+				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
+					(reference "#PWR0183")
 					(unit 1)
 				)
 			)
@@ -99937,7 +101226,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "503cda6d-3a12-4c24-9b8f-028fe92addef")
-		(property "Reference" "C58"
+		(property "Reference" "C65"
 			(at 603.25 541.02 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -100085,7 +101374,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "C58")
+					(reference "C65")
 					(unit 1)
 				)
 			)
@@ -100103,7 +101392,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "51fec605-7faa-47f6-aba4-29b0896b9c8a")
-		(property "Reference" "R11"
+		(property "Reference" "R4"
 			(at 800.1 135.89 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -100251,7 +101540,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "R11")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -100269,7 +101558,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "52d8c619-106f-453f-9825-9bab0c793e8e")
-		(property "Reference" "C36"
+		(property "Reference" "C43"
 			(at 81.28 481.3299 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -100419,7 +101708,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "C36")
+					(reference "C43")
 					(unit 1)
 				)
 			)
@@ -100437,7 +101726,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "53d1bc90-1322-43b9-8bb6-82862ff8b614")
-		(property "Reference" "R5"
+		(property "Reference" "R9"
 			(at 64.77 341.6299 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -100587,7 +101876,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "R5")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -100605,7 +101894,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "550fda6c-4b0a-429e-aa10-aba618dc69f1")
-		(property "Reference" "#PWR0162"
+		(property "Reference" "#PWR0169"
 			(at 425.45 541.02 0)
 			(hide yes)
 			(show_name no)
@@ -100666,7 +101955,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR0162")
+					(reference "#PWR0169")
 					(unit 1)
 				)
 			)
@@ -100684,7 +101973,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "551f3a12-1f44-4b44-a6e6-d044f2ea6cb4")
-		(property "Reference" "C25"
+		(property "Reference" "C32"
 			(at 199.39 280.6699 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -105388,7 +106677,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "C25")
+					(reference "C32")
 					(unit 1)
 				)
 			)
@@ -105406,7 +106695,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5636df74-e5e7-4eda-b4b6-020213f9d793")
-		(property "Reference" "#PWR098"
+		(property "Reference" "#PWR0105"
 			(at 62.23 358.14 0)
 			(hide yes)
 			(show_name no)
@@ -105466,7 +106755,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR098")
+					(reference "#PWR0105")
 					(unit 1)
 				)
 			)
@@ -110159,7 +111448,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "58eab8dd-7ab0-4874-a408-710e4318a79e")
-		(property "Reference" "R7"
+		(property "Reference" "R11"
 			(at 420.37 523.24 0)
 			(hide yes)
 			(show_name no)
@@ -110308,7 +111597,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "R7")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -110326,7 +111615,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5a3443a1-cb34-4607-927b-5563734bf4b1")
-		(property "Reference" "#PWR0152"
+		(property "Reference" "#PWR0159"
 			(at 535.94 535.94 0)
 			(hide yes)
 			(show_name no)
@@ -110387,7 +111676,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR0152")
+					(reference "#PWR0159")
 					(unit 1)
 				)
 			)
@@ -110405,7 +111694,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5ab980bb-e4e1-4ba5-bd1c-46087eecaf6c")
-		(property "Reference" "C51"
+		(property "Reference" "C58"
 			(at 538.48 528.32 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -110553,7 +111842,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "C51")
+					(reference "C58")
 					(unit 1)
 				)
 			)
@@ -110571,7 +111860,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5aea7ffb-b894-48b3-a669-1b2f7a3bb682")
-		(property "Reference" "#PWR0133"
+		(property "Reference" "#PWR0140"
 			(at 648.97 509.27 0)
 			(hide yes)
 			(show_name no)
@@ -110632,7 +111921,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR0133")
+					(reference "#PWR0140")
 					(unit 1)
 				)
 			)
@@ -110650,7 +111939,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5b826250-c693-4612-80af-803014afea52")
-		(property "Reference" "#PWR0121"
+		(property "Reference" "#PWR0128"
 			(at 54.61 513.08 0)
 			(hide yes)
 			(show_name no)
@@ -110710,7 +111999,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR0121")
+					(reference "#PWR0128")
 					(unit 1)
 				)
 			)
@@ -110728,7 +112017,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5cac53ba-d3b6-4b84-932c-16103f56eed7")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR045"
 			(at 144.78 205.74 0)
 			(hide yes)
 			(show_name no)
@@ -110789,7 +112078,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR039")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -110807,7 +112096,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5ea5cf6b-b0b3-4660-beea-cec9e1e61244")
-		(property "Reference" "#PWR0118"
+		(property "Reference" "#PWR0125"
 			(at 125.73 499.11 0)
 			(hide yes)
 			(show_name no)
@@ -110868,7 +112157,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR0118")
+					(reference "#PWR0125")
 					(unit 1)
 				)
 			)
@@ -110886,7 +112175,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5f2ed03b-78bb-4dbb-a7f2-ce51af64c000")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR044"
 			(at 353.06 195.58 0)
 			(hide yes)
 			(show_name no)
@@ -110946,7 +112235,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR038")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -110964,7 +112253,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6157df27-45af-48d4-9c38-047d2d5ff93f")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR061"
 			(at 469.9 232.41 0)
 			(hide yes)
 			(show_name no)
@@ -111025,7 +112314,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR054")
+					(reference "#PWR061")
 					(unit 1)
 				)
 			)
@@ -111043,7 +112332,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "61d43f4b-7311-4b4e-b355-5b99a7b21ea5")
-		(property "Reference" "C46"
+		(property "Reference" "C53"
 			(at 538.48 514.35 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -111191,7 +112480,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "C46")
+					(reference "C53")
 					(unit 1)
 				)
 			)
@@ -111209,7 +112498,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "62b1ade5-6fd1-467f-95b7-a829892383fe")
-		(property "Reference" "#PWR0147"
+		(property "Reference" "#PWR0154"
 			(at 355.6 528.32 0)
 			(hide yes)
 			(show_name no)
@@ -111270,7 +112559,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR0147")
+					(reference "#PWR0154")
 					(unit 1)
 				)
 			)
@@ -111288,7 +112577,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "631c8c6f-117d-40d9-a9ca-5fce092f6807")
-		(property "Reference" "R8"
+		(property "Reference" "R12"
 			(at 370.84 534.67 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -111436,7 +112725,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "R8")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -111454,7 +112743,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6914a0aa-06cb-4bb3-987a-684cc313abfa")
-		(property "Reference" "#PWR0131"
+		(property "Reference" "#PWR0138"
 			(at 617.22 509.27 0)
 			(hide yes)
 			(show_name no)
@@ -111515,7 +112804,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR0131")
+					(reference "#PWR0138")
 					(unit 1)
 				)
 			)
@@ -111533,7 +112822,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "69953d02-f4bd-448f-9676-9c695005a49c")
-		(property "Reference" "C38"
+		(property "Reference" "C45"
 			(at 538.48 501.65 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -111681,7 +112970,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "C38")
+					(reference "C45")
 					(unit 1)
 				)
 			)
@@ -111699,7 +112988,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "69c9c91e-d001-478c-b371-5a40fb82f1a4")
-		(property "Reference" "#PWR0107"
+		(property "Reference" "#PWR0114"
 			(at 388.62 447.04 0)
 			(hide yes)
 			(show_name no)
@@ -111760,7 +113049,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR0107")
+					(reference "#PWR0114")
 					(unit 1)
 				)
 			)
@@ -111778,7 +113067,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6ace2418-5566-4a9f-b8b5-01d183b1ae1f")
-		(property "Reference" "R6"
+		(property "Reference" "R10"
 			(at 370.84 521.97 0)
 			(hide yes)
 			(show_name no)
@@ -111927,7 +113216,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "R6")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -111945,7 +113234,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6b4ba8aa-9f79-4ebc-a8f3-fd9bfefd6869")
-		(property "Reference" "C32"
+		(property "Reference" "C39"
 			(at 439.42 421.6399 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -112095,7 +113384,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "C32")
+					(reference "C39")
 					(unit 1)
 				)
 			)
@@ -112113,7 +113402,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6d8012f2-fa1e-41cb-ad69-e6bb80368328")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR054"
 			(at 80.01 213.36 0)
 			(hide yes)
 			(show_name no)
@@ -112173,7 +113462,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR047")
+					(reference "#PWR054")
 					(unit 1)
 				)
 			)
@@ -112191,7 +113480,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6da33332-6d5d-4023-ab89-a86a5d9e4efa")
-		(property "Reference" "#PWR0156"
+		(property "Reference" "#PWR0163"
 			(at 600.71 535.94 0)
 			(hide yes)
 			(show_name no)
@@ -112252,7 +113541,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR0156")
+					(reference "#PWR0163")
 					(unit 1)
 				)
 			)
@@ -112270,7 +113559,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6da6f237-c33c-464a-a913-bfc5bf4f5b9f")
-		(property "Reference" "#PWR077"
+		(property "Reference" "#PWR084"
 			(at 195.58 269.24 0)
 			(hide yes)
 			(show_name no)
@@ -112331,7 +113620,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR077")
+					(reference "#PWR084")
 					(unit 1)
 				)
 			)
@@ -112349,7 +113638,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "715fd571-2b14-4a16-b4d4-26f7c00bbabc")
-		(property "Reference" "#PWR0140"
+		(property "Reference" "#PWR0147"
 			(at 601.98 521.97 0)
 			(hide yes)
 			(show_name no)
@@ -112410,7 +113699,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR0140")
+					(reference "#PWR0147")
 					(unit 1)
 				)
 			)
@@ -112428,7 +113717,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "725ea4a6-ad46-4268-9867-29811774b754")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR026"
 			(at 711.2 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -112489,7 +113778,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR020")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -112507,7 +113796,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "72608c5d-38b8-4488-bbbc-d903fa3dd67b")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR074"
 			(at 469.9 250.19 0)
 			(hide yes)
 			(show_name no)
@@ -112568,7 +113857,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR067")
+					(reference "#PWR074")
 					(unit 1)
 				)
 			)
@@ -112830,7 +114119,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "743ca629-baee-4630-a193-fe783893a0f4")
-		(property "Reference" "C53"
+		(property "Reference" "C60"
 			(at 603.25 528.32 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -112978,7 +114267,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "C53")
+					(reference "C60")
 					(unit 1)
 				)
 			)
@@ -112996,7 +114285,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "750a0465-3c40-4344-8d84-22b8f4520dee")
-		(property "Reference" "#PWR0127"
+		(property "Reference" "#PWR0134"
 			(at 551.18 509.27 0)
 			(hide yes)
 			(show_name no)
@@ -113057,7 +114346,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR0127")
+					(reference "#PWR0134")
 					(unit 1)
 				)
 			)
@@ -113075,7 +114364,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "758fbd4c-a166-44ca-8ba5-ea2da8e1ec70")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR049"
 			(at 469.9 212.09 0)
 			(hide yes)
 			(show_name no)
@@ -113136,7 +114425,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR043")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -117981,7 +119270,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7681d4bf-e86f-40dd-8c00-e0d499e3406a")
-		(property "Reference" "C42"
+		(property "Reference" "C49"
 			(at 80.01 518.1599 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -118131,7 +119420,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "C42")
+					(reference "C49")
 					(unit 1)
 				)
 			)
@@ -118727,7 +120016,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "78a02a10-3365-477d-be8a-7528cc17a4b8")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR065"
 			(at 469.9 240.03 0)
 			(hide yes)
 			(show_name no)
@@ -118788,7 +120077,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR058")
+					(reference "#PWR065")
 					(unit 1)
 				)
 			)
@@ -118806,7 +120095,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "78d4d01c-eadb-4db1-b5d0-d11f54267577")
-		(property "Reference" "#PWR0141"
+		(property "Reference" "#PWR0148"
 			(at 617.22 521.97 0)
 			(hide yes)
 			(show_name no)
@@ -118867,7 +120156,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR0141")
+					(reference "#PWR0148")
 					(unit 1)
 				)
 			)
@@ -118885,7 +120174,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "792b9c51-409f-4247-8f58-89bef80188c1")
-		(property "Reference" "#PWR0139"
+		(property "Reference" "#PWR0146"
 			(at 582.93 521.97 0)
 			(hide yes)
 			(show_name no)
@@ -118946,7 +120235,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR0139")
+					(reference "#PWR0146")
 					(unit 1)
 				)
 			)
@@ -118964,7 +120253,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7b84afe5-6bd1-4491-86a4-09c59a89c205")
-		(property "Reference" "C11"
+		(property "Reference" "C18"
 			(at 154.94 217.1699 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -123668,7 +124957,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "C11")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -123686,7 +124975,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7c41724e-3d28-400b-8ff7-da37b0aa458d")
-		(property "Reference" "#PWR0108"
+		(property "Reference" "#PWR0115"
 			(at 58.42 448.31 0)
 			(hide yes)
 			(show_name no)
@@ -123746,7 +125035,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR0108")
+					(reference "#PWR0115")
 					(unit 1)
 				)
 			)
@@ -123764,7 +125053,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7c7029a4-8690-40cf-9be1-acee73352b73")
-		(property "Reference" "#PWR0169"
+		(property "Reference" "#PWR0176"
 			(at 600.71 548.64 0)
 			(hide yes)
 			(show_name no)
@@ -123825,7 +125114,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR0169")
+					(reference "#PWR0176")
 					(unit 1)
 				)
 			)
@@ -123843,7 +125132,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7ccf758d-15d6-4d5e-bbf7-801c52ecbcc8")
-		(property "Reference" "#PWR086"
+		(property "Reference" "#PWR093"
 			(at 167.64 293.37 0)
 			(hide yes)
 			(show_name no)
@@ -123904,7 +125193,85 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR086")
+					(reference "#PWR093")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 548.64 106.68 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7cfa3d74-6351-4f73-b65a-c06fbae87c88")
+		(property "Reference" "#PWR018"
+			(at 548.64 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 548.6399 110.49 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 548.64 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 548.64 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 548.64 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "31a7482e-318b-42d3-ab56-210c148ea58e")
+		)
+		(instances
+			(project "LibrePulse"
+				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -123922,7 +125289,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7d91378b-8285-4781-a7ee-0ed6720a69bd")
-		(property "Reference" "C44"
+		(property "Reference" "C51"
 			(at 104.14 518.1599 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -124072,7 +125439,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "C44")
+					(reference "C51")
 					(unit 1)
 				)
 			)
@@ -124090,7 +125457,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7e92ee0d-5042-44db-9474-c276867ee015")
-		(property "Reference" "#PWR0151"
+		(property "Reference" "#PWR0158"
 			(at 516.89 535.94 0)
 			(hide yes)
 			(show_name no)
@@ -124151,7 +125518,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR0151")
+					(reference "#PWR0158")
 					(unit 1)
 				)
 			)
@@ -124260,7 +125627,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7f970451-0a90-4919-a6aa-b41328caa20c")
-		(property "Reference" "R3"
+		(property "Reference" "R7"
 			(at 344.17 208.28 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -128973,7 +130340,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "R3")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -128991,7 +130358,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7febfaa2-31b0-425e-8305-6856aaa0a1a2")
-		(property "Reference" "C59"
+		(property "Reference" "C66"
 			(at 635 541.02 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -129139,7 +130506,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "C59")
+					(reference "C66")
 					(unit 1)
 				)
 			)
@@ -129157,7 +130524,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "820eb6b5-a1e4-4336-bea0-63c648afdc86")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR067"
 			(at 279.4 234.95 0)
 			(hide yes)
 			(show_name no)
@@ -129217,7 +130584,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR060")
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -129235,7 +130602,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "83ddfaa9-87cb-44db-9a83-7f939197d130")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR027"
 			(at 220.98 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -129295,7 +130662,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR021")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -129313,7 +130680,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "84abb12e-611a-4ba2-8e13-428dd93b09bb")
-		(property "Reference" "#PWR093"
+		(property "Reference" "#PWR0100"
 			(at 74.93 317.5 0)
 			(hide yes)
 			(show_name no)
@@ -129373,7 +130740,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR093")
+					(reference "#PWR0100")
 					(unit 1)
 				)
 			)
@@ -134131,7 +135498,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8667c80e-60c9-4ff8-b6b0-fa797c48e226")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR056"
 			(at 469.9 222.25 0)
 			(hide yes)
 			(show_name no)
@@ -134192,7 +135559,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR049")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -134379,7 +135746,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "886e2d94-37a6-49f6-9833-4b3cdea0ca11")
-		(property "Reference" "#PWR088"
+		(property "Reference" "#PWR095"
 			(at 195.58 299.72 0)
 			(hide yes)
 			(show_name no)
@@ -134440,7 +135807,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR088")
+					(reference "#PWR095")
 					(unit 1)
 				)
 			)
@@ -134458,7 +135825,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "894d9c1a-c2d5-4099-ac0d-a09e5476115d")
-		(property "Reference" "#PWR0106"
+		(property "Reference" "#PWR0113"
 			(at 48.26 441.96 0)
 			(hide yes)
 			(show_name no)
@@ -134518,7 +135885,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR0106")
+					(reference "#PWR0113")
 					(unit 1)
 				)
 			)
@@ -134536,7 +135903,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8a27d5f3-e20c-40ce-aa0b-0ea9a9b657a1")
-		(property "Reference" "C52"
+		(property "Reference" "C59"
 			(at 570.23 528.32 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -134684,7 +136051,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "C52")
+					(reference "C59")
 					(unit 1)
 				)
 			)
@@ -135029,6 +136396,172 @@
 		)
 	)
 	(symbol
+		(lib_id "Symbols:ERJU01J103C")
+		(at 595.63 87.63 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8ccb71f2-e413-4a51-b24d-72a354bd6805")
+		(property "Reference" "R2"
+			(at 604.52 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 604.52 83.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ERJU01_(0201)"
+			(at 609.6 183.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "http://industrial.panasonic.com/cdbs/www-data/pdf/RDP0000/AOA0000C334.pdf"
+			(at 609.6 283.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Anti-Sulfurated Thick Film Chip Resistor, 0201, 0.05W"
+			(at 595.63 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.15"
+			(at 609.6 483.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Panasonic"
+			(at 609.6 583.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ERJU01J103C"
+			(at 609.6 683.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 609.6 783.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 609.6 883.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 609.6 983.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 609.6 1083.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "2"
+			(uuid "82870ab2-9298-40cd-bb4c-a924a2a8c21a")
+		)
+		(pin "1"
+			(uuid "8bdd488f-75de-45c5-b907-0e58423cdb29")
+		)
+		(instances
+			(project "LibrePulse"
+				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 132.08 501.65 270)
 		(unit 1)
@@ -135040,7 +136573,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8dc66ab2-f2ca-4d41-b779-916c6d25fa18")
-		(property "Reference" "#PWR0119"
+		(property "Reference" "#PWR0126"
 			(at 125.73 501.65 0)
 			(hide yes)
 			(show_name no)
@@ -135101,7 +136634,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR0119")
+					(reference "#PWR0126")
 					(unit 1)
 				)
 			)
@@ -135119,7 +136652,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8dee32f7-7269-4f00-b956-c50d7248eab5")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR031"
 			(at 815.34 154.94 0)
 			(hide yes)
 			(show_name no)
@@ -135180,7 +136713,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR025")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -135198,7 +136731,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8e3ea010-25c5-4b7f-a10b-40de76eea112")
-		(property "Reference" "C40"
+		(property "Reference" "C47"
 			(at 604.52 501.65 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -135346,7 +136879,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "C40")
+					(reference "C47")
 					(unit 1)
 				)
 			)
@@ -135500,6 +137033,85 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 547.37 80.01 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9021a51c-bbd8-40d7-9675-56b64a05979a")
+		(property "Reference" "#PWR010"
+			(at 551.18 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 543.56 80.0099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 547.37 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 547.37 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 547.37 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ea129dd0-2186-418a-bf71-4749a3d9c92f")
+		)
+		(instances
+			(project "LibrePulse"
+				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
+					(reference "#PWR010")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Symbols:GRM033Z71C104KE14J")
 		(at 598.17 521.97 0)
 		(unit 1)
@@ -135511,7 +137123,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "908943ce-0e4f-464f-84f8-d981a6339d00")
-		(property "Reference" "C48"
+		(property "Reference" "C55"
 			(at 604.52 514.35 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -135659,7 +137271,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "C48")
+					(reference "C55")
 					(unit 1)
 				)
 			)
@@ -135677,7 +137289,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "90dc30a0-e643-4895-a03d-62274551737a")
-		(property "Reference" "C6"
+		(property "Reference" "C12"
 			(at 68.58 184.1499 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -140381,7 +141993,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "C6")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -140399,7 +142011,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "932bdd74-3597-47b3-87f1-943edd8035bd")
-		(property "Reference" "C18"
+		(property "Reference" "C25"
 			(at 690.88 213.36 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -140547,7 +142159,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "C18")
+					(reference "C25")
 					(unit 1)
 				)
 			)
@@ -140565,7 +142177,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "93718c3b-20c9-4010-84fb-968e70fff5f6")
-		(property "Reference" "C64"
+		(property "Reference" "C10"
 			(at 723.9 143.51 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -140713,7 +142325,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "C64")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -140731,7 +142343,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "94445be0-8bf5-406c-90c8-6697be6e076c")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR030"
 			(at 114.3 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -140792,7 +142404,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR024")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -140810,7 +142422,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "945e1d4b-a7b0-4944-aabf-0ee08fd4bd51")
-		(property "Reference" "#PWR0105"
+		(property "Reference" "#PWR0112"
 			(at 29.21 445.77 0)
 			(hide yes)
 			(show_name no)
@@ -140871,7 +142483,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR0105")
+					(reference "#PWR0112")
 					(unit 1)
 				)
 			)
@@ -140889,7 +142501,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "95bc823f-e154-40eb-bd73-3b53504bc8eb")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR040"
 			(at 584.2 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -140949,7 +142561,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR034")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -140967,7 +142579,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "96ebde1b-6c2b-47be-8c60-652f771c9851")
-		(property "Reference" "#PWR0111"
+		(property "Reference" "#PWR0118"
 			(at 441.96 459.74 0)
 			(hide yes)
 			(show_name no)
@@ -141028,7 +142640,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR0111")
+					(reference "#PWR0118")
 					(unit 1)
 				)
 			)
@@ -141046,7 +142658,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "97215486-a56c-40dc-bdc0-c5c6e02281ca")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR039"
 			(at 574.04 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -141106,7 +142718,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR033")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -141124,7 +142736,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "99883653-733e-4514-917c-6c79ad7ce9b3")
-		(property "Reference" "C65"
+		(property "Reference" "C17"
 			(at 754.38 209.5499 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -141274,7 +142886,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "C65")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -141292,7 +142904,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9ac9d58c-1dcc-49d6-9221-29ecd2e4df3d")
-		(property "Reference" "#PWR0100"
+		(property "Reference" "#PWR0107"
 			(at 374.65 408.94 0)
 			(hide yes)
 			(show_name no)
@@ -141352,7 +142964,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR0100")
+					(reference "#PWR0107")
 					(unit 1)
 				)
 			)
@@ -141370,7 +142982,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9af89423-7888-408f-9e7d-b891079ea442")
-		(property "Reference" "C23"
+		(property "Reference" "C16"
 			(at 741.68 209.5499 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -141520,7 +143132,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "C23")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -141537,7 +143149,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9b56b2af-bf71-4ab7-adc5-ca08fde0d414")
-		(property "Reference" "#PWR0172"
+		(property "Reference" "#PWR0179"
 			(at 647.7 548.64 0)
 			(hide yes)
 			(show_name no)
@@ -141598,7 +143210,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR0172")
+					(reference "#PWR0179")
 					(unit 1)
 				)
 			)
@@ -141616,7 +143228,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9bae2eff-cf8a-4958-9af1-5340391a4729")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR055"
 			(at 469.9 219.71 0)
 			(hide yes)
 			(show_name no)
@@ -141677,7 +143289,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR048")
+					(reference "#PWR055")
 					(unit 1)
 				)
 			)
@@ -141695,7 +143307,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9bf2ad3e-833e-41e0-a88d-1153cba7e0c0")
-		(property "Reference" "C29"
+		(property "Reference" "C36"
 			(at 293.37 293.37 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -146397,7 +148009,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "C29")
+					(reference "C36")
 					(unit 1)
 				)
 			)
@@ -146415,7 +148027,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9c38198d-a9ea-4a65-ab18-b2e78036bfd1")
-		(property "Reference" "C57"
+		(property "Reference" "C64"
 			(at 570.23 541.02 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -146563,7 +148175,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "C57")
+					(reference "C64")
 					(unit 1)
 				)
 			)
@@ -146581,7 +148193,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9dd539fb-3f9f-4498-b24f-38547bb09780")
-		(property "Reference" "#PWR092"
+		(property "Reference" "#PWR099"
 			(at 306.07 300.99 0)
 			(hide yes)
 			(show_name no)
@@ -146642,7 +148254,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR092")
+					(reference "#PWR099")
 					(unit 1)
 				)
 			)
@@ -146660,7 +148272,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9e456a07-8f51-4f29-930d-1d95672e58a7")
-		(property "Reference" "#PWR0171"
+		(property "Reference" "#PWR0178"
 			(at 632.46 548.64 0)
 			(hide yes)
 			(show_name no)
@@ -146721,7 +148333,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR0171")
+					(reference "#PWR0178")
 					(unit 1)
 				)
 			)
@@ -146739,7 +148351,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9ead8cbb-7f61-4506-95ef-6ca479cb1ba5")
-		(property "Reference" "#PWR0166"
+		(property "Reference" "#PWR0173"
 			(at 551.18 548.64 0)
 			(hide yes)
 			(show_name no)
@@ -146800,7 +148412,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR0166")
+					(reference "#PWR0173")
 					(unit 1)
 				)
 			)
@@ -146818,7 +148430,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9f0f955b-86dd-48b7-bff9-17b1780664b1")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR050"
 			(at 645.16 212.09 0)
 			(hide yes)
 			(show_name no)
@@ -146879,7 +148491,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR044")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -146897,7 +148509,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9f1f92d1-d6c1-499f-922d-77b624cf266c")
-		(property "Reference" "C12"
+		(property "Reference" "C19"
 			(at 577.85 204.4699 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -147047,7 +148659,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "C12")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -147065,7 +148677,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9f4953a0-71e0-4979-8feb-901c50f96925")
-		(property "Reference" "#PWR0103"
+		(property "Reference" "#PWR0110"
 			(at 389.89 424.18 0)
 			(hide yes)
 			(show_name no)
@@ -147125,7 +148737,86 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR0103")
+					(reference "#PWR0110")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 554.99 118.11 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9fe719a3-bce6-4244-96f8-07226481ef7e")
+		(property "Reference" "#PWR020"
+			(at 548.64 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 551.18 118.1099 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 554.99 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 554.99 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 554.99 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "899cb284-40c7-4ce9-b284-f8a8382afac2")
+		)
+		(instances
+			(project "LibrePulse"
+				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -147143,7 +148834,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a1b956b5-9367-4dea-8d96-9cda23febf73")
-		(property "Reference" "C63"
+		(property "Reference" "C9"
 			(at 723.9 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -147291,7 +148982,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "C63")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -147309,7 +149000,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a344d5cf-a6d2-4f40-9fad-c84c78a3c021")
-		(property "Reference" "#PWR0130"
+		(property "Reference" "#PWR0137"
 			(at 601.98 509.27 0)
 			(hide yes)
 			(show_name no)
@@ -147370,7 +149061,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR0130")
+					(reference "#PWR0137")
 					(unit 1)
 				)
 			)
@@ -147388,7 +149079,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a36cfb71-3dc0-4f16-a9f0-17d43d722037")
-		(property "Reference" "#PWR073"
+		(property "Reference" "#PWR080"
 			(at 44.45 267.97 0)
 			(hide yes)
 			(show_name no)
@@ -147449,7 +149140,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR073")
+					(reference "#PWR080")
 					(unit 1)
 				)
 			)
@@ -147467,7 +149158,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a4385166-4f97-4c92-bc0b-7876c7048789")
-		(property "Reference" "#PWR091"
+		(property "Reference" "#PWR098"
 			(at 287.02 297.18 0)
 			(hide yes)
 			(show_name no)
@@ -147527,7 +149218,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR091")
+					(reference "#PWR098")
 					(unit 1)
 				)
 			)
@@ -147545,7 +149236,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a5fa5b2c-926e-4d9f-b701-a7137588c5a0")
-		(property "Reference" "#PWR0144"
+		(property "Reference" "#PWR0151"
 			(at 77.47 532.13 0)
 			(hide yes)
 			(show_name no)
@@ -147605,7 +149296,173 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR0144")
+					(reference "#PWR0151")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Symbols:ERJU01J103C")
+		(at 563.88 90.17 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a67d09b7-ec73-4cb5-9054-931dbb92cda3")
+		(property "Reference" "R14"
+			(at 554.99 83.82 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10K"
+			(at 554.99 86.36 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ERJU01_(0201)"
+			(at 549.91 -6.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "http://industrial.panasonic.com/cdbs/www-data/pdf/RDP0000/AOA0000C334.pdf"
+			(at 549.91 -106.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Anti-Sulfurated Thick Film Chip Resistor, 0201, 0.05W"
+			(at 563.88 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.15"
+			(at 549.91 -306.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Panasonic"
+			(at 549.91 -406.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ERJU01J103C"
+			(at 549.91 -506.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" ""
+			(at 549.91 -606.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" ""
+			(at 549.91 -706.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 549.91 -806.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 549.91 -906.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "2"
+			(uuid "caa329c0-e5ee-4f02-8263-02bf05612ccc")
+		)
+		(pin "1"
+			(uuid "ed7a1dd2-542e-4268-9201-e4694219c0c7")
+		)
+		(instances
+			(project "LibrePulse"
+				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -147623,7 +149480,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a80c5dd9-d954-4d99-8558-1283912bfa4b")
-		(property "Reference" "#PWR0123"
+		(property "Reference" "#PWR0130"
 			(at 125.73 509.27 0)
 			(hide yes)
 			(show_name no)
@@ -147684,7 +149541,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR0123")
+					(reference "#PWR0130")
 					(unit 1)
 				)
 			)
@@ -147702,7 +149559,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a8281c11-758c-4e36-837b-99236600b6c0")
-		(property "Reference" "C30"
+		(property "Reference" "C37"
 			(at 93.98 325.12 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -147850,7 +149707,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "C30")
+					(reference "C37")
 					(unit 1)
 				)
 			)
@@ -147868,7 +149725,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a8773e76-6e53-4fc4-81d6-96985fb73f4b")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR042"
 			(at 643.89 193.04 0)
 			(hide yes)
 			(show_name no)
@@ -147928,7 +149785,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR036")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -147946,7 +149803,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a9718592-b797-4351-b405-b4ff957fba83")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR038"
 			(at 58.42 198.12 0)
 			(hide yes)
 			(show_name no)
@@ -148007,7 +149864,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR032")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -148025,7 +149882,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ac9c6279-713f-4b28-a6e6-eee6aecaf8d3")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR016"
 			(at 441.96 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -148085,7 +149942,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR014")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -148305,7 +150162,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ae5302ca-c316-4c02-90f5-ee6e8fa72b4f")
-		(property "Reference" "C15"
+		(property "Reference" "C22"
 			(at 647.7 204.4699 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -148455,7 +150312,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "C15")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -148473,7 +150330,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aeb0f43b-55de-4941-bc6b-937de5652408")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR051"
 			(at 339.09 214.63 0)
 			(hide yes)
 			(show_name no)
@@ -148534,7 +150391,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR045")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -148552,7 +150409,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "af39e2c1-8ba0-44ab-a868-4154aa1bb33c")
-		(property "Reference" "#PWR0136"
+		(property "Reference" "#PWR0143"
 			(at 535.94 521.97 0)
 			(hide yes)
 			(show_name no)
@@ -148613,7 +150470,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR0136")
+					(reference "#PWR0143")
 					(unit 1)
 				)
 			)
@@ -148631,7 +150488,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "afdd02ee-e18f-4941-9af4-4c64dde54da9")
-		(property "Reference" "#PWR0124"
+		(property "Reference" "#PWR0131"
 			(at 501.65 509.27 0)
 			(hide yes)
 			(show_name no)
@@ -148692,7 +150549,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR0124")
+					(reference "#PWR0131")
 					(unit 1)
 				)
 			)
@@ -148710,7 +150567,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aff1710c-d362-4370-b024-db0bb9188865")
-		(property "Reference" "#PWR0132"
+		(property "Reference" "#PWR0139"
 			(at 633.73 509.27 0)
 			(hide yes)
 			(show_name no)
@@ -148771,7 +150628,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR0132")
+					(reference "#PWR0139")
 					(unit 1)
 				)
 			)
@@ -148789,7 +150646,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "affd0f1d-0b8a-4fa8-a2ed-cfbd27a7e49f")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR078"
 			(at 469.9 262.89 0)
 			(hide yes)
 			(show_name no)
@@ -148850,7 +150707,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR071")
+					(reference "#PWR078")
 					(unit 1)
 				)
 			)
@@ -148868,7 +150725,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b07f17d5-dbf6-4617-9101-b5d7b766f351")
-		(property "Reference" "C45"
+		(property "Reference" "C52"
 			(at 504.19 514.35 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -149016,7 +150873,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "C45")
+					(reference "C52")
 					(unit 1)
 				)
 			)
@@ -149033,7 +150890,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b11984a9-3478-491a-86f1-c77e769de0f2")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR076"
 			(at 469.9 260.35 0)
 			(hide yes)
 			(show_name no)
@@ -149094,7 +150951,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR069")
+					(reference "#PWR076")
 					(unit 1)
 				)
 			)
@@ -149112,7 +150969,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b1ddb889-daac-4127-aa9f-b39b8160d9fb")
-		(property "Reference" "C17"
+		(property "Reference" "C24"
 			(at 356.87 207.0099 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -149262,7 +151119,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "C17")
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -149280,7 +151137,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b37271d5-8c76-4799-bffd-d38258867de3")
-		(property "Reference" "#PWR0173"
+		(property "Reference" "#PWR0180"
 			(at 502.92 563.88 0)
 			(hide yes)
 			(show_name no)
@@ -149341,7 +151198,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR0173")
+					(reference "#PWR0180")
 					(unit 1)
 				)
 			)
@@ -149359,7 +151216,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b4230776-504f-4af8-8e14-095b24c1b516")
-		(property "Reference" "C34"
+		(property "Reference" "C41"
 			(at 64.77 444.5 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -154061,7 +155918,86 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "C34")
+					(reference "C41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 546.1 90.17 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b435d9f5-947e-4fc8-aef7-13ed520bb9b5")
+		(property "Reference" "#PWR0182"
+			(at 549.91 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 542.29 90.1699 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 546.1 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 546.1 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 546.1 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ec77e0b1-80d4-4506-b500-779623d15090")
+		)
+		(instances
+			(project "LibrePulse"
+				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
+					(reference "#PWR0182")
 					(unit 1)
 				)
 			)
@@ -154079,7 +156015,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b5799a33-2aa2-4b36-bdd1-968692e1cd7c")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR075"
 			(at 469.9 255.27 0)
 			(hide yes)
 			(show_name no)
@@ -154140,7 +156076,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR068")
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -154158,7 +156094,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b759b5fb-07d3-4cd6-b894-f25fe94dfb2f")
-		(property "Reference" "R9"
+		(property "Reference" "R13"
 			(at 420.37 534.67 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -154306,7 +156242,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "R9")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -154324,7 +156260,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b80ac1d1-46cc-4267-80a9-ae9d4576c68a")
-		(property "Reference" "C47"
+		(property "Reference" "C54"
 			(at 570.23 514.35 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -154472,7 +156408,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "C47")
+					(reference "C54")
 					(unit 1)
 				)
 			)
@@ -154490,7 +156426,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b81034ce-bff6-44a7-aff7-5cebfef3c6e1")
-		(property "Reference" "#PWR0138"
+		(property "Reference" "#PWR0145"
 			(at 567.69 521.97 0)
 			(hide yes)
 			(show_name no)
@@ -154551,7 +156487,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR0138")
+					(reference "#PWR0145")
 					(unit 1)
 				)
 			)
@@ -154904,7 +156840,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b8e71874-ad1c-4c3e-b389-53324e08c824")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR066"
 			(at 274.32 234.95 0)
 			(hide yes)
 			(show_name no)
@@ -154964,7 +156900,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR059")
+					(reference "#PWR066")
 					(unit 1)
 				)
 			)
@@ -154982,7 +156918,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b946670a-fd5b-48e6-979c-bfcc73d844db")
-		(property "Reference" "#PWR0174"
+		(property "Reference" "#PWR0181"
 			(at 518.16 563.88 0)
 			(hide yes)
 			(show_name no)
@@ -155043,7 +156979,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR0174")
+					(reference "#PWR0181")
 					(unit 1)
 				)
 			)
@@ -155061,7 +156997,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ba8af577-429d-43a2-9bff-97bedfb79dd7")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR014"
 			(at 468.63 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -155122,7 +157058,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR012")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -155140,7 +157076,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bceb9834-50b5-4821-88cb-7fc9b271f3ab")
-		(property "Reference" "#PWR075"
+		(property "Reference" "#PWR082"
 			(at 167.64 273.05 0)
 			(hide yes)
 			(show_name no)
@@ -155201,7 +157137,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR075")
+					(reference "#PWR082")
 					(unit 1)
 				)
 			)
@@ -155219,7 +157155,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bd1bc307-5b54-4cf4-9fe1-198715d6501e")
-		(property "Reference" "C5"
+		(property "Reference" "C27"
 			(at 690.88 224.79 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -155367,7 +157303,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "C5")
+					(reference "C27")
 					(unit 1)
 				)
 			)
@@ -160042,7 +161978,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bebd2852-1064-488e-97d3-becccfd439aa")
-		(property "Reference" "#PWR0109"
+		(property "Reference" "#PWR0116"
 			(at 77.47 452.12 0)
 			(hide yes)
 			(show_name no)
@@ -160103,7 +162039,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR0109")
+					(reference "#PWR0116")
 					(unit 1)
 				)
 			)
@@ -160121,7 +162057,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bfd4a243-24dc-4c79-961b-d7bc9f110ebc")
-		(property "Reference" "C39"
+		(property "Reference" "C46"
 			(at 570.23 501.65 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -160269,7 +162205,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "C39")
+					(reference "C46")
 					(unit 1)
 				)
 			)
@@ -160761,7 +162697,7 @@
 				)
 			)
 		)
-		(property "Alibaba URL" "https://www.alibaba.com/product-detail/3-85V-1000mAh-High-Voltage-Lithium_1601881125225.html"
+		(property "Alibaba URL" "https://www.alibaba.com/product-detail/793435-3-85V-1300mAh-High-Performance_1601910365885.html"
 			(at 774.7 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -165123,7 +167059,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c191c7da-c0f7-472c-ab45-06fe11f86f1e")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR047"
 			(at 469.9 209.55 0)
 			(hide yes)
 			(show_name no)
@@ -165184,7 +167120,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR041")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -169917,7 +171853,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c5308bfb-c6d7-4fb8-b466-3350d34babcc")
-		(property "Reference" "C16"
+		(property "Reference" "C23"
 			(at 688.34 204.4699 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -170067,7 +172003,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "C16")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -170085,7 +172021,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c53c22a4-05ff-40c8-b0f2-feacbb9aeca4")
-		(property "Reference" "#PWR0137"
+		(property "Reference" "#PWR0144"
 			(at 551.18 521.97 0)
 			(hide yes)
 			(show_name no)
@@ -170146,7 +172082,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR0137")
+					(reference "#PWR0144")
 					(unit 1)
 				)
 			)
@@ -170164,7 +172100,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c5bf8c8c-3827-45fc-b5fe-a2ebd069fff5")
-		(property "Reference" "C62"
+		(property "Reference" "C30"
 			(at 690.88 247.65 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -170312,7 +172248,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "C62")
+					(reference "C30")
 					(unit 1)
 				)
 			)
@@ -175133,7 +177069,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c7f7447e-c22b-4c59-8442-25bc99153099")
-		(property "Reference" "#PWR0176"
+		(property "Reference" "#PWR053"
 			(at 744.22 223.52 0)
 			(hide yes)
 			(show_name no)
@@ -175193,7 +177129,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR0176")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -175211,7 +177147,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c8ee2a98-5efd-4553-92b5-5aed8514914a")
-		(property "Reference" "#PWR0110"
+		(property "Reference" "#PWR0117"
 			(at 41.91 452.12 0)
 			(hide yes)
 			(show_name no)
@@ -175272,7 +177208,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR0110")
+					(reference "#PWR0117")
 					(unit 1)
 				)
 			)
@@ -175290,7 +177226,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c8fa998d-62e3-4c60-85ac-85ed29b67828")
-		(property "Reference" "C8"
+		(property "Reference" "C14"
 			(at 152.4 184.15 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -179992,7 +181928,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "C8")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -180010,7 +181946,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c9480e52-b503-4309-aaea-b732700d302a")
-		(property "Reference" "#PWR095"
+		(property "Reference" "#PWR0102"
 			(at 405.13 331.47 0)
 			(hide yes)
 			(show_name no)
@@ -180071,7 +182007,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR095")
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -180089,7 +182025,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cb843ac5-eb70-4a5c-9797-7331362dc84d")
-		(property "Reference" "#PWR0160"
+		(property "Reference" "#PWR0167"
 			(at 356.87 541.02 0)
 			(hide yes)
 			(show_name no)
@@ -180150,7 +182086,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR0160")
+					(reference "#PWR0167")
 					(unit 1)
 				)
 			)
@@ -180168,7 +182104,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cc464fb1-0084-4fdd-bf22-3fba8f178cd1")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR070"
 			(at 469.9 245.11 0)
 			(hide yes)
 			(show_name no)
@@ -180229,7 +182165,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR063")
+					(reference "#PWR070")
 					(unit 1)
 				)
 			)
@@ -180247,7 +182183,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cce3f6ab-6359-4175-8240-5b9fe3cf5ad0")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR029"
 			(at 76.2 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -180308,7 +182244,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR023")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -180326,7 +182262,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cdb2f244-cc6f-4279-92a6-541bd8b7cad4")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR043"
 			(at 187.96 201.93 0)
 			(hide yes)
 			(show_name no)
@@ -180387,7 +182323,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR037")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -180405,7 +182341,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cdd0ba5c-e155-43e9-9572-48e5adc26b45")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR022"
 			(at 220.98 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -180465,7 +182401,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR017")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -180483,7 +182419,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ce651659-2918-402f-9d3b-b7fb83872d54")
-		(property "Reference" "#PWR090"
+		(property "Reference" "#PWR097"
 			(at 266.7 297.18 0)
 			(hide yes)
 			(show_name no)
@@ -180543,7 +182479,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR090")
+					(reference "#PWR097")
 					(unit 1)
 				)
 			)
@@ -180561,7 +182497,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ceb13931-5c52-40e1-99ab-0561c02d0a56")
-		(property "Reference" "#PWR0117"
+		(property "Reference" "#PWR0124"
 			(at 125.73 496.57 0)
 			(hide yes)
 			(show_name no)
@@ -180622,7 +182558,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR0117")
+					(reference "#PWR0124")
 					(unit 1)
 				)
 			)
@@ -180640,7 +182576,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cf20a85a-9415-4930-b89c-d26a81e2e35a")
-		(property "Reference" "#PWR0159"
+		(property "Reference" "#PWR0166"
 			(at 647.7 535.94 0)
 			(hide yes)
 			(show_name no)
@@ -180701,7 +182637,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR0159")
+					(reference "#PWR0166")
 					(unit 1)
 				)
 			)
@@ -180719,7 +182655,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d066a7cd-a514-44f6-bcd0-d0dea8dcc1c9")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR063"
 			(at 469.9 237.49 0)
 			(hide yes)
 			(show_name no)
@@ -180780,7 +182716,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR056")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -180798,7 +182734,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d19f2c51-55d1-489f-917a-77d2a5d44f81")
-		(property "Reference" "C21"
+		(property "Reference" "C28"
 			(at 577.85 229.8699 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -185513,7 +187449,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "C21")
+					(reference "C28")
 					(unit 1)
 				)
 			)
@@ -185531,7 +187467,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d1f1ac74-7e87-4654-aa1d-409691691702")
-		(property "Reference" "#PWR0104"
+		(property "Reference" "#PWR0111"
 			(at 444.5 438.15 0)
 			(hide yes)
 			(show_name no)
@@ -185592,7 +187528,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR0104")
+					(reference "#PWR0111")
 					(unit 1)
 				)
 			)
@@ -190337,7 +192273,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d3030945-55d2-4510-a4b7-7e2eb06a9fb2")
-		(property "Reference" "#PWR0148"
+		(property "Reference" "#PWR0155"
 			(at 386.08 528.32 0)
 			(hide yes)
 			(show_name no)
@@ -190398,7 +192334,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR0148")
+					(reference "#PWR0155")
 					(unit 1)
 				)
 			)
@@ -190416,7 +192352,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d32a09c3-c158-40ff-ab31-69c46518db82")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR032"
 			(at 779.78 172.72 0)
 			(hide yes)
 			(show_name no)
@@ -190477,7 +192413,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR026")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -190494,7 +192430,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d38af59a-8095-4746-89cd-c036c92068ae")
-		(property "Reference" "#PWR0167"
+		(property "Reference" "#PWR0174"
 			(at 567.69 548.64 0)
 			(hide yes)
 			(show_name no)
@@ -190555,7 +192491,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR0167")
+					(reference "#PWR0174")
 					(unit 1)
 				)
 			)
@@ -190573,7 +192509,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d435b3f3-424f-4132-a6c0-e57dec21dec1")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR077"
 			(at 93.98 269.24 0)
 			(hide yes)
 			(show_name no)
@@ -190633,7 +192569,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR070")
+					(reference "#PWR077")
 					(unit 1)
 				)
 			)
@@ -190651,7 +192587,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d4464f83-66fb-4e00-94f1-e6f7257b83b2")
-		(property "Reference" "#PWR0122"
+		(property "Reference" "#PWR0129"
 			(at 125.73 506.73 0)
 			(hide yes)
 			(show_name no)
@@ -190712,7 +192648,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR0122")
+					(reference "#PWR0129")
 					(unit 1)
 				)
 			)
@@ -190729,7 +192665,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d4e9345b-447f-432b-872f-2c6e30096c18")
-		(property "Reference" "#PWR0165"
+		(property "Reference" "#PWR0172"
 			(at 535.94 548.64 0)
 			(hide yes)
 			(show_name no)
@@ -190790,7 +192726,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR0165")
+					(reference "#PWR0172")
 					(unit 1)
 				)
 			)
@@ -190808,7 +192744,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d51067e7-ee50-4be2-9f70-8f5f8076cf90")
-		(property "Reference" "#PWR087"
+		(property "Reference" "#PWR094"
 			(at 176.53 295.91 0)
 			(hide yes)
 			(show_name no)
@@ -190868,7 +192804,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR087")
+					(reference "#PWR094")
 					(unit 1)
 				)
 			)
@@ -190886,7 +192822,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d596b5f9-7c5d-4087-89b4-3e6d79a3e449")
-		(property "Reference" "C56"
+		(property "Reference" "C63"
 			(at 538.48 541.02 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -191034,7 +192970,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "C56")
+					(reference "C63")
 					(unit 1)
 				)
 			)
@@ -191052,7 +192988,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d6afeec7-e97d-4974-a9be-1ded9c531c2d")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR048"
 			(at 144.78 210.82 0)
 			(hide yes)
 			(show_name no)
@@ -191113,7 +193049,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR042")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -195821,7 +197757,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d7f11bf6-e9b3-4465-bb1d-e34b13e7555e")
-		(property "Reference" "#PWR0125"
+		(property "Reference" "#PWR0132"
 			(at 516.89 509.27 0)
 			(hide yes)
 			(show_name no)
@@ -195882,7 +197818,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR0125")
+					(reference "#PWR0132")
 					(unit 1)
 				)
 			)
@@ -195900,7 +197836,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "db556691-1e92-43ab-8187-4939fe8486b2")
-		(property "Reference" "#PWR079"
+		(property "Reference" "#PWR086"
 			(at 86.36 280.67 0)
 			(hide yes)
 			(show_name no)
@@ -195961,7 +197897,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR079")
+					(reference "#PWR086")
 					(unit 1)
 				)
 			)
@@ -195979,7 +197915,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dbc70e2d-876d-45c1-ace8-ea231fdbc956")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR033"
 			(at 792.48 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -196040,7 +197976,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR027")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -196058,7 +197994,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "de86d796-fe2b-43de-ada2-18efc485966d")
-		(property "Reference" "C7"
+		(property "Reference" "C13"
 			(at 690.88 180.34 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -196206,7 +198142,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "C7")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -196224,7 +198160,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ded75532-fb0b-4a4a-b30e-e7efffac758a")
-		(property "Reference" "C60"
+		(property "Reference" "C67"
 			(at 505.46 556.26 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -196372,7 +198308,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "C60")
+					(reference "C67")
 					(unit 1)
 				)
 			)
@@ -196390,7 +198326,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "df6e32ec-071c-48da-8c75-7f50ed789ea2")
-		(property "Reference" "#PWR0163"
+		(property "Reference" "#PWR0170"
 			(at 502.92 548.64 0)
 			(hide yes)
 			(show_name no)
@@ -196451,7 +198387,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR0163")
+					(reference "#PWR0170")
 					(unit 1)
 				)
 			)
@@ -196469,7 +198405,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dfdd2010-203c-4093-9b51-438b15b3b6b3")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR057"
 			(at 151.13 231.14 0)
 			(hide yes)
 			(show_name no)
@@ -196529,7 +198465,173 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR050")
+					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Symbols:GRM21BZ71E106KE15L")
+		(at 567.69 118.11 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e2c99db5-82ba-458d-9733-5a4382e8f23a")
+		(property "Reference" "C7"
+			(at 561.34 110.49 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10uF"
+			(at 561.34 113.03 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "GRM21BR60J226ME39L"
+			(at 558.8 21.92 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM21BZ71E106KE15-01A.pdf"
+			(at 558.8 -78.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "MLCC, 0805"
+			(at 567.69 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "1.45"
+			(at 558.8 -278.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Murata Electronics"
+			(at 558.8 -378.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "GRM21BZ71E106KE15L"
+			(at 558.8 -478.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "81-GRM21BZ71E106KE5L"
+			(at 558.8 -578.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM21BZ71E106KE15L?qs=Ey7%2FXF42M3fdXe9bIpCO9w%3D%3D"
+			(at 558.8 -678.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Part Number" "GRM21BZ71E106KE15L"
+			(at 558.8 -778.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/grm21bz71e106ke15l/murata-manufacturing.html?utm_currency=USD&region=europe"
+			(at 558.8 -878.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "2"
+			(uuid "3c146fad-b91b-4c71-bc7a-e33cff61e7f1")
+		)
+		(pin "1"
+			(uuid "43f426ea-8933-400d-a404-e87a279b99b9")
+		)
+		(instances
+			(project "LibrePulse"
+				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -196547,7 +198649,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e2ef6aa0-8520-42d7-b1c0-61e973a90511")
-		(property "Reference" "C43"
+		(property "Reference" "C50"
 			(at 92.71 518.1599 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -196697,7 +198799,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "C43")
+					(reference "C50")
 					(unit 1)
 				)
 			)
@@ -196715,7 +198817,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e2fff65b-1043-4e57-816b-6f73ea2322ca")
-		(property "Reference" "C61"
+		(property "Reference" "C29"
 			(at 690.88 236.22 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -196863,7 +198965,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "C61")
+					(reference "C29")
 					(unit 1)
 				)
 			)
@@ -196960,7 +199062,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e34a72be-881d-4dde-9950-09ece43b912e")
-		(property "Reference" "#PWR0157"
+		(property "Reference" "#PWR0164"
 			(at 615.95 535.94 0)
 			(hide yes)
 			(show_name no)
@@ -197021,7 +199123,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR0157")
+					(reference "#PWR0164")
 					(unit 1)
 				)
 			)
@@ -197039,7 +199141,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e3cb987a-5edf-4208-9133-a08faef8b90c")
-		(property "Reference" "C19"
+		(property "Reference" "C26"
 			(at 83.82 224.7899 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -201743,7 +203845,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "C19")
+					(reference "C26")
 					(unit 1)
 				)
 			)
@@ -206499,7 +208601,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e4f913fe-97e5-4c96-b88f-eb8183913c9a")
-		(property "Reference" "C50"
+		(property "Reference" "C57"
 			(at 504.19 528.32 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -206647,7 +208749,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "C50")
+					(reference "C57")
 					(unit 1)
 				)
 			)
@@ -206665,7 +208767,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e59f428d-e29e-437f-90f6-8aae995f1558")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR035"
 			(at 149.86 191.77 0)
 			(hide yes)
 			(show_name no)
@@ -206726,7 +208828,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR029")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -206744,7 +208846,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e6bac7d3-4f4e-4598-a78d-a50d137073e3")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR062"
 			(at 590.55 234.95 0)
 			(hide yes)
 			(show_name no)
@@ -206805,7 +208907,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR055")
+					(reference "#PWR062")
 					(unit 1)
 				)
 			)
@@ -206823,7 +208925,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e7bf5c57-0751-468f-93c5-03a87d189784")
-		(property "Reference" "#PWR082"
+		(property "Reference" "#PWR089"
 			(at 86.36 283.21 0)
 			(hide yes)
 			(show_name no)
@@ -206884,7 +208986,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR082")
+					(reference "#PWR089")
 					(unit 1)
 				)
 			)
@@ -206902,7 +209004,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "edde3b47-0ea5-4010-9d40-20fbf27c9147")
-		(property "Reference" "#PWR0168"
+		(property "Reference" "#PWR0175"
 			(at 582.93 548.64 0)
 			(hide yes)
 			(show_name no)
@@ -206963,7 +209065,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR0168")
+					(reference "#PWR0175")
 					(unit 1)
 				)
 			)
@@ -206981,7 +209083,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ef215801-aa34-4e2a-9eae-d9f977151bd2")
-		(property "Reference" "#PWR0150"
+		(property "Reference" "#PWR0157"
 			(at 501.65 535.94 0)
 			(hide yes)
 			(show_name no)
@@ -207042,7 +209144,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR0150")
+					(reference "#PWR0157")
 					(unit 1)
 				)
 			)
@@ -207060,7 +209162,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "efb04dad-64c1-4f30-bbc8-1327cfa8cee7")
-		(property "Reference" "#PWR0116"
+		(property "Reference" "#PWR0123"
 			(at 125.73 494.03 0)
 			(hide yes)
 			(show_name no)
@@ -207121,7 +209223,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR0116")
+					(reference "#PWR0123")
 					(unit 1)
 				)
 			)
@@ -207307,7 +209409,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f019a435-45af-4038-8630-a4eb5fb8e4e6")
-		(property "Reference" "#PWR097"
+		(property "Reference" "#PWR0104"
 			(at 74.93 340.36 0)
 			(hide yes)
 			(show_name no)
@@ -207367,7 +209469,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR097")
+					(reference "#PWR0104")
 					(unit 1)
 				)
 			)
@@ -207385,7 +209487,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f05e60e6-a215-441c-bbce-72b60adcafe2")
-		(property "Reference" "#PWR074"
+		(property "Reference" "#PWR081"
 			(at 469.9 267.97 0)
 			(hide yes)
 			(show_name no)
@@ -207446,7 +209548,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR074")
+					(reference "#PWR081")
 					(unit 1)
 				)
 			)
@@ -207646,7 +209748,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f425f1ae-44bf-4e8e-8d2a-1d24540ef6f4")
-		(property "Reference" "#PWR0142"
+		(property "Reference" "#PWR0149"
 			(at 633.73 521.97 0)
 			(hide yes)
 			(show_name no)
@@ -207707,7 +209809,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR0142")
+					(reference "#PWR0149")
 					(unit 1)
 				)
 			)
@@ -207725,7 +209827,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f48860b3-d62b-4460-96a2-6c7eda7e904e")
-		(property "Reference" "#PWR0164"
+		(property "Reference" "#PWR0171"
 			(at 518.16 548.64 0)
 			(hide yes)
 			(show_name no)
@@ -207786,7 +209888,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR0164")
+					(reference "#PWR0171")
 					(unit 1)
 				)
 			)
@@ -207804,7 +209906,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f48ed8e7-8427-4c7b-8262-f9a6e73c9969")
-		(property "Reference" "C14"
+		(property "Reference" "C21"
 			(at 636.27 204.4699 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -207954,7 +210056,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "C14")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -207972,7 +210074,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f4b3af1c-193e-46b3-9054-1acc95ea1039")
-		(property "Reference" "C31"
+		(property "Reference" "C38"
 			(at 378.46 420.3699 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -208122,7 +210224,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "C31")
+					(reference "C38")
 					(unit 1)
 				)
 			)
@@ -213218,6 +215320,85 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 615.95 109.22 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f5d11e4e-68fd-4265-8eb2-e5866160077b")
+		(property "Reference" "#PWR019"
+			(at 622.3 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 619.76 109.2199 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 615.95 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 615.95 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 615.95 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f00a1012-9a42-45c7-89a7-7377c7d58736")
+		)
+		(instances
+			(project "LibrePulse"
+				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
+					(reference "#PWR019")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 100.33 332.74 90)
 		(unit 1)
 		(body_style 1)
@@ -213228,7 +215409,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f61f77e9-1ba2-4af1-a6b3-33ecc9ee32ac")
-		(property "Reference" "#PWR096"
+		(property "Reference" "#PWR0103"
 			(at 106.68 332.74 0)
 			(hide yes)
 			(show_name no)
@@ -213289,7 +215470,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR096")
+					(reference "#PWR0103")
 					(unit 1)
 				)
 			)
@@ -213307,7 +215488,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f6cfe5f0-2bea-49d0-bbd9-83c5c9bd02e2")
-		(property "Reference" "C49"
+		(property "Reference" "C56"
 			(at 636.27 514.35 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -213455,7 +215636,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "C49")
+					(reference "C56")
 					(unit 1)
 				)
 			)
@@ -213473,7 +215654,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f992db9c-555f-43f0-9eed-04ea90d6cb39")
-		(property "Reference" "#PWR0153"
+		(property "Reference" "#PWR0160"
 			(at 551.18 535.94 0)
 			(hide yes)
 			(show_name no)
@@ -213534,7 +215715,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR0153")
+					(reference "#PWR0160")
 					(unit 1)
 				)
 			)
@@ -213552,7 +215733,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f9ba18a2-6cb1-4fbb-ae41-84d54c57e610")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR060"
 			(at 76.2 232.41 0)
 			(hide yes)
 			(show_name no)
@@ -213613,7 +215794,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR053")
+					(reference "#PWR060")
 					(unit 1)
 				)
 			)
@@ -213631,7 +215812,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fa480948-f250-488a-bbe1-692505cc1939")
-		(property "Reference" "#PWR0154"
+		(property "Reference" "#PWR0161"
 			(at 567.69 535.94 0)
 			(hide yes)
 			(show_name no)
@@ -213692,7 +215873,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR0154")
+					(reference "#PWR0161")
 					(unit 1)
 				)
 			)
@@ -218378,7 +220559,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fb4f58e9-1982-479d-85be-74959e04bafd")
-		(property "Reference" "#PWR094"
+		(property "Reference" "#PWR0101"
 			(at 55.88 326.39 0)
 			(hide yes)
 			(show_name no)
@@ -218439,7 +220620,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR094")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -218457,7 +220638,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fbc9d04f-8983-4fda-abd3-d4e5a6e71025")
-		(property "Reference" "C28"
+		(property "Reference" "C35"
 			(at 260.35 293.37 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -223159,7 +225340,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "C28")
+					(reference "C35")
 					(unit 1)
 				)
 			)
@@ -223177,7 +225358,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fbe55332-19f2-400b-94f6-fc2fc1254ccc")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR073"
 			(at 90.17 250.19 0)
 			(hide yes)
 			(show_name no)
@@ -223238,7 +225419,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR066")
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)
@@ -223256,7 +225437,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fcf78d62-3fb2-4dda-8178-b45a327ef783")
-		(property "Reference" "#PWR081"
+		(property "Reference" "#PWR088"
 			(at 318.77 281.94 0)
 			(hide yes)
 			(show_name no)
@@ -223317,7 +225498,173 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "#PWR081")
+					(reference "#PWR088")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Symbols:GRM188Z71E225KE43J")
+		(at 548.64 106.68 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fdddfd8d-1844-44ff-ad79-2d91a741671b")
+		(property "Reference" "C5"
+			(at 541.02 100.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "2.2uF"
+			(at 543.56 100.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "GRM18x"
+			(at 644.83 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188Z71E225KE43-01A.pdf"
+			(at 744.83 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "MLCC, 0603"
+			(at 548.64 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.9"
+			(at 944.83 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Murata Electronics"
+			(at 1044.83 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "GRM188Z71E225KE43J"
+			(at 1144.83 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "81-GRM188Z71E225KE3J"
+			(at 1244.83 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.com/Search/Refine.aspx?Keyword=81-GRM188Z71E225KE3J"
+			(at 1344.83 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 1444.83 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 1544.83 97.79 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "2"
+			(uuid "83d3b14d-b6d7-498e-a3b2-ae2b28d1a5fd")
+		)
+		(pin "1"
+			(uuid "389244e3-1227-4d6b-b8bd-20aebfd22946")
+		)
+		(instances
+			(project "LibrePulse"
+				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -223335,7 +225682,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fe55f35d-807e-41e6-aa07-e7e8bc035e9f")
-		(property "Reference" "C37"
+		(property "Reference" "C44"
 			(at 504.19 501.65 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -223483,7 +225830,7 @@
 		(instances
 			(project "LibrePulse"
 				(path "/dde8bbc5-4a47-4680-87fc-161d82785f37"
-					(reference "C37")
+					(reference "C44")
 					(unit 1)
 				)
 			)
