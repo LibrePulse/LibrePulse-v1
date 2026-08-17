@@ -3310,6 +3310,18 @@
           "label": "Alibaba URL",
           "name": "Alibaba URL",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "mAh",
+          "name": "mAh",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Nomonal Voltage",
+          "name": "Nomonal Voltage",
+          "show": false
         }
       ],
       "filter_string": "",

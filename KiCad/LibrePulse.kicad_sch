@@ -22386,7 +22386,7 @@
 		(uuid "8b725244-ac49-4728-9f32-9ed8ce2b5ee6")
 	)
 	(rectangle
-		(start 676.91 120.65)
+		(start 665.48 120.65)
 		(end 816.61 262.89)
 		(stroke
 			(width 0)
@@ -160376,7 +160376,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3.85V 1000mAh High Voltage Lithium Polymer Battery Rechargeable HV LiPo Battery Pack for Smart Devices"
+		(property "Value" "Blus793435 (3.85V 1300mAh LiPo)"
 			(at 778.51 80.7084 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -160420,7 +160420,7 @@
 				)
 			)
 		)
-		(property "Sim.Device" "V"
+		(property "Nomonal Voltage" "3.85V"
 			(at 774.7 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -160431,7 +160431,7 @@
 				)
 			)
 		)
-		(property "Sim.Type" "DC"
+		(property "mAh" "1300"
 			(at 774.7 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -160772,7 +160772,7 @@
 				)
 			)
 		)
-		(property "Field100" ""
+		(property "Field100" "3.85V"
 			(at 774.7 81.28 0)
 			(hide yes)
 			(show_name no)
