@@ -9,7 +9,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
-			(at 0 -0.254 0)
+			(at 17.526 -8.89 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19,7 +19,7 @@
 			)
 		)
 		(property "Value" "ASGPDF254_A"
-			(at 0 0 0)
+			(at 18.796 -11.684 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -91,7 +91,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at -1.27 -3.81 0)
 				(length 7.62)
 				(name "GND"
@@ -109,7 +109,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at -1.27 -6.35 0)
 				(length 7.62)
 				(name "GND"
@@ -127,7 +127,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at -1.27 -8.89 0)
 				(length 7.62)
 				(name "GND"
@@ -145,7 +145,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at -1.27 -11.43 0)
 				(length 7.62)
 				(name "GND"
@@ -163,7 +163,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at -1.27 -13.97 0)
 				(length 7.62)
 				(name "GND"
@@ -181,7 +181,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at -1.27 -16.51 0)
 				(length 7.62)
 				(name "GND"
@@ -199,7 +199,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at -1.27 -19.05 0)
 				(length 7.62)
 				(name "GND"
@@ -217,7 +217,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin power_in line
 				(at -1.27 -21.59 0)
 				(length 7.62)
 				(name "GND"

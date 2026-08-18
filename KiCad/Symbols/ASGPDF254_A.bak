@@ -2,36 +2,33 @@
 	(version 20251024)
 	(generator "kicad_symbol_editor")
 	(generator_version "10.0")
-	(symbol "TPSM81299VCMR"
-		(pin_names
-			(offset 0.254)
-		)
+	(symbol "ASGPDF254_A"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
-			(at 0 2.54 0)
+			(at 0 -0.254 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "TPSM81299VCMR"
+		(property "Value" "ASGPDF254_A"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
-					(size 1.524 1.524)
+					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "VCM0007A-MFG"
+		(property "Footprint" ""
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -39,11 +36,10 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/gpn/tpsm81299"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -51,7 +47,6 @@
 			(effects
 				(font
 					(size 1.27 1.27)
-					(italic yes)
 				)
 			)
 		)
@@ -66,91 +61,22 @@
 				)
 			)
 		)
-		(property "ki_locked" ""
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ki_keywords" "TPSM81299VCMR"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ki_fp_filters" "VCM0007A-MFG"
-			(at 0 0 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(hide yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(symbol "TPSM81299VCMR_0_1"
-			(polyline
-				(pts
-					(xy 5.08 5.08) (xy 5.08 -15.24)
-				)
+		(symbol "ASGPDF254_A_1_1"
+			(rectangle
+				(start 0 1.27)
+				(end 11.43 -22.86)
 				(stroke
-					(width 0.2032)
-					(type default)
+					(width 0)
+					(type solid)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
-			(polyline
-				(pts
-					(xy 5.08 -15.24) (xy 30.48 -15.24)
-				)
-				(stroke
-					(width 0.2032)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 30.48 5.08) (xy 5.08 5.08)
-				)
-				(stroke
-					(width 0.2032)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(polyline
-				(pts
-					(xy 30.48 -15.24) (xy 30.48 5.08)
-				)
-				(stroke
-					(width 0.2032)
-					(type default)
-				)
-				(fill
-					(type none)
-				)
-			)
-			(pin unspecified line
-				(at 0 -12.7 0)
-				(length 5.08)
-				(name "VSEL"
+			(pin passive line
+				(at -1.27 -1.27 0)
+				(length 7.62)
+				(name "RF"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -166,9 +92,9 @@
 				)
 			)
 			(pin power_in line
-				(at 35.56 0 180)
-				(length 5.08)
-				(name "VOUT"
+				(at -1.27 -3.81 0)
+				(length 7.62)
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -184,8 +110,8 @@
 				)
 			)
 			(pin power_in line
-				(at 35.56 -12.7 180)
-				(length 5.08)
+				(at -1.27 -6.35 0)
+				(length 7.62)
 				(name "GND"
 					(effects
 						(font
@@ -202,9 +128,9 @@
 				)
 			)
 			(pin power_in line
-				(at 0 0 0)
-				(length 5.08)
-				(name "AVIN"
+				(at -1.27 -8.89 0)
+				(length 7.62)
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -220,9 +146,9 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -2.54 0)
-				(length 5.08)
-				(name "PVIN"
+				(at -1.27 -11.43 0)
+				(length 7.62)
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -238,9 +164,9 @@
 				)
 			)
 			(pin power_in line
-				(at 35.56 -5.08 180)
-				(length 5.08)
-				(name "SW"
+				(at -1.27 -13.97 0)
+				(length 7.62)
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -255,10 +181,10 @@
 					)
 				)
 			)
-			(pin input line
-				(at 0 -7.62 0)
-				(length 5.08)
-				(name "EN"
+			(pin power_in line
+				(at -1.27 -16.51 0)
+				(length 7.62)
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -266,6 +192,42 @@
 					)
 				)
 				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -1.27 -19.05 0)
+				(length 7.62)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -1.27 -21.59 0)
+				(length 7.62)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "9"
 					(effects
 						(font
 							(size 1.27 1.27)

@@ -13,4 +13,5 @@
 	(lib (name "2026-08-13_20-13-30") (type "KiCad") (uri "${KIPRJMOD}/Symbols/2026-08-13_20-13-30.kicad_sym") (options "") (descr ""))
 	(lib (name "ASGPDF254_A") (type "KiCad") (uri "${KIPRJMOD}/Symbols/ASGPDF254_A.kicad_sym") (options "") (descr ""))
 	(lib (name "0603CS-47NXJLW") (type "KiCad") (uri "${KIPRJMOD}/Symbols/0603CS-47NXJLW.kicad_sym") (options "") (descr ""))
+	(lib (name "ESP32-P4NRW32") (type "KiCad") (uri "${KIPRJMOD}/Symbols/ESP32-P4NRW32.kicad_sym") (options "") (descr ""))
 )

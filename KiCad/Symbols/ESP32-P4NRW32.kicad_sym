@@ -626,7 +626,7 @@
 					)
 				)
 			)
-			(pin output line
+			(pin input line
 				(at -22.86 53.34 0)
 				(length 5.08)
 				(name "FLASH_CS"
@@ -698,7 +698,7 @@
 					)
 				)
 			)
-			(pin output clock
+			(pin input clock
 				(at -22.86 50.8 0)
 				(length 5.08)
 				(name "FLASH_CK"

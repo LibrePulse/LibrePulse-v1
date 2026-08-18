@@ -2,7 +2,7 @@
 	(version 20251024)
 	(generator "kicad_symbol_editor")
 	(generator_version "10.0")
-	(symbol "TPSM81299VCMR"
+	(symbol "BMM350"
 		(pin_names
 			(offset 0.254)
 		)
@@ -12,7 +12,7 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
-			(at 0 2.54 0)
+			(at 20.32 10.16 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -21,8 +21,8 @@
 				)
 			)
 		)
-		(property "Value" "TPSM81299VCMR"
-			(at 0 0 0)
+		(property "Value" "BMM350"
+			(at 20.32 7.62 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -31,7 +31,7 @@
 				)
 			)
 		)
-		(property "Footprint" "VCM0007A-MFG"
+		(property "Footprint" "BGA9_BMM350_BOS"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -43,7 +43,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.ti.com/lit/gpn/tpsm81299"
+		(property "Datasheet" "BMM350"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -76,7 +76,7 @@
 				)
 			)
 		)
-		(property "ki_keywords" "TPSM81299VCMR"
+		(property "ki_keywords" "BMM350"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -87,7 +87,7 @@
 				)
 			)
 		)
-		(property "ki_fp_filters" "VCM0007A-MFG"
+		(property "ki_fp_filters" "BGA9_BMM350_BOS BGA9_BMM350_BOS-M BGA9_BMM350_BOS-L"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -98,13 +98,13 @@
 				)
 			)
 		)
-		(symbol "TPSM81299VCMR_0_1"
+		(symbol "BMM350_0_1"
 			(polyline
 				(pts
-					(xy 5.08 5.08) (xy 5.08 -15.24)
+					(xy 7.62 5.08) (xy 7.62 -15.24)
 				)
 				(stroke
-					(width 0.2032)
+					(width 0.127)
 					(type default)
 				)
 				(fill
@@ -113,10 +113,10 @@
 			)
 			(polyline
 				(pts
-					(xy 5.08 -15.24) (xy 30.48 -15.24)
+					(xy 7.62 -15.24) (xy 33.02 -15.24)
 				)
 				(stroke
-					(width 0.2032)
+					(width 0.127)
 					(type default)
 				)
 				(fill
@@ -125,10 +125,10 @@
 			)
 			(polyline
 				(pts
-					(xy 30.48 5.08) (xy 5.08 5.08)
+					(xy 33.02 5.08) (xy 7.62 5.08)
 				)
 				(stroke
-					(width 0.2032)
+					(width 0.127)
 					(type default)
 				)
 				(fill
@@ -137,27 +137,63 @@
 			)
 			(polyline
 				(pts
-					(xy 30.48 -15.24) (xy 30.48 5.08)
+					(xy 33.02 -15.24) (xy 33.02 5.08)
 				)
 				(stroke
-					(width 0.2032)
+					(width 0.127)
 					(type default)
 				)
 				(fill
 					(type none)
 				)
 			)
-			(pin unspecified line
-				(at 0 -12.7 0)
-				(length 5.08)
-				(name "VSEL"
+			(pin input line
+				(at 0 0 0)
+				(length 7.62)
+				(name "INT"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "1"
+				(number "A1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 0 -2.54 0)
+				(length 7.62)
+				(name "SDA"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 0 -5.08 0)
+				(length 7.62)
+				(name "SCK"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -166,26 +202,8 @@
 				)
 			)
 			(pin power_in line
-				(at 35.56 0 180)
-				(length 5.08)
-				(name "VOUT"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 35.56 -12.7 180)
-				(length 5.08)
+				(at 0 -7.62 0)
+				(length 7.62)
 				(name "GND"
 					(effects
 						(font
@@ -193,61 +211,7 @@
 						)
 					)
 				)
-				(number "3"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 0 0 0)
-				(length 5.08)
-				(name "AVIN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "4"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 0 -2.54 0)
-				(length 5.08)
-				(name "PVIN"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin power_in line
-				(at 35.56 -5.08 180)
-				(length 5.08)
-				(name "SW"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "6"
+				(number "B1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -256,16 +220,88 @@
 				)
 			)
 			(pin input line
-				(at 0 -7.62 0)
-				(length 5.08)
-				(name "EN"
+				(at 40.64 -10.16 180)
+				(length 7.62)
+				(name "ADSEL"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "7"
+				(number "B2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 40.64 -7.62 180)
+				(length 7.62)
+				(name "VDDIO"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 40.64 -5.08 180)
+				(length 7.62)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at 40.64 -2.54 180)
+				(length 7.62)
+				(name "CRST"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 40.64 0 180)
+				(length 7.62)
+				(name "BYPASS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C3"
 					(effects
 						(font
 							(size 1.27 1.27)
