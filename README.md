@@ -16,7 +16,7 @@ Flagship-level open source smartwatch on the ESP32-P4.
 
 
 **Current hardware direction includes:**
-- ESP32-P4 + ESP32-C3
+- ESP32-P4 + ESP32-C6
 - Full health sensing (PPG + ECG + BioZ + EDA via AS7058 & Body Temp via AS6221)
 - High-quality Sensor suite (including: 9-Axis DOF, pMUT ToF, ALS, UV, GNSS, TPHG)
 - Microphone, Speaker, Vibration Motor, Flashlight
