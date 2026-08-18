@@ -36,7 +36,7 @@ Schematic and PCB work is actively in progress (KiCad files are in the repositor
 ## Project Roadmap
 
 - [ ] **Schematic**
-  - [ ] Draft
+  - [x] Draft
   - [ ] Cleanup
   - [ ] Verification
 
