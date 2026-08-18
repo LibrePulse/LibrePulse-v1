@@ -140523,7 +140523,7 @@
 				)
 			)
 		)
-		(property "Value" "GJM1555C1H470FB01J"
+		(property "Value" "47pF"
 			(at 93.98 327.66 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -140533,7 +140533,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Footprints:CAPC1005X55N"
+		(property "Footprint" "Footprints:GRM033D70J224ME01D"
 			(at 96.52 428.93 0)
 			(hide yes)
 			(show_name no)
@@ -140557,7 +140557,7 @@
 				(justify left top)
 			)
 		)
-		(property "Description" "Capacitor GJM15_0.10 L=1.0mm W=0.5mm T=0.5mm"
+		(property "Description" ""
 			(at 87.63 332.74 0)
 			(hide yes)
 			(show_name no)
@@ -140568,7 +140568,7 @@
 				)
 			)
 		)
-		(property "Height" "0.55"
+		(property "Height" "0.33"
 			(at 96.52 728.93 0)
 			(hide yes)
 			(show_name no)
@@ -140592,7 +140592,7 @@
 				(justify left top)
 			)
 		)
-		(property "Manufacturer_Part_Number" "GJM1555C1H470FB01J"
+		(property "Manufacturer_Part_Number" "GRM0332C1E470GA01"
 			(at 96.52 928.93 0)
 			(hide yes)
 			(show_name no)
@@ -140604,7 +140604,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Part Number" "81-GJM1555C1H470FB1J"
+		(property "Mouser Part Number" "81-GRM0332C1E470GA01"
 			(at 96.52 1028.93 0)
 			(hide yes)
 			(show_name no)
@@ -140616,7 +140616,7 @@
 				(justify left top)
 			)
 		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GJM1555C1H470FB01J?qs=QzBtWTOodeWRhgaHHmR20A%3D%3D"
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Murata-Electronics/GRM0332C1E470GA01?qs=QzBtWTOodeWRhgaHHmR20A%3D%3D"
 			(at 96.52 1128.93 0)
 			(hide yes)
 			(show_name no)
@@ -140628,7 +140628,7 @@
 				(justify left top)
 			)
 		)
-		(property "Arrow Part Number" "CL05A105KO5NNNC"
+		(property "Arrow Part Number" "GRM0332C1E470GA01"
 			(at 96.52 1228.93 0)
 			(hide yes)
 			(show_name no)
@@ -140640,7 +140640,7 @@
 				(justify left top)
 			)
 		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/cl05a105ko5nnnc/samsung-electro-mechanics?utm_currency=USD&region=nac"
+		(property "Arrow Price/Stock" ""
 			(at 96.52 1328.93 0)
 			(hide yes)
 			(show_name no)

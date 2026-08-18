@@ -18,7 +18,7 @@ Flagship-level open source smartwatch on the ESP32-P4.
 **Current hardware direction includes:**
 - ESP32-P4 + ESP32-C6
 - Full health sensing (PPG + ECG + BioZ + EDA via AS7058 & Body Temp via AS6221)
-- High-quality Sensor suite (including: 9-Axis DOF, pMUT ToF, ALS, UV, GNSS, TPHG)
+- High-quality Sensor suite (including: 9-Axis DOF, pMUT Ultrasonic ToF, ALS, GNSS, TPHG)
 - Vibration Motor, Flashlight
 - 64GB eMMC (KLMCG4JETD-B041) + microSD Card
 - \~1300 mAh battery + Qi1.3 wireless charging
