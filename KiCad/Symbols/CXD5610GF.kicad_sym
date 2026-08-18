@@ -2,28 +2,26 @@
 	(version 20251024)
 	(generator "kicad_symbol_editor")
 	(generator_version "10.0")
-	(symbol "AS7058"
+	(symbol "CXD5610GF"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
-			(at 0 1.27 0)
+			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "AS7058"
-			(at -14.478 -0.508 0)
+		(property "Value" "CXD5610GF"
+			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
-			(hide yes)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -41,8 +39,8 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://look.ams-osram.com/m/264ac284b30311c3/original/AS7058-IC-for-PPG-ECG-and-body-impedance-measurement.pdf"
-			(at 0 1.27 0)
+		(property "Datasheet" ""
+			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -63,10 +61,10 @@
 				)
 			)
 		)
-		(symbol "AS7058_1_1"
+		(symbol "CXD5610GF_1_1"
 			(rectangle
-				(start -17.78 -1.27)
-				(end 22.86 -81.28)
+				(start -5.08 -2.54)
+				(end 35.56 -71.12)
 				(stroke
 					(width 0)
 					(type solid)
@@ -75,10 +73,10 @@
 					(type background)
 				)
 			)
-			(pin passive line
-				(at -20.32 -27.94 0)
+			(pin input line
+				(at -7.62 -3.81 0)
 				(length 2.54)
-				(name "LED5"
+				(name "RF0_IN"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -93,10 +91,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -20.32 -33.02 0)
+			(pin power_in line
+				(at -7.62 -6.35 0)
 				(length 2.54)
-				(name "LED7"
+				(name "VSSA_LNA"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -111,10 +109,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -20.32 -35.56 0)
+			(pin input line
+				(at -7.62 -8.89 0)
 				(length 2.54)
-				(name "LED8"
+				(name "CLK_IN\n"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -129,10 +127,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -20.32 -19.05 0)
+			(pin power_in line
+				(at -7.62 -11.43 0)
 				(length 2.54)
-				(name "LED4"
+				(name "VDDA_ANA"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -147,10 +145,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -20.32 -16.51 0)
+			(pin bidirectional line
+				(at -7.62 -13.97 0)
 				(length 2.54)
-				(name "LED3"
+				(name "TX/SDA/MOSI"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -165,10 +163,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -20.32 -11.43 0)
+			(pin bidirectional line
+				(at -7.62 -16.51 0)
 				(length 2.54)
-				(name "LED1"
+				(name "RX/SCL/SCLK"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -183,10 +181,46 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -20.32 -30.48 0)
+			(pin power_in line
+				(at -7.62 -19.05 0)
 				(length 2.54)
-				(name "LED6"
+				(name "VQPS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -7.62 -21.59 0)
+				(length 2.54)
+				(name "VSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "A8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin input line
+				(at -7.62 -29.21 0)
+				(length 2.54)
+				(name "RF1_IN"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -202,9 +236,9 @@
 				)
 			)
 			(pin power_in line
-				(at -20.32 -21.59 0)
+				(at -7.62 -31.75 0)
 				(length 2.54)
-				(name "PGND2"
+				(name "VDDA_LNA"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -220,27 +254,9 @@
 				)
 			)
 			(pin power_in line
-				(at -20.32 -38.1 0)
+				(at -7.62 -34.29 0)
 				(length 2.54)
-				(name "PGND2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "B2"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin input line
-				(at 25.4 -55.88 180)
-				(length 2.54)
-				(name "EXTCLK"
+				(name "VSSA_LO0"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -255,10 +271,10 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at 25.4 -34.29 180)
+			(pin power_in line
+				(at -7.62 -36.83 0)
 				(length 2.54)
-				(name "CSXN"
+				(name "VSSA_ANA"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -273,10 +289,28 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -20.32 -13.97 0)
+			(pin bidirectional line
+				(at -7.62 -39.37 0)
 				(length 2.54)
-				(name "LED2"
+				(name "P/CTS/CS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at -7.62 -41.91 0)
+				(length 2.54)
+				(name "P/RTS/MISO"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -291,10 +325,46 @@
 					)
 				)
 			)
-			(pin no_connect line
-				(at -7.62 1.27 270)
+			(pin bidirectional line
+				(at -7.62 -44.45 0)
 				(length 2.54)
-				(name "VCSELA"
+				(name "P/SCL0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -7.62 -46.99 0)
+				(length 2.54)
+				(name "VDD_IO_NV"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "B8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -7.62 -54.61 0)
+				(length 2.54)
+				(name "VSSA_IO"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -310,9 +380,9 @@
 				)
 			)
 			(pin power_in line
-				(at -5.08 1.27 270)
+				(at -7.62 -57.15 0)
 				(length 2.54)
-				(name "VCSELS"
+				(name "VDDA_LO0"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -327,10 +397,28 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at 25.4 -64.77 180)
+			(pin power_in line
+				(at -7.62 -59.69 0)
 				(length 2.54)
-				(name "GPIO"
+				(name "VDDA_LO0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C2"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -7.62 -62.23 0)
+				(length 2.54)
+				(name "VSSA_LO1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -345,10 +433,10 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at 25.4 -41.91 180)
+			(pin input line
+				(at -7.62 -64.77 0)
 				(length 2.54)
-				(name "MISO"
+				(name "TEST"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -363,10 +451,10 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at 25.4 -39.37 180)
+			(pin power_in line
+				(at -7.62 -67.31 0)
 				(length 2.54)
-				(name "SDA_MOSI"
+				(name "VDD_CORE"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -382,9 +470,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 25.4 -36.83 180)
+				(at -7.62 -69.85 0)
 				(length 2.54)
-				(name "SCL"
+				(name "P/SDA0"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -399,10 +487,64 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 13.97 -83.82 90)
+			(pin bidirectional line
+				(at 12.7 -73.66 90)
 				(length 2.54)
-				(name "BIOZ2"
+				(name "P/SDA0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 16.51 -73.66 90)
+				(length 2.54)
+				(name "INT0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 20.32 -73.66 90)
+				(length 2.54)
+				(name "REF_CLCK_IN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "C8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 38.1 -3.81 180)
+				(length 2.54)
+				(name "VDDA_IO"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -417,10 +559,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 8.89 -83.82 90)
+			(pin output line
+				(at 38.1 -6.35 180)
 				(length 2.54)
-				(name "BIOZ1"
+				(name "LDO_A_OUT"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -435,10 +577,10 @@
 					)
 				)
 			)
-			(pin input line
-				(at -20.32 -58.42 0)
+			(pin power_in line
+				(at 38.1 -8.89 180)
 				(length 2.54)
-				(name "PD6"
+				(name "VDDA_LO1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -454,9 +596,9 @@
 				)
 			)
 			(pin input line
-				(at -20.32 -53.34 0)
+				(at 38.1 -11.43 180)
 				(length 2.54)
-				(name "PD4"
+				(name "RESET_X"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -471,10 +613,10 @@
 					)
 				)
 			)
-			(pin input line
-				(at 25.4 -46.99 180)
+			(pin output line
+				(at 38.1 -13.97 180)
 				(length 2.54)
-				(name "INT"
+				(name "VW1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -489,10 +631,10 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 25.4 -16.51 180)
+			(pin bidirectional line
+				(at 38.1 -16.51 180)
 				(length 2.54)
-				(name "DGND"
+				(name "TCXO"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -507,10 +649,46 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 16.51 -83.82 90)
+			(pin bidirectional line
+				(at 38.1 -19.05 180)
 				(length 2.54)
-				(name "BIOZ4"
+				(name "INT1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "D7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 38.1 -21.59 180)
+				(length 2.54)
+				(name "LD_IN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "D8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 38.1 -24.13 180)
+				(length 2.54)
+				(name "VDDA_LDO_C"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -525,10 +703,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at 11.43 -83.82 90)
+			(pin power_in line
+				(at 38.1 -26.67 180)
 				(length 2.54)
-				(name "BIOZ4"
+				(name "VDDA_LDO_M"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -543,10 +721,10 @@
 					)
 				)
 			)
-			(pin input line
-				(at -20.32 -63.5 0)
+			(pin power_in line
+				(at 38.1 -29.21 180)
 				(length 2.54)
-				(name "PD8"
+				(name "VDDA_LDO_A"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -561,10 +739,10 @@
 					)
 				)
 			)
-			(pin input line
-				(at -20.32 -45.72 0)
+			(pin bidirectional line
+				(at 38.1 -31.75 180)
 				(length 2.54)
-				(name "PD1"
+				(name "BOOT_MODE0_IN"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -579,10 +757,10 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 25.4 -24.13 180)
+			(pin output line
+				(at 38.1 -34.29 180)
 				(length 2.54)
-				(name "IOVDD"
+				(name "VW0"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -597,10 +775,10 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 25.4 -13.97 180)
+			(pin bidirectional line
+				(at 38.1 -36.83 180)
 				(length 2.54)
-				(name "DVDD"
+				(name "LNA_OUT"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -615,10 +793,46 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 15.24 1.27 270)
+			(pin bidirectional line
+				(at 38.1 -39.37 180)
 				(length 2.54)
-				(name "AVDD2"
+				(name "ULV_OUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "E7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 38.1 -41.91 180)
+				(length 2.54)
+				(name "MUTE_IN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "E8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 38.1 -44.45 180)
+				(length 2.54)
+				(name "VDDA_LDO_BCKP"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -633,10 +847,10 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 12.7 1.27 270)
+			(pin output line
+				(at 38.1 -46.99 180)
 				(length 2.54)
-				(name "AGND2"
+				(name "M_OUT"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -651,10 +865,10 @@
 					)
 				)
 			)
-			(pin input line
-				(at -20.32 -60.96 0)
+			(pin output line
+				(at 38.1 -49.53 180)
 				(length 2.54)
-				(name "PD7"
+				(name "C_OUT"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -669,10 +883,10 @@
 					)
 				)
 			)
-			(pin input line
-				(at -20.32 -50.8 0)
+			(pin bidirectional line
+				(at 38.1 -52.07 180)
 				(length 2.54)
-				(name "PD3"
+				(name "BOOT_MODE1_IN"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -687,10 +901,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -6.35 -83.82 90)
+			(pin power_in line
+				(at 38.1 -54.61 180)
 				(length 2.54)
-				(name "ECG_REF"
+				(name "VDD_IO0"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -705,10 +919,10 @@
 					)
 				)
 			)
-			(pin passive line
-				(at -3.81 -83.82 90)
+			(pin output line
+				(at 38.1 -57.15 180)
 				(length 2.54)
-				(name "ECG_INP"
+				(name "EN_PMIC_OUT"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -723,10 +937,46 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at -19.05 -71.12 0)
+			(pin power_in line
+				(at -7.62 -24.13 0)
 				(length 2.54)
-				(name "PDREF"
+				(name "VSS"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "F7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -7.62 -49.53 0)
+				(length 2.54)
+				(name "VDD_IO_NV"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "F8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -7.62 -52.07 0)
+				(length 2.54)
+				(name "VSSA_IO"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -741,10 +991,10 @@
 					)
 				)
 			)
-			(pin input line
-				(at -20.32 -55.88 0)
+			(pin output line
+				(at 38.1 -62.23 180)
 				(length 2.54)
-				(name "PD5"
+				(name "LDO_AO_OUT"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -759,10 +1009,10 @@
 					)
 				)
 			)
-			(pin input line
-				(at -20.32 -48.26 0)
+			(pin power_in line
+				(at -7.62 -26.67 0)
 				(length 2.54)
-				(name "PD2"
+				(name "VSS"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -777,10 +1027,10 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 0 1.27 270)
+			(pin input line
+				(at 38.1 -64.77 180)
 				(length 2.54)
-				(name "AVDD1"
+				(name "RTC_CLK_IN"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -795,28 +1045,10 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 2.54 1.27 270)
+			(pin bidirectional line
+				(at 38.1 -67.31 180)
 				(length 2.54)
-				(name "AGND1"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "G5"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin passive line
-				(at -1.27 -83.82 90)
-				(length 2.54)
-				(name "ECG_INN"
+				(name "PPS_OUT1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -824,6 +1056,24 @@
 					)
 				)
 				(number "G6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 38.1 -59.69 180)
+				(length 2.54)
+				(name "VDD_IO0"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "G8"
 					(effects
 						(font
 							(size 1.27 1.27)
