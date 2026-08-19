@@ -3352,10 +3352,10 @@
       "default_text_size": 50.0,
       "field_names": [],
       "hop_over_size_choice": 0,
-      "intersheets_ref_own_page": false,
+      "intersheets_ref_own_page": true,
       "intersheets_ref_prefix": "",
-      "intersheets_ref_short": false,
-      "intersheets_ref_show": false,
+      "intersheets_ref_short": true,
+      "intersheets_ref_show": true,
       "intersheets_ref_suffix": "",
       "junction_size_choice": 3,
       "label_size_ratio": 0.375,
@@ -3388,17 +3388,80 @@
     "top_level_sheets": [
       {
         "filename": "LibrePulse.kicad_sch",
-        "name": "LibrePulse",
+        "name": "MCU",
         "uuid": "dde8bbc5-4a47-4680-87fc-161d82785f37"
+      },
+      {
+        "filename": "health.kicad_sch",
+        "name": "Health",
+        "uuid": "a8e5fed7-7ad0-4eb7-8f22-2666e9c0dcc9"
+      },
+      {
+        "filename": "power.kicad_sch",
+        "name": "Power",
+        "uuid": "fc5305bc-aad4-4f14-87f6-31c827464f02"
+      },
+      {
+        "filename": "storage.kicad_sch",
+        "name": "Storage",
+        "uuid": "d1b9a4e6-d660-456a-8d44-3ce3c392d8b7"
+      },
+      {
+        "filename": "connectivity.kicad_sch",
+        "name": "Connectivity",
+        "uuid": "6368ae2c-bc46-42c6-99d7-85df2bed1af6"
+      },
+      {
+        "filename": "motion.kicad_sch",
+        "name": "Motion",
+        "uuid": "716edcbf-4652-4174-a613-d541161e2461"
+      },
+      {
+        "filename": "light.kicad_sch",
+        "name": "Light",
+        "uuid": "7721ccc0-b828-47b4-9fcb-ddbb230f6b98"
+      },
+      {
+        "filename": "misc._sensors.kicad_sch",
+        "name": "Misc. (page 8)",
+        "uuid": "c7eb257e-1a6e-491c-9bf1-654e271ce811"
       }
     ],
-    "used_designators": "R1-54,L1-6,R_{NTC}1-2,DISP1,NT1,IC1-13,C_{2}1,J1-6,#FLG1-7,MK1-2,LED1-21,H1,C_{1}1,LNA_EN1,ANT1-2,LS1,#SYM1,BT1-2,R_{FOD}1,A1,D1-21,U1-31,SENSOR1,FB1-5,R_{ILIM}1,RT1-2,JP1,Q1,Y1-3,V1,C1-90,FL1-2,TH1-2,#PWR1-352,M1",
+    "used_designators": "R1-54,L1-7,R_{NTC}1-2,DISP1,NT1,IC1-13,C_{2}1,J1-6,#FLG1-7,MK1-2,LED1-21,H1,C_{1}1,LNA_EN1,ANT1-2,LS1,#SYM1,BT1-2,R_{FOD}1,A1,D1-21,U1-31,SENSOR1,FB1-5,R_{ILIM}1,RT1-2,JP1,Q1,Y1-3,V1,C1-90,FL1-2,TH1-2,#PWR1-352,M1",
     "variants": []
   },
   "sheets": [
     [
       "dde8bbc5-4a47-4680-87fc-161d82785f37",
-      "LibrePulse"
+      "MCU"
+    ],
+    [
+      "a8e5fed7-7ad0-4eb7-8f22-2666e9c0dcc9",
+      "Health"
+    ],
+    [
+      "fc5305bc-aad4-4f14-87f6-31c827464f02",
+      "Power"
+    ],
+    [
+      "d1b9a4e6-d660-456a-8d44-3ce3c392d8b7",
+      "Storage"
+    ],
+    [
+      "6368ae2c-bc46-42c6-99d7-85df2bed1af6",
+      "Connectivity"
+    ],
+    [
+      "716edcbf-4652-4174-a613-d541161e2461",
+      "Motion"
+    ],
+    [
+      "7721ccc0-b828-47b4-9fcb-ddbb230f6b98",
+      "Light"
+    ],
+    [
+      "c7eb257e-1a6e-491c-9bf1-654e271ce811",
+      "Misc. (page 8)"
     ]
   ],
   "text_variables": {},
