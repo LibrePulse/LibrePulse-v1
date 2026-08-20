@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ADPD4200BCBZR7
+D Multimodal Sensor Front End
+K
+F https://www.analog.com/ADPD4200/datasheet
+$ENDCMP
+#
+#End Doc Library
