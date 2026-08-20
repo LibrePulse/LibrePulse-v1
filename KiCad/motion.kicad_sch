@@ -1212,16 +1212,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(label "SPI{SCK,MOSI,MISO,CS}"
-		(at 80.01 149.86 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "60d0bfdd-56a1-4958-a7e4-73a024d86817")
-	)
 	(symbol
 		(lib_id "Symbols:ICU-10201")
 		(at 74.93 138.43 0)
