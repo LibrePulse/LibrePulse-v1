@@ -1,9 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP MAX30009ENA+T
-D Low-Power, High-Performance Bioimpedance Analog Front-End
-K
-F https://www.analog.com/MAX30009/datasheet
-$ENDCMP
-#
-#End Doc Library

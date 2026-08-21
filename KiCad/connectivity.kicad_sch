@@ -7681,6 +7681,15 @@
 		(at 62.23 105.41)
 		(uuid "d9f87a94-327c-4ced-93c1-47a7aa6c0334")
 	)
+	(bus_entry
+		(at 154.94 29.21)
+		(size 2.54 2.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7427abca-8706-4125-b738-33e9bb3598ec")
+	)
 	(wire
 		(pts
 			(xy 64.77 91.44) (xy 76.2 91.44)

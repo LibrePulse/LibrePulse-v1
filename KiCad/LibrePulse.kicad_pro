@@ -3334,6 +3334,18 @@
           "label": "Nomonal Voltage",
           "name": "Nomonal Voltage",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "NOTES",
+          "name": "NOTES",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "UNIT",
+          "name": "UNIT",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -3423,11 +3435,11 @@
       },
       {
         "filename": "misc._sensors.kicad_sch",
-        "name": "Misc. (page 8)",
+        "name": "Misc.",
         "uuid": "c7eb257e-1a6e-491c-9bf1-654e271ce811"
       }
     ],
-    "used_designators": "#SYM1,LS1,ANT1-2,LNA_EN1,C_{1}1,LED1-26,H1,#FLG1-7,MK1-2,IC1-17,C_{2}1,J1-6,BT1-2,D1-21,R_{FOD}1,A1,U1-31,SENSOR1,RT1-2,JP1,Q1,V1,Y1-3,R_{ILIM}1,FL1-2,C1-90,TH1-2,#PWR1-352,M1,L1-7,R1-54,NT1,DISP1,R_{NTC}1-2,FB1-5",
+    "used_designators": "M1,#PWR1-352,TH1-2,R_{ILIM}1,FL1-2,C1-90,H1,LED1-26,MK1-2,#FLG1-7,C_{2}1,IC1-17,J1-6,FB1-5,L1-7,R1-54,NT1,DISP1,R_{NTC}1-2,C_{1}1,LNA_EN1,ANT1-2,LS1,#SYM1,BT1-2,D1-21,R_{FOD}1,A1,U1-31,SENSOR1,RT1-2,JP1,Q1,V1,Y1-3",
     "variants": []
   },
   "sheets": [
@@ -3461,7 +3473,7 @@
     ],
     [
       "c7eb257e-1a6e-491c-9bf1-654e271ce811",
-      "Misc. (page 8)"
+      "Misc."
     ]
   ],
   "text_variables": {},
