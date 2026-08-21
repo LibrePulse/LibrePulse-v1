@@ -18986,7 +18986,7 @@
 	)
 	(symbol
 		(lib_id "Regulator_Switching:MAX77827AEFD")
-		(at 430.53 137.16 0)
+		(at 402.59 143.51 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -18997,7 +18997,7 @@
 		(fields_autoplaced yes)
 		(uuid "7886d42f-61c9-458f-8c9a-6be9901b418a")
 		(property "Reference" "U10"
-			(at 430.53 121.92 0)
+			(at 402.59 128.27 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19007,7 +19007,7 @@
 			)
 		)
 		(property "Value" "MAX77827AEFD"
-			(at 430.53 124.46 0)
+			(at 402.59 130.81 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19017,7 +19017,7 @@
 			)
 		)
 		(property "Footprint" "Package_DFN_QFN:Maxim_FC2QFN-14_2.5x2.5mm_P0.5mm"
-			(at 430.53 123.19 0)
+			(at 402.59 129.54 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19028,7 +19028,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/MAX77827.pdf"
-			(at 430.53 120.65 0)
+			(at 402.59 127 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19039,7 +19039,7 @@
 			)
 		)
 		(property "Description" "5.5V Input, 1.8A/3.1A Switch Buck-Boost, QFN-14"
-			(at 430.53 137.16 0)
+			(at 402.59 143.51 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

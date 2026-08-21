@@ -7593,16 +7593,6 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "GNSS"
-		(exclude_from_sim no)
-		(at 116.332 40.894 0)
-		(effects
-			(font
-				(size 6.35 6.35)
-			)
-		)
-		(uuid "fa35471c-02cd-4669-8af0-7152801a0cae")
-	)
 	(junction
 		(at 64.77 73.66)
 		(diameter 0)
