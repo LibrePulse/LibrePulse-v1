@@ -10209,7 +10209,7 @@
 	)
 	(symbol
 		(lib_id "Symbols:SARA-R410M-02B")
-		(at 265.43 100.33 0)
+		(at 180.34 123.19 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10220,7 +10220,7 @@
 		(fields_autoplaced yes)
 		(uuid "7bf32599-6530-4e34-b686-ae64c4de34f7")
 		(property "Reference" "IC2"
-			(at 290.83 92.71 0)
+			(at 205.74 115.57 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10230,7 +10230,7 @@
 			)
 		)
 		(property "Value" "SARA-R410M-02B"
-			(at 290.83 95.25 0)
+			(at 205.74 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10240,7 +10240,7 @@
 			)
 		)
 		(property "Footprint" "SARAR412M02B"
-			(at 312.42 195.25 0)
+			(at 227.33 218.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10252,7 +10252,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.u-blox.com/sites/default/files/SARA-R4-N4_DataSheet_%28UBX-16024152%29.pdf"
-			(at 312.42 295.25 0)
+			(at 227.33 318.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10264,7 +10264,7 @@
 			)
 		)
 		(property "Description" "Size-optimized LTE Cat M1/NB1 and EGPRS modules"
-			(at 265.43 100.33 0)
+			(at 180.34 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10275,7 +10275,7 @@
 			)
 		)
 		(property "Height" "2.53"
-			(at 312.42 495.25 0)
+			(at 227.33 518.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10287,7 +10287,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "u-blox"
-			(at 312.42 595.25 0)
+			(at 227.33 618.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10299,7 +10299,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "SARA-R410M-02B"
-			(at 312.42 695.25 0)
+			(at 227.33 718.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10311,7 +10311,7 @@
 			)
 		)
 		(property "Mouser Part Number" "377-SARA-R410M-02B"
-			(at 312.42 795.25 0)
+			(at 227.33 818.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10323,7 +10323,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/u-blox/SARA-R410M-02B?qs=DPoM0jnrROWddJ2vKHR9ag%3D%3D"
-			(at 312.42 895.25 0)
+			(at 227.33 918.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10335,7 +10335,7 @@
 			)
 		)
 		(property "Arrow Part Number" "SARA-R410M-02B"
-			(at 312.42 995.25 0)
+			(at 227.33 1018.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10347,7 +10347,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/sara-r410m-02b/u-blox?utm_currency=USD&region=nac"
-			(at 312.42 1095.25 0)
+			(at 227.33 1118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
