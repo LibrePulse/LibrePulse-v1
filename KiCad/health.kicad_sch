@@ -5,36 +5,35 @@
 	(uuid "2b07801f-f197-4f26-91ab-b92021d1f80d")
 	(paper "A3")
 	(lib_symbols
-		(symbol "Symbols:ADPD4100BCBZR7"
-			(pin_names
-				(offset 0.254)
-			)
+		(symbol "AS7058:AS7058"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "U"
-				(at 22.86 10.16 0)
+				(at 0 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
-						(size 1.524 1.524)
+						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "ADPD4100BCBZR7"
-				(at 22.86 7.62 0)
+			(property "Value" "AS7058"
+				(at -14.478 -0.508 0)
 				(show_name no)
 				(do_not_autoplace no)
+				(hide yes)
 				(effects
 					(font
-						(size 1.524 1.524)
+						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "CB-35-2_ADI"
+			(property "Footprint" ""
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -42,19 +41,17 @@
 				(effects
 					(font
 						(size 1.27 1.27)
-						(italic yes)
 					)
 				)
 			)
-			(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/adpd4100-4101.pdf"
-				(at 0 0 0)
+			(property "Datasheet" "https://look.ams-osram.com/m/264ac284b30311c3/original/AS7058-IC-for-PPG-ECG-and-body-impedance-measurement.pdf"
+				(at 0 1.27 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
 				(effects
 					(font
 						(size 1.27 1.27)
-						(italic yes)
 					)
 				)
 			)
@@ -69,91 +66,22 @@
 					)
 				)
 			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "ADPD4100BCBZR7"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "CB-35-2_ADI"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "ADPD4100BCBZR7_0_1"
-				(polyline
-					(pts
-						(xy 7.62 5.08) (xy 7.62 -48.26)
-					)
+			(symbol "AS7058_1_1"
+				(rectangle
+					(start -17.78 -1.27)
+					(end 22.86 -81.28)
 					(stroke
-						(width 0.127)
-						(type default)
+						(width 0)
+						(type solid)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
-				(polyline
-					(pts
-						(xy 7.62 -48.26) (xy 38.1 -48.26)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 38.1 5.08) (xy 7.62 5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 38.1 -48.26) (xy 38.1 5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at 0 0 0)
-					(length 7.62)
-					(name "LED4B"
+				(pin passive line
+					(at -20.32 -27.94 0)
+					(length 2.54)
+					(name "LED5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -168,10 +96,10 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at 0 -2.54 0)
-					(length 7.62)
-					(name "LED4A"
+				(pin passive line
+					(at -20.32 -33.02 0)
+					(length 2.54)
+					(name "LED7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -186,10 +114,10 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at 0 -5.08 0)
-					(length 7.62)
-					(name "LED3A"
+				(pin passive line
+					(at -20.32 -35.56 0)
+					(length 2.54)
+					(name "LED8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -204,10 +132,10 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at 0 -7.62 0)
-					(length 7.62)
-					(name "LED2A"
+				(pin passive line
+					(at -20.32 -19.05 0)
+					(length 2.54)
+					(name "LED4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -222,10 +150,10 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at 0 -10.16 0)
-					(length 7.62)
-					(name "LED1A"
+				(pin passive line
+					(at -20.32 -16.51 0)
+					(length 2.54)
+					(name "LED3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -240,788 +168,10 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at 0 -12.7 0)
-					(length 7.62)
-					(name "GPIO2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -15.24 0)
-					(length 7.62)
-					(name "LED3B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -17.78 0)
-					(length 7.62)
-					(name "LED2B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -20.32 0)
-					(length 7.62)
-					(name "LED1B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -22.86 0)
-					(length 7.62)
-					(name "LGND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -25.4 0)
-					(length 7.62)
-					(name "MISO"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "C1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -27.94 0)
-					(length 7.62)
-					(name "SCLK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "C2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -30.48 0)
-					(length 7.62)
-					(name "GPIO3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "C3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -33.02 0)
-					(length 7.62)
-					(name "GPIO1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "C4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -35.56 0)
-					(length 7.62)
-					(name "GPIO0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "C5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -38.1 0)
-					(length 7.62)
-					(name "MOSI"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "D1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -40.64 0)
-					(length 7.62)
-					(name "*CS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "D2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 45.72 -43.18 180)
-					(length 7.62)
-					(name "IOVDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "D3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 45.72 -40.64 180)
-					(length 7.62)
-					(name "DVDD2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "D4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 45.72 -38.1 180)
-					(length 7.62)
-					(name "AVDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "D5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 45.72 -35.56 180)
-					(length 7.62)
-					(name "DVDD1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "E1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 45.72 -33.02 180)
-					(length 7.62)
-					(name "DGND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "E2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 45.72 -30.48 180)
-					(length 7.62)
-					(name "IOGND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "E3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 45.72 -27.94 180)
-					(length 7.62)
-					(name "AGND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "E4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 45.72 -25.4 180)
-					(length 7.62)
-					(name "VREF"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "E5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 45.72 -22.86 180)
-					(length 7.62)
-					(name "IN7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "F1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 45.72 -20.32 180)
-					(length 7.62)
-					(name "IN5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "F2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 45.72 -17.78 180)
-					(length 7.62)
-					(name "IN3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "F3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 45.72 -15.24 180)
-					(length 7.62)
-					(name "IN1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "F4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 45.72 -12.7 180)
-					(length 7.62)
-					(name "VC1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "F5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 45.72 -10.16 180)
-					(length 7.62)
-					(name "IN8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "G1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 45.72 -7.62 180)
-					(length 7.62)
-					(name "IN6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "G2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 45.72 -5.08 180)
-					(length 7.62)
-					(name "IN4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "G3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 45.72 -2.54 180)
-					(length 7.62)
-					(name "IN2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "G4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 45.72 0 180)
-					(length 7.62)
-					(name "VC2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "G5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Symbols:ADPD7000BCBZR7"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "U"
-				(at 22.86 10.16 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "ADPD7000BCBZR7"
-				(at 22.86 7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "CB-36-11_ADI"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-				)
-			)
-			(property "Datasheet" "ADPD7000BCBZR7"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "ADPD7000BCBZR7"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "CB-36-11_ADI CB-36-11_ADI-M CB-36-11_ADI-L"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "ADPD7000BCBZR7_0_1"
-				(polyline
-					(pts
-						(xy 7.62 5.08) (xy 7.62 -48.26)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -48.26) (xy 38.1 -48.26)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 38.1 5.08) (xy 7.62 5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 38.1 -48.26) (xy 38.1 5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin input line
-					(at 0 0 0)
-					(length 7.62)
-					(name "SCLK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 0 -2.54 0)
-					(length 7.62)
-					(name "*CS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -5.08 0)
-					(length 7.62)
-					(name "LED2D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -7.62 0)
-					(length 7.62)
-					(name "LED2B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -10.16 0)
-					(length 7.62)
-					(name "LED1D"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "A5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -12.7 0)
-					(length 7.62)
-					(name "LED1A"
+				(pin passive line
+					(at -20.32 -11.43 0)
+					(length 2.54)
+					(name "LED1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1036,10 +186,10 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at 0 -15.24 0)
-					(length 7.62)
-					(name "MISO"
+				(pin passive line
+					(at -20.32 -30.48 0)
+					(length 2.54)
+					(name "LED6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1054,10 +204,10 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at 0 -17.78 0)
-					(length 7.62)
-					(name "MOSI"
+				(pin power_in line
+					(at -20.32 -21.59 0)
+					(length 2.54)
+					(name "PGND2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1072,10 +222,28 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at 0 -20.32 0)
-					(length 7.62)
-					(name "LED2C"
+				(pin power_in line
+					(at -20.32 -38.1 0)
+					(length 2.54)
+					(name "PGND2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 25.4 -55.88 180)
+					(length 2.54)
+					(name "EXTCLK"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1090,10 +258,10 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at 0 -22.86 0)
-					(length 7.62)
-					(name "LED2A"
+				(pin bidirectional line
+					(at 25.4 -34.29 180)
+					(length 2.54)
+					(name "CSXN"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1108,28 +276,10 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at 0 -25.4 0)
-					(length 7.62)
-					(name "LED1B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "B5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 0 -27.94 0)
-					(length 7.62)
-					(name "LGND"
+				(pin passive line
+					(at -20.32 -13.97 0)
+					(length 2.54)
+					(name "LED2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1144,10 +294,10 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 0 -30.48 0)
-					(length 7.62)
-					(name "GPIO0"
+				(pin no_connect line
+					(at -7.62 1.27 270)
+					(length 2.54)
+					(name "VCSELA"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1162,10 +312,10 @@
 						)
 					)
 				)
-				(pin bidirectional line
-					(at 0 -33.02 0)
-					(length 7.62)
-					(name "GPIO1"
+				(pin power_in line
+					(at -5.08 1.27 270)
+					(length 2.54)
+					(name "VCSELS"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1180,10 +330,10 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 0 -35.56 0)
-					(length 7.62)
-					(name "IOVDD"
+				(pin bidirectional line
+					(at 25.4 -64.77 180)
+					(length 2.54)
+					(name "GPIO"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1198,10 +348,10 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at 0 -38.1 0)
-					(length 7.62)
-					(name "LED1C"
+				(pin bidirectional line
+					(at 25.4 -41.91 180)
+					(length 2.54)
+					(name "MISO"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1216,10 +366,10 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 0 -40.64 0)
-					(length 7.62)
-					(name "AVDD3"
+				(pin bidirectional line
+					(at 25.4 -39.37 180)
+					(length 2.54)
+					(name "SDA_MOSI"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1234,10 +384,10 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at 0 -43.18 0)
-					(length 7.62)
-					(name "IMPIP"
+				(pin bidirectional line
+					(at 25.4 -36.83 180)
+					(length 2.54)
+					(name "SCL"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1252,10 +402,10 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at 45.72 -43.18 180)
-					(length 7.62)
-					(name "DGND"
+				(pin passive line
+					(at 13.97 -83.82 90)
+					(length 2.54)
+					(name "BIOZ2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1270,10 +420,10 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 45.72 -40.64 180)
-					(length 7.62)
-					(name "DVDD"
+				(pin passive line
+					(at 8.89 -83.82 90)
+					(length 2.54)
+					(name "BIOZ1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1288,10 +438,10 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 45.72 -38.1 180)
-					(length 7.62)
-					(name "AVDD"
+				(pin input line
+					(at -20.32 -58.42 0)
+					(length 2.54)
+					(name "PD6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1306,10 +456,10 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at 45.72 -35.56 180)
-					(length 7.62)
-					(name "EXCN"
+				(pin input line
+					(at -20.32 -53.34 0)
+					(length 2.54)
+					(name "PD4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1324,10 +474,10 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at 45.72 -33.02 180)
-					(length 7.62)
-					(name "EXCP"
+				(pin input line
+					(at 25.4 -46.99 180)
+					(length 2.54)
+					(name "INT"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1342,10 +492,10 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at 45.72 -30.48 180)
-					(length 7.62)
-					(name "IMPIN"
+				(pin power_in line
+					(at 25.4 -16.51 180)
+					(length 2.54)
+					(name "DGND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1360,10 +510,10 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at 45.72 -27.94 180)
-					(length 7.62)
-					(name "IN2"
+				(pin passive line
+					(at 16.51 -83.82 90)
+					(length 2.54)
+					(name "BIOZ4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1378,10 +528,10 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at 45.72 -25.4 180)
-					(length 7.62)
-					(name "IN4"
+				(pin passive line
+					(at 11.43 -83.82 90)
+					(length 2.54)
+					(name "BIOZ4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1396,10 +546,10 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at 45.72 -22.86 180)
-					(length 7.62)
-					(name "VREF1"
+				(pin input line
+					(at -20.32 -63.5 0)
+					(length 2.54)
+					(name "PD8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1414,10 +564,10 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at 45.72 -20.32 180)
-					(length 7.62)
-					(name "ECG4"
+				(pin input line
+					(at -20.32 -45.72 0)
+					(length 2.54)
+					(name "PD1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1432,10 +582,10 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at 45.72 -17.78 180)
-					(length 7.62)
-					(name "ECG3"
+				(pin power_in line
+					(at 25.4 -24.13 180)
+					(length 2.54)
+					(name "IOVDD"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1450,10 +600,10 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at 45.72 -15.24 180)
-					(length 7.62)
-					(name "ECG1"
+				(pin power_in line
+					(at 25.4 -13.97 180)
+					(length 2.54)
+					(name "DVDD"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1468,10 +618,10 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at 45.72 -12.7 180)
-					(length 7.62)
-					(name "IN1"
+				(pin power_in line
+					(at 15.24 1.27 270)
+					(length 2.54)
+					(name "AVDD2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1486,10 +636,10 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at 45.72 -10.16 180)
-					(length 7.62)
-					(name "IN3"
+				(pin power_in line
+					(at 12.7 1.27 270)
+					(length 2.54)
+					(name "AGND2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1504,10 +654,10 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at 45.72 -7.62 180)
-					(length 7.62)
-					(name "VC1"
+				(pin input line
+					(at -20.32 -60.96 0)
+					(length 2.54)
+					(name "PD7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1522,10 +672,10 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at 45.72 -5.08 180)
-					(length 7.62)
-					(name "VREF2"
+				(pin input line
+					(at -20.32 -50.8 0)
+					(length 2.54)
+					(name "PD3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1540,10 +690,10 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at 45.72 -2.54 180)
-					(length 7.62)
-					(name "AGND"
+				(pin passive line
+					(at -6.35 -83.82 90)
+					(length 2.54)
+					(name "ECG_REF"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1558,10 +708,10 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at 45.72 0 180)
-					(length 7.62)
-					(name "ECG2"
+				(pin passive line
+					(at -3.81 -83.82 90)
+					(length 2.54)
+					(name "ECG_INP"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1569,6 +719,114 @@
 						)
 					)
 					(number "F6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -19.05 -71.12 0)
+					(length 2.54)
+					(name "PDREF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "G1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 -55.88 0)
+					(length 2.54)
+					(name "PD5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "G2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -20.32 -48.26 0)
+					(length 2.54)
+					(name "PD2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "G3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 1.27 270)
+					(length 2.54)
+					(name "AVDD1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "G4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 2.54 1.27 270)
+					(length 2.54)
+					(name "AGND1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "G5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -1.27 -83.82 90)
+					(length 2.54)
+					(name "ECG_INN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "G6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1803,578 +1061,6 @@
 						)
 					)
 					(number "B2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Symbols:LO_R976-PS-1"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "LED"
-				(at 12.7 8.89 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "LO_R976-PS-1"
-				(at 12.7 6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "LEDC2012X90N"
-				(at 12.7 -93.65 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Datasheet" "https://dammedia.osram.info/media/resource/hires/osram-dam-5178064/LO%20R976_EN.pdf"
-				(at 12.7 -193.65 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Description" "Standard LEDs - SMD Orange, 606nm 280mcd, 20mA"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Height" "0.9"
-				(at 12.7 -393.65 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Manufacturer_Name" "ams OSRAM"
-				(at 12.7 -493.65 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Manufacturer_Part_Number" "LO R976-PS-1"
-				(at 12.7 -593.65 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Mouser Part Number" "720-LOR976-PS-1"
-				(at 12.7 -693.65 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ams-OSRAM/LO-R976-PS-1?qs=K5ta8V%252BWhtZwfsJidIA9Vg%3D%3D"
-				(at 12.7 -793.65 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Arrow Part Number" "LO R976-PS-1"
-				(at 12.7 -893.65 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/lor976-ps-1/osram-opto-semiconductors?region=nac"
-				(at 12.7 -993.65 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(symbol "LO_R976-PS-1_1_1"
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy 5.08 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 0) (xy 10.16 2.54) (xy 10.16 -2.54) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.334 4.318) (xy 4.572 3.556) (xy 3.81 5.08) (xy 5.334 4.318)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.35 2.54) (xy 3.81 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.874 4.318) (xy 7.112 3.556) (xy 6.35 5.08) (xy 7.874 4.318)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 8.89 2.54) (xy 6.35 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 0) (xy 12.7 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 15.24 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "Symbols:LY_R976-PS-36"
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "LED"
-				(at 12.7 8.89 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" "LY_R976-PS-36"
-				(at 12.7 6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "LEDC2013X90N"
-				(at 12.7 -93.65 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Datasheet" "https://look.ams-osram.com/m/10c6779dc4088077/original/LY-R976.pdf"
-				(at 12.7 -193.65 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Description" "Yellow 588nm LED Indication - Discrete 2V 0805 (2012 Metric)"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Height" "0.9"
-				(at 12.7 -393.65 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Manufacturer_Name" "ams OSRAM"
-				(at 12.7 -493.65 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Manufacturer_Part_Number" "LY R976-PS-36"
-				(at 12.7 -593.65 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Mouser Part Number" "720-LYR976-PS-36"
-				(at 12.7 -693.65 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ams-OSRAM/LY-R976-PS-36?qs=K5ta8V%252BWhtb8kF0FHqpCJQ%3D%3D"
-				(at 12.7 -793.65 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Arrow Part Number" "LY R976-PS-36"
-				(at 12.7 -893.65 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Arrow Price/Stock" "https://www.arrow.com/en/products/lyr976-ps-36/osram-opto-semiconductors?region=nac"
-				(at 12.7 -993.65 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-				)
-			)
-			(symbol "LY_R976-PS-36_1_1"
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy 5.08 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 0) (xy 10.16 2.54) (xy 10.16 -2.54) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.334 4.318) (xy 4.572 3.556) (xy 3.81 5.08) (xy 5.334 4.318)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 6.35 2.54) (xy 3.81 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.874 4.318) (xy 7.112 3.556) (xy 6.35 5.08) (xy 7.874 4.318)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 8.89 2.54) (xy 6.35 5.08)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 0) (xy 12.7 0)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 15.24 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2655,401 +1341,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Symbols:SFH_7019"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "LED"
-				(at 54.61 7.62 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Value" "SFH_7019"
-				(at 54.61 5.08 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Footprint" "SFH7019"
-				(at 54.61 -94.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Datasheet" "https://look.ams-osram.com/m/3d6f6dcfed4d7b8f/original/SFH-7019.pdf"
-				(at 54.61 -194.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Description" "Multi-Color LEDs 3in1 LED package for vital sign monitor."
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Height" "0.7"
-				(at 54.61 -394.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Mouser Part Number" ""
-				(at 54.61 -494.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Mouser Price/Stock" ""
-				(at 54.61 -594.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Manufacturer_Name" "ams OSRAM"
-				(at 54.61 -694.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(property "Manufacturer_Part_Number" "SFH 7019"
-				(at 54.61 -794.92 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-				)
-			)
-			(symbol "SFH_7019_1_1"
-				(rectangle
-					(start 5.08 2.54)
-					(end 53.34 -7.62)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at 58.42 -5.08 180)
-					(length 5.08)
-					(name "IR_(CATHODE)"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 0)
-					(length 5.08)
-					(name "IR._UV_(ANODE)_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 58.42 -2.54 180)
-					(length 5.08)
-					(name "G_(CATHODE)"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "UV_(CATHODE)"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 58.42 0 180)
-					(length 5.08)
-					(name "IR._UV_(ANODE)_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 0 0)
-					(length 5.08)
-					(name "G_(ANODE)"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "power:+3.3V"
-			(power global)
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "+3.3V"
-				(at 0 3.556 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "global power"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "+3.3V_0_1"
-				(polyline
-					(pts
-						(xy -0.762 1.27) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.54) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "+3.3V_1_1"
-				(pin power_in line
-					(at 0 0 90)
-					(length 0)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-	)
-	(wire
-		(pts
-			(xy 238.76 95.25) (xy 238.76 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4416bb17-eea6-46cb-bfd5-b31bc38eb9e1")
 	)
 	(label "IR2"
 		(at 287.02 80.01 0)
@@ -3081,26 +1372,6 @@
 		)
 		(uuid "327dbbd6-2a33-4df6-b189-f4ca40996abc")
 	)
-	(label "YELLOW2"
-		(at 222.25 26.67 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4ef17020-3bef-49c0-911a-b3a15241f14d")
-	)
-	(label "GREEN4"
-		(at 237.49 116.84 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "64a561bc-a9ac-4951-9405-99f9479c16de")
-	)
 	(label "GREEN1"
 		(at 287.02 60.96 0)
 		(effects
@@ -3121,46 +1392,6 @@
 		)
 		(uuid "715928ff-d0b0-4355-8609-4e41545e4a5f")
 	)
-	(label "GREEN3"
-		(at 238.76 99.06 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "743e3c39-86dc-4062-90bb-ce2dfb90ecab")
-	)
-	(label "ORANGE2"
-		(at 222.25 44.45 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b3fbdd5a-0ddd-480a-b337-dcedc47557ba")
-	)
-	(label "UV2"
-		(at 179.07 116.84 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "bb589bd6-1d21-43ac-bfe2-f6c575903200")
-	)
-	(label "UV1"
-		(at 180.34 99.06 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c42b1c13-aec8-4b37-81df-8e36c798d8c8")
-	)
 	(label "RED1"
 		(at 177.8 60.96 180)
 		(effects
@@ -3170,26 +1401,6 @@
 			(justify right bottom)
 		)
 		(uuid "d61bc87f-0b07-4ad9-a63f-d9aba7017aab")
-	)
-	(label "ORANGE1"
-		(at 187.96 45.72 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d65a2b42-f41e-44b4-91d1-96df12e8273d")
-	)
-	(label "YELLOW1"
-		(at 189.23 27.94 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e8eaa99f-d5fe-4859-9d4a-13e16d34615f")
 	)
 	(label "GREEN2"
 		(at 287.02 77.47 0)
@@ -3396,8 +1607,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Symbols:SFH_7019")
-		(at 180.34 96.52 0)
+		(lib_id "AS7058:AS7058")
+		(at 96.52 45.72 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3406,53 +1617,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "1f3e8f2d-f5c9-43f2-9679-c6964837ad77")
-		(property "Reference" "LED12"
-			(at 209.55 88.9 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SFH_7019"
-			(at 209.55 91.44 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Footprints:SFH7019"
-			(at 234.95 191.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://look.ams-osram.com/m/3d6f6dcfed4d7b8f/original/SFH-7019.pdf"
-			(at 234.95 291.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "Multi-Color LEDs 3in1 LED package for vital sign monitor."
-			(at 180.34 96.52 0)
+		(uuid "708488c0-61d8-4b2f-adac-ecc7940eb8af")
+		(property "Reference" "U1"
+			(at 96.52 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3462,8 +1629,8 @@
 				)
 			)
 		)
-		(property "Height" "0.7"
-			(at 234.95 491.44 0)
+		(property "Value" "AS7058"
+			(at 82.042 46.228 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3471,11 +1638,10 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 			)
 		)
-		(property "Mouser Part Number" ""
-			(at 234.95 591.44 0)
+		(property "Footprint" ""
+			(at 96.52 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3483,136 +1649,21 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
 			)
 		)
-		(property "Mouser Price/Stock" ""
-			(at 234.95 691.44 0)
+		(property "Datasheet" "https://look.ams-osram.com/m/264ac284b30311c3/original/AS7058-IC-for-PPG-ECG-and-body-impedance-measurement.pdf"
+			(at 96.52 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "ams OSRAM"
-			(at 234.95 791.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "SFH 7019"
-			(at 234.95 891.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "1"
-			(uuid "0fb28342-49bc-4e79-a367-d7fc4c92b0d3")
-		)
-		(pin "4"
-			(uuid "7e0e7f03-b4eb-4fb1-87b6-f44f7a3787cf")
-		)
-		(pin "5"
-			(uuid "32591d84-851e-46ae-a867-35aa097a1ed9")
-		)
-		(pin "3"
-			(uuid "643f02c9-335f-4717-9958-938367ab14d0")
-		)
-		(pin "2"
-			(uuid "eca5a003-0c7b-4dc3-a1f6-c8ad0aa90428")
-		)
-		(pin "6"
-			(uuid "7ca09f76-3d29-4cb9-aafc-aab44555f9f0")
-		)
-		(instances
-			(project "health"
-				(path "/2b07801f-f197-4f26-91ab-b92021d1f80d"
-					(reference "LED12")
-					(unit 1)
-				)
-			)
-			(project "LibrePulse"
-				(path "/a8e5fed7-7ad0-4eb7-8f22-2666e9c0dcc9"
-					(reference "LED12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Symbols:ADPD7000BCBZR7")
-		(at 29.21 33.02 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "264e9640-72ca-4573-880d-a682f92d95ff")
-		(property "Reference" "U3"
-			(at 52.07 22.86 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "ADPD7000BCBZR7"
-			(at 52.07 25.4 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "CB-36-11_ADI"
-			(at 29.21 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Datasheet" "ADPD7000BCBZR7"
-			(at 29.21 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
 				)
 			)
 		)
 		(property "Description" ""
-			(at 29.21 33.02 0)
+			(at 96.52 45.72 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3621,1144 +1672,137 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "E4"
-			(uuid "d75a1ccc-bf10-4bae-abca-853f5c6a9779")
-		)
-		(pin "D5"
-			(uuid "c21fb926-c332-4262-a5d0-2d2af806739e")
-		)
-		(pin "C5"
-			(uuid "56d6d25e-1e47-41e7-85fe-b96b2a3ddf11")
-		)
-		(pin "B4"
-			(uuid "5b321d86-b52a-4199-a625-04262c5ee529")
-		)
-		(pin "B3"
-			(uuid "d2e94027-9002-4cea-83c5-f8cd749d10c5")
-		)
-		(pin "B2"
-			(uuid "0fc0919f-f8e3-4d19-a23d-2597219f9218")
-		)
-		(pin "B6"
-			(uuid "ffbab521-d1ab-45bd-8e2f-80369a7016f8")
-		)
-		(pin "B5"
-			(uuid "b86cc124-bba0-4be3-8d3d-ad4599ae8d3a")
-		)
-		(pin "B1"
-			(uuid "c0dd3b20-4dc1-4968-ace3-5f2c8c0c9bb8")
-		)
-		(pin "A6"
-			(uuid "973df8cb-2db7-454b-aaae-15b5c9b8ba0a")
-		)
-		(pin "E2"
-			(uuid "f384ab63-2aba-4337-8983-e5a43ca81545")
-		)
-		(pin "C2"
-			(uuid "c95744c2-bf89-40d3-a128-41ae3a385f5a")
-		)
-		(pin "C1"
-			(uuid "45b66af8-cb88-431e-b1b7-a706179f9f7e")
-		)
-		(pin "E3"
-			(uuid "aaecab26-32cd-4b82-b600-c487a2804c34")
-		)
-		(pin "A3"
-			(uuid "f3df8e00-644e-4bee-9bf9-43356c567324")
-		)
-		(pin "A2"
-			(uuid "eb7e843c-336b-4321-958b-603554e913fb")
-		)
-		(pin "D6"
-			(uuid "4a5be015-ffab-48fd-8f0b-1fc250a7ac66")
-		)
-		(pin "D4"
-			(uuid "37d69a21-f9c6-4b12-a899-2ad91c938b18")
-		)
-		(pin "C4"
-			(uuid "202ce44d-48f6-4c75-90e8-30f4f5c1a476")
-		)
-		(pin "C3"
-			(uuid "c408ad4d-7499-4e0f-b96c-85ca0cd48af2")
-		)
-		(pin "F4"
-			(uuid "59d7de4f-cb13-4743-b382-e3cc44f2e71d")
-		)
-		(pin "F1"
-			(uuid "39b6f03c-de48-4828-a664-87ba03c7db01")
-		)
-		(pin "F3"
-			(uuid "9b585114-0277-4b87-87ba-d17e3bcd938b")
-		)
-		(pin "D1"
-			(uuid "879b9337-228d-4281-ba4a-5537435f4409")
-		)
-		(pin "E6"
-			(uuid "c48e94c1-e5e4-4da6-8e75-362422b19167")
-		)
-		(pin "E1"
-			(uuid "d3a1653c-1b70-4376-a71b-5848007822d7")
 		)
 		(pin "D2"
-			(uuid "81aa72b4-b06a-4107-930b-de86d0cbe52d")
-		)
-		(pin "E5"
-			(uuid "1499244f-b2ec-4f76-af04-a487fae21153")
-		)
-		(pin "F2"
-			(uuid "14f9ad24-b5d0-4d83-a161-b8e5b03078f0")
-		)
-		(pin "A1"
-			(uuid "2c80b648-25ea-40ed-8b44-b874089cd6f8")
-		)
-		(pin "C6"
-			(uuid "945d1022-2870-47c8-b76a-b46f561f989e")
-		)
-		(pin "F6"
-			(uuid "ec3d5b94-eaa1-440b-b939-6541b0931b45")
-		)
-		(pin "A5"
-			(uuid "30d755cb-4f8a-4dbd-accf-d19d3e1b6726")
-		)
-		(pin "A4"
-			(uuid "695f9702-52c0-465d-9532-13014f537b15")
-		)
-		(pin "F5"
-			(uuid "b285660e-cdd2-461c-b551-b500f525c2fa")
-		)
-		(pin "D3"
-			(uuid "2afad3af-6180-4852-bc3a-869699047d6c")
-		)
-		(instances
-			(project "LibrePulse"
-				(path "/a8e5fed7-7ad0-4eb7-8f22-2666e9c0dcc9"
-					(reference "U3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 172.72 45.72 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "33682e17-1b79-4026-b236-e99bba1b6d86")
-		(property "Reference" "#PWR0306"
-			(at 176.53 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+4V5"
-			(at 168.91 45.7201 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 172.72 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 172.72 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 172.72 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "12291e96-1757-4967-bea3-d50a0f51982a")
-		)
-		(instances
-			(project "health"
-				(path "/2b07801f-f197-4f26-91ab-b92021d1f80d"
-					(reference "#PWR0306")
-					(unit 1)
-				)
-			)
-			(project "LibrePulse"
-				(path "/a8e5fed7-7ad0-4eb7-8f22-2666e9c0dcc9"
-					(reference "#PWR0306")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 173.99 27.94 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "42d6b880-6dda-410e-b234-07c9858872c1")
-		(property "Reference" "#PWR0308"
-			(at 177.8 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+4V5"
-			(at 170.18 27.9401 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 173.99 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 173.99 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 173.99 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "702102cb-ff3b-493e-881f-6f77e11c53d0")
-		)
-		(instances
-			(project "health"
-				(path "/2b07801f-f197-4f26-91ab-b92021d1f80d"
-					(reference "#PWR0308")
-					(unit 1)
-				)
-			)
-			(project "LibrePulse"
-				(path "/a8e5fed7-7ad0-4eb7-8f22-2666e9c0dcc9"
-					(reference "#PWR0308")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Symbols:ADPD4100BCBZR7")
-		(at 93.98 35.56 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5890b322-bcd1-4349-949d-dbe0280bdad1")
-		(property "Reference" "U7"
-			(at 116.84 25.4 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "ADPD4100BCBZR7"
-			(at 116.84 27.94 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "CB-35-2_ADI"
-			(at 93.98 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/adpd4100-4101.pdf"
-			(at 93.98 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 93.98 35.56 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "C3"
-			(uuid "cacef237-2b03-470a-b82e-2627cb0a9173")
-		)
-		(pin "C2"
-			(uuid "d136926d-6ae1-4793-aec7-f6f3d91d1dad")
+			(uuid "fe773bf1-8af2-451b-94ce-a4ec1349ab13")
 		)
 		(pin "G1"
-			(uuid "a81f8170-17f4-4e6b-a9be-c0d139467abf")
-		)
-		(pin "D4"
-			(uuid "e327220b-52ee-44d7-b8f2-9b07d5021c10")
-		)
-		(pin "F4"
-			(uuid "ecacbde6-57d7-484a-b21d-6ee54487f0a6")
-		)
-		(pin "F2"
-			(uuid "f97b6900-650e-40c1-91d2-837389fb822e")
-		)
-		(pin "A3"
-			(uuid "bf4c862a-ca05-4ffe-a646-7236c1c138d0")
-		)
-		(pin "A4"
-			(uuid "3c981352-e617-4684-a92f-697deee17eef")
-		)
-		(pin "E1"
-			(uuid "8aca3887-71b7-4e1f-917c-612fc0f0928c")
-		)
-		(pin "A2"
-			(uuid "61628814-81a9-4c50-8134-5ad4454f3272")
-		)
-		(pin "A1"
-			(uuid "32f4b8a7-0d8c-40ac-a1f7-8fc80aeae5ec")
-		)
-		(pin "B4"
-			(uuid "84570826-6445-4c34-a1b1-952bc1e9a366")
-		)
-		(pin "B3"
-			(uuid "53806502-c3e2-41ed-b044-1406814d3dd4")
+			(uuid "27b8c4c7-ea38-4201-95ac-a7a41974f332")
 		)
 		(pin "B2"
-			(uuid "d707b3cb-a9be-4872-bd1f-6d78432f30c2")
+			(uuid "fe3427ae-3d8a-4fc6-ac19-c3591ac1485d")
 		)
-		(pin "B1"
-			(uuid "7f4ff65f-cd51-474b-94cd-781a8cb0f3b9")
-		)
-		(pin "A5"
-			(uuid "56f7a9b8-1128-412e-a763-b66495bdd7ce")
-		)
-		(pin "E2"
-			(uuid "7f0c50c1-5ea8-4515-8b99-ef212f6c29b5")
+		(pin "B2"
+			(uuid "5b3d92cb-a2bd-4b13-80a2-126899eacb07")
 		)
 		(pin "C1"
-			(uuid "94d3d14a-3dc7-45a7-a916-793871f5dcc9")
+			(uuid "edcea30c-9a89-467b-9bdd-330d7314cbd4")
 		)
-		(pin "C4"
-			(uuid "386534f0-e2c9-4cee-87f0-4e9b0a4b0201")
-		)
-		(pin "C5"
-			(uuid "6631dd24-9b25-41b2-be31-e81bd56b5d5e")
-		)
-		(pin "D3"
-			(uuid "9d6d931d-0b30-4f56-bf00-a7024c50dc78")
-		)
-		(pin "G3"
-			(uuid "7348d040-2fa0-452a-bef9-dc6fc9178954")
-		)
-		(pin "D2"
-			(uuid "877a01ee-c075-4fa8-bdd8-61eadb53f56e")
-		)
-		(pin "F5"
-			(uuid "a973ae5e-ccfe-4f4c-937e-539e8f63daee")
-		)
-		(pin "D5"
-			(uuid "bb44e991-294d-4869-a05c-8338769af474")
-		)
-		(pin "G4"
-			(uuid "fa8edd98-fb1d-4ce8-896b-3e4f79d2a6b1")
+		(pin "F2"
+			(uuid "c167e1dd-f159-4deb-860f-ee997bb8593c")
 		)
 		(pin "E5"
-			(uuid "5d4d0033-8b9b-4465-abc1-073a063e3468")
+			(uuid "07c336eb-79ac-4b6a-9470-63b8d127a101")
 		)
-		(pin "G5"
-			(uuid "523b9591-3c7c-42ca-ac0c-365d3ff1975f")
+		(pin "B3"
+			(uuid "a0ef6cdc-793b-42bc-a5f0-fd9490935cf7")
 		)
-		(pin "E3"
-			(uuid "90bd61e7-c353-4334-82f6-0520cf99d76a")
-		)
-		(pin "F1"
-			(uuid "70577ca0-8643-4d10-964f-819e2e38a4b6")
-		)
-		(pin "D1"
-			(uuid "09469c74-b898-486d-a21f-03d33d1ddf4c")
-		)
-		(pin "B5"
-			(uuid "3082c2cc-32f6-4d9c-aea7-aadc5baf36b2")
+		(pin "F6"
+			(uuid "e23d4328-76c7-4c5c-9c1d-c0ccfe1faae8")
 		)
 		(pin "G2"
-			(uuid "a2f11dfc-5e26-4123-b3e2-11c9bcfa88e4")
+			(uuid "e6b831c0-2bcf-47b7-ad87-8a1a4bdbd115")
 		)
-		(pin "E4"
-			(uuid "11e43421-6048-42ac-a0b6-c80d36904673")
+		(pin "G3"
+			(uuid "0c45753c-afea-4356-ab38-45d2ac08ff4a")
+		)
+		(pin "B1"
+			(uuid "f65b045a-4f3b-424d-a7af-7fb7d537a414")
+		)
+		(pin "D6"
+			(uuid "4235e212-91f8-4bf1-b791-21627449d23c")
 		)
 		(pin "F3"
-			(uuid "0f977c0d-71cb-4c7e-bd63-862786966f34")
+			(uuid "a07b84aa-8e00-43c7-9d49-d7307233e1e1")
+		)
+		(pin "D4"
+			(uuid "ba6958ca-4ec3-416d-adaa-b16083fcbe07")
+		)
+		(pin "C2"
+			(uuid "7834d03d-0077-4183-9ebd-322400c925df")
+		)
+		(pin "D3"
+			(uuid "7fd104e9-2e6b-4db7-b107-0d831c33e24f")
+		)
+		(pin "C3"
+			(uuid "8df71a3c-c6cb-4af9-a52c-dc1847c4e954")
+		)
+		(pin "A1"
+			(uuid "24b58264-10cd-418f-8749-d83924c3b0f0")
+		)
+		(pin "A2"
+			(uuid "4dbe0258-b2bb-42b3-bb33-689cf79a8077")
+		)
+		(pin "G4"
+			(uuid "12784d7b-1986-4a18-97b7-a7ffae0ecb56")
+		)
+		(pin "B4"
+			(uuid "5f40d8d2-2ec7-441f-929f-3de8b5d9d283")
+		)
+		(pin "C4"
+			(uuid "ab35dcae-23e4-43d3-b79b-9657e92cff48")
+		)
+		(pin "A5"
+			(uuid "936ae990-bf21-4cc6-9103-c5de71c0a883")
+		)
+		(pin "A6"
+			(uuid "2ab76474-2e6a-4eb3-93a9-fd88a6fc16ca")
+		)
+		(pin "E6"
+			(uuid "f90d4908-7ec3-43e5-a4e6-9a7525744a82")
+		)
+		(pin "G5"
+			(uuid "8d65e528-fb1f-4447-9e39-adddce02d614")
+		)
+		(pin "A3"
+			(uuid "ed7549c0-6a68-4933-80d4-3127d6896bad")
+		)
+		(pin "A4"
+			(uuid "10b0881d-c96e-4c05-b7a8-4f90146e612b")
+		)
+		(pin "C5"
+			(uuid "cb92cbdf-0f8e-467e-939f-2c1d4a807009")
+		)
+		(pin "E1"
+			(uuid "f33e5227-e90b-49d0-bf24-aa91cf0eda28")
+		)
+		(pin "F1"
+			(uuid "b40366b6-4626-43d7-b1b8-5defc56bf474")
+		)
+		(pin "F4"
+			(uuid "8356c60d-7bb4-4a59-b712-1b3988af169c")
+		)
+		(pin "E3"
+			(uuid "cdc296e3-9f65-4998-a44b-6d3e6019803c")
+		)
+		(pin "D1"
+			(uuid "292f0583-d5a0-45eb-8ccb-4fea0c3ae41e")
+		)
+		(pin "E4"
+			(uuid "76941336-af1a-49d9-aa00-f00edca25932")
+		)
+		(pin "F5"
+			(uuid "b2ca119d-375d-4f04-827c-c565f71f4cb6")
+		)
+		(pin "C6"
+			(uuid "13acd3e4-d07d-4e95-abd1-fb51f35e585d")
+		)
+		(pin "B6"
+			(uuid "d10e3fd0-2667-4a3c-834f-fcd76a9aa6b9")
+		)
+		(pin "G6"
+			(uuid "ff7fb46c-91d1-4002-ba27-096739cae55a")
+		)
+		(pin "D5"
+			(uuid "a4295365-0cf4-4e7a-95cf-dd7e537b0b3c")
+		)
+		(pin "E2"
+			(uuid "eead8a8e-8013-404b-9116-36c9c8e7d8ae")
 		)
 		(instances
 			(project "LibrePulse"
 				(path "/a8e5fed7-7ad0-4eb7-8f22-2666e9c0dcc9"
-					(reference "U7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Symbols:SFH_7019")
-		(at 179.07 114.3 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "846d2756-2136-4187-b97f-78923e706187")
-		(property "Reference" "LED13"
-			(at 208.28 106.68 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SFH_7019"
-			(at 208.28 109.22 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Footprints:SFH7019"
-			(at 233.68 209.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Datasheet" "https://look.ams-osram.com/m/3d6f6dcfed4d7b8f/original/SFH-7019.pdf"
-			(at 233.68 309.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Description" "Multi-Color LEDs 3in1 LED package for vital sign monitor."
-			(at 179.07 114.3 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "0.7"
-			(at 233.68 509.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Part Number" ""
-			(at 233.68 609.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Mouser Price/Stock" ""
-			(at 233.68 709.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Name" "ams OSRAM"
-			(at 233.68 809.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(property "Manufacturer_Part_Number" "SFH 7019"
-			(at 233.68 909.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(pin "1"
-			(uuid "3f681745-fb11-4ad7-8816-b8bb9389e5d5")
-		)
-		(pin "4"
-			(uuid "46f02a5b-6248-480e-ae97-bf067688de23")
-		)
-		(pin "5"
-			(uuid "501cb1be-364b-4b28-a074-eb5e05a813ce")
-		)
-		(pin "3"
-			(uuid "f266d986-4bfa-4921-aaec-c9caa3b1c636")
-		)
-		(pin "2"
-			(uuid "563447ed-8307-47d2-991d-09d62f4ad831")
-		)
-		(pin "6"
-			(uuid "73368500-4ca3-4a64-a447-68fb9ef6e170")
-		)
-		(instances
-			(project "health"
-				(path "/2b07801f-f197-4f26-91ab-b92021d1f80d"
-					(reference "LED13")
-					(unit 1)
-				)
-			)
-			(project "LibrePulse"
-				(path "/a8e5fed7-7ad0-4eb7-8f22-2666e9c0dcc9"
-					(reference "LED13")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Symbols:LY_R976-PS-36")
-		(at 173.99 27.94 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a117e940-826d-4e27-878d-f97c17f160df")
-		(property "Reference" "LED16"
-			(at 181.61 17.78 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LY_R976-PS-36"
-			(at 181.61 20.32 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LEDC2013X90N"
-			(at 186.69 121.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Datasheet" "https://look.ams-osram.com/m/10c6779dc4088077/original/LY-R976.pdf"
-			(at 186.69 221.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Description" "Yellow 588nm LED Indication - Discrete 2V 0805 (2012 Metric)"
-			(at 173.99 27.94 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "0.9"
-			(at 186.69 421.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Manufacturer_Name" "ams OSRAM"
-			(at 186.69 521.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Manufacturer_Part_Number" "LY R976-PS-36"
-			(at 186.69 621.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Mouser Part Number" "720-LYR976-PS-36"
-			(at 186.69 721.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ams-OSRAM/LY-R976-PS-36?qs=K5ta8V%252BWhtb8kF0FHqpCJQ%3D%3D"
-			(at 186.69 821.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Arrow Part Number" "LY R976-PS-36"
-			(at 186.69 921.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/lyr976-ps-36/osram-opto-semiconductors?region=nac"
-			(at 186.69 1021.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "2"
-			(uuid "71b76a1e-2ade-4126-af72-5a702b635677")
-		)
-		(pin "1"
-			(uuid "ba0437a2-b0d5-4870-841b-37dcc4132646")
-		)
-		(instances
-			(project "health"
-				(path "/2b07801f-f197-4f26-91ab-b92021d1f80d"
-					(reference "LED16")
-					(unit 1)
-				)
-			)
-			(project "LibrePulse"
-				(path "/a8e5fed7-7ad0-4eb7-8f22-2666e9c0dcc9"
-					(reference "LED16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Symbols:LO_R976-PS-1")
-		(at 172.72 45.72 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bbd3ac77-0eb6-4145-ade2-cd5b739dc489")
-		(property "Reference" "LED14"
-			(at 180.34 35.56 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LO_R976-PS-1"
-			(at 180.34 38.1 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Footprints:LEDC2012X90N"
-			(at 185.42 139.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Datasheet" "https://dammedia.osram.info/media/resource/hires/osram-dam-5178064/LO%20R976_EN.pdf"
-			(at 185.42 239.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Description" "Standard LEDs - SMD Orange, 606nm 280mcd, 20mA"
-			(at 172.72 45.72 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "0.9"
-			(at 185.42 439.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Manufacturer_Name" "ams OSRAM"
-			(at 185.42 539.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Manufacturer_Part_Number" "LO R976-PS-1"
-			(at 185.42 639.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Mouser Part Number" "720-LOR976-PS-1"
-			(at 185.42 739.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ams-OSRAM/LO-R976-PS-1?qs=K5ta8V%252BWhtZwfsJidIA9Vg%3D%3D"
-			(at 185.42 839.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Arrow Part Number" "LO R976-PS-1"
-			(at 185.42 939.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/lor976-ps-1/osram-opto-semiconductors?region=nac"
-			(at 185.42 1039.37 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "2"
-			(uuid "be6040c4-ed8c-4d1c-bad5-940fce75df0e")
-		)
-		(pin "1"
-			(uuid "3c7dacd3-0df1-407c-a7b0-997879ec2b76")
-		)
-		(instances
-			(project "health"
-				(path "/2b07801f-f197-4f26-91ab-b92021d1f80d"
-					(reference "LED14")
-					(unit 1)
-				)
-			)
-			(project "LibrePulse"
-				(path "/a8e5fed7-7ad0-4eb7-8f22-2666e9c0dcc9"
-					(reference "LED14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Symbols:LO_R976-PS-1")
-		(at 207.01 44.45 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bcb27b93-90af-48cf-82a1-b6f77e965bb4")
-		(property "Reference" "LED15"
-			(at 214.63 34.29 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LO_R976-PS-1"
-			(at 214.63 36.83 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Footprints:LEDC2012X90N"
-			(at 219.71 138.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Datasheet" "https://dammedia.osram.info/media/resource/hires/osram-dam-5178064/LO%20R976_EN.pdf"
-			(at 219.71 238.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Description" "Standard LEDs - SMD Orange, 606nm 280mcd, 20mA"
-			(at 207.01 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "0.9"
-			(at 219.71 438.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Manufacturer_Name" "ams OSRAM"
-			(at 219.71 538.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Manufacturer_Part_Number" "LO R976-PS-1"
-			(at 219.71 638.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Mouser Part Number" "720-LOR976-PS-1"
-			(at 219.71 738.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ams-OSRAM/LO-R976-PS-1?qs=K5ta8V%252BWhtZwfsJidIA9Vg%3D%3D"
-			(at 219.71 838.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Arrow Part Number" "LO R976-PS-1"
-			(at 219.71 938.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/lor976-ps-1/osram-opto-semiconductors?region=nac"
-			(at 219.71 1038.1 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "2"
-			(uuid "3e3676c5-b317-4420-9de6-a8f104121dfb")
-		)
-		(pin "1"
-			(uuid "67def61d-f40b-4193-93c6-78f2de29e78f")
-		)
-		(instances
-			(project "health"
-				(path "/2b07801f-f197-4f26-91ab-b92021d1f80d"
-					(reference "LED15")
-					(unit 1)
-				)
-			)
-			(project "LibrePulse"
-				(path "/a8e5fed7-7ad0-4eb7-8f22-2666e9c0dcc9"
-					(reference "LED15")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -4778,6 +1822,7 @@
 		(uuid "c04c7d75-b964-472a-a708-b74ca782dea6")
 		(property "Reference" "LED4"
 			(at 232.41 50.8 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4949,532 +1994,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Symbols:ADPD7000BCBZR7")
-		(at 26.67 104.14 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c920ba11-d10f-4118-9bb6-38090a9ace28")
-		(property "Reference" "U4"
-			(at 49.53 93.98 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "ADPD7000BCBZR7"
-			(at 49.53 96.52 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "CB-36-11_ADI"
-			(at 26.67 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Datasheet" "ADPD7000BCBZR7"
-			(at 26.67 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 26.67 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "E4"
-			(uuid "723a3a19-ef1e-456c-807e-6593490889de")
-		)
-		(pin "D5"
-			(uuid "38fcaef4-2255-49b7-9bb5-e55b9a16ea92")
-		)
-		(pin "C5"
-			(uuid "526b09c6-e8c0-4394-a844-6f7d6c03e1f4")
-		)
-		(pin "B4"
-			(uuid "2b0c2136-963c-471a-a250-080c36a9b88a")
-		)
-		(pin "B3"
-			(uuid "34e15493-2783-4b35-b487-98d37c6157a5")
-		)
-		(pin "B2"
-			(uuid "8a5ceca1-d303-4545-b398-031dc0264214")
-		)
-		(pin "B6"
-			(uuid "5406af3c-9bfa-4818-9801-93fdcdca30a9")
-		)
-		(pin "B5"
-			(uuid "2b18f7fb-17ff-4e1f-a642-3326c0cec8aa")
-		)
-		(pin "B1"
-			(uuid "1328c477-29bf-4854-94a2-8764a85d0863")
-		)
-		(pin "A6"
-			(uuid "4bbb2fe6-88ef-41e0-bac0-bcf4957be178")
-		)
-		(pin "E2"
-			(uuid "203644d7-f0d6-48dc-8fe2-ae28e01279c5")
-		)
-		(pin "C2"
-			(uuid "e531a944-0ac6-493d-978c-deeb09db56cb")
-		)
-		(pin "C1"
-			(uuid "a0d11fd7-1cf0-4574-a5aa-79a16ccf3593")
-		)
-		(pin "E3"
-			(uuid "7fa05fd6-d5a5-4d66-bc1a-35b404fe0e52")
-		)
-		(pin "A3"
-			(uuid "3ebe37ed-6548-424d-983b-a0f98225ff5e")
-		)
-		(pin "A2"
-			(uuid "5fcf401f-90a7-43b0-8899-ef5fb5e97463")
-		)
-		(pin "D6"
-			(uuid "34029f3b-5f28-4cb8-8937-ef01f66afa59")
-		)
-		(pin "D4"
-			(uuid "a1e1e094-e701-441a-ab30-387d7e98c6b0")
-		)
-		(pin "C4"
-			(uuid "ab62bcad-4361-4a50-845b-2ee3a7d3437a")
-		)
-		(pin "C3"
-			(uuid "44c67c59-2606-44b7-9dbf-2c2b8b3f55d6")
-		)
-		(pin "F4"
-			(uuid "8834b3a8-9406-48b5-ac89-0b203f66f902")
-		)
-		(pin "F1"
-			(uuid "0e4e6174-6eeb-4d1d-b456-85ebece03981")
-		)
-		(pin "F3"
-			(uuid "cce66b39-a450-48e7-830e-bb6e05bee9da")
-		)
-		(pin "D1"
-			(uuid "ba55f81d-fdcb-46f2-837a-85581230951e")
-		)
-		(pin "E6"
-			(uuid "75fd42e8-e18b-45eb-b006-40a4a2aa60ed")
-		)
-		(pin "E1"
-			(uuid "1ce5c442-6a2a-4d9d-a8fe-6785ecb26de1")
-		)
-		(pin "D2"
-			(uuid "3cf6e7d3-942c-422b-b7e0-634d14990a86")
-		)
-		(pin "E5"
-			(uuid "caa3e114-ed6b-4b3b-b49d-8f8b4ddd314e")
-		)
-		(pin "F2"
-			(uuid "4229f50d-2510-475c-a699-d83009c2bac1")
-		)
-		(pin "A1"
-			(uuid "388c44dc-0809-47b1-9016-965ab765842c")
-		)
-		(pin "C6"
-			(uuid "7c6544cc-e27d-4433-964b-8ced77247892")
-		)
-		(pin "F6"
-			(uuid "bd39ef2f-0a29-4765-8474-6191e2332791")
-		)
-		(pin "A5"
-			(uuid "234c7763-42c9-4c86-b931-80c7d7823b78")
-		)
-		(pin "A4"
-			(uuid "2a519f19-3587-4792-b212-654bd06ecce3")
-		)
-		(pin "F5"
-			(uuid "8e40a231-0962-4734-a81d-9b8963ee9a1b")
-		)
-		(pin "D3"
-			(uuid "3a18c010-21f4-4c0b-b667-a51c5907c300")
-		)
-		(instances
-			(project "LibrePulse"
-				(path "/a8e5fed7-7ad0-4eb7-8f22-2666e9c0dcc9"
-					(reference "U4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Symbols:LY_R976-PS-36")
-		(at 207.01 26.67 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dfefe955-ea50-41b7-964b-921cd71be5e3")
-		(property "Reference" "LED17"
-			(at 214.63 16.51 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "LY_R976-PS-36"
-			(at 214.63 19.05 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LEDC2013X90N"
-			(at 219.71 120.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Datasheet" "https://look.ams-osram.com/m/10c6779dc4088077/original/LY-R976.pdf"
-			(at 219.71 220.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Description" "Yellow 588nm LED Indication - Discrete 2V 0805 (2012 Metric)"
-			(at 207.01 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Height" "0.9"
-			(at 219.71 420.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Manufacturer_Name" "ams OSRAM"
-			(at 219.71 520.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Manufacturer_Part_Number" "LY R976-PS-36"
-			(at 219.71 620.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Mouser Part Number" "720-LYR976-PS-36"
-			(at 219.71 720.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ams-OSRAM/LY-R976-PS-36?qs=K5ta8V%252BWhtb8kF0FHqpCJQ%3D%3D"
-			(at 219.71 820.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Arrow Part Number" "LY R976-PS-36"
-			(at 219.71 920.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/lyr976-ps-36/osram-opto-semiconductors?region=nac"
-			(at 219.71 1020.32 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "2"
-			(uuid "7edb19d2-3990-41cf-bf7c-641d31c4c199")
-		)
-		(pin "1"
-			(uuid "cb7e74ba-50b0-4335-ae96-6cdafddfdeca")
-		)
-		(instances
-			(project "health"
-				(path "/2b07801f-f197-4f26-91ab-b92021d1f80d"
-					(reference "LED17")
-					(unit 1)
-				)
-			)
-			(project "LibrePulse"
-				(path "/a8e5fed7-7ad0-4eb7-8f22-2666e9c0dcc9"
-					(reference "LED17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 207.01 44.45 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ed17f569-f260-4b46-9db9-fb6f26409592")
-		(property "Reference" "#PWR0307"
-			(at 210.82 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+4V5"
-			(at 203.2 44.4501 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 207.01 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 207.01 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 207.01 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "461fb56b-1309-4577-b49e-2f0cf10f77e1")
-		)
-		(instances
-			(project "health"
-				(path "/2b07801f-f197-4f26-91ab-b92021d1f80d"
-					(reference "#PWR0307")
-					(unit 1)
-				)
-			)
-			(project "LibrePulse"
-				(path "/a8e5fed7-7ad0-4eb7-8f22-2666e9c0dcc9"
-					(reference "#PWR0307")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 207.01 26.67 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "eebfd1d6-107e-405d-925f-2c6891bb2147")
-		(property "Reference" "#PWR0309"
-			(at 210.82 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+4V5"
-			(at 203.2 26.6701 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 207.01 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 207.01 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 207.01 26.67 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "f993a2e9-e59e-4259-9f79-cb82daa76802")
-		)
-		(instances
-			(project "health"
-				(path "/2b07801f-f197-4f26-91ab-b92021d1f80d"
-					(reference "#PWR0309")
-					(unit 1)
-				)
-			)
-			(project "LibrePulse"
-				(path "/a8e5fed7-7ad0-4eb7-8f22-2666e9c0dcc9"
-					(reference "#PWR0309")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Symbols:AS6223A-AWLT")
-		(at 198.12 189.23 0)
+		(at 212.09 128.27 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5485,7 +2006,7 @@
 		(fields_autoplaced yes)
 		(uuid "f926c4c9-9c16-4579-8f35-8c1f5b1a8bfd")
 		(property "Reference" "IC14"
-			(at 210.82 181.61 0)
+			(at 224.79 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5495,7 +2016,7 @@
 			)
 		)
 		(property "Value" "AS6223A-AWLT"
-			(at 210.82 184.15 0)
+			(at 224.79 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5505,7 +2026,7 @@
 			)
 		)
 		(property "Footprint" "AS6223AAWLT"
-			(at 219.71 284.15 0)
+			(at 233.68 223.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5517,7 +2038,7 @@
 			)
 		)
 		(property "Datasheet" "https://look.ams-osram.com/m/1edd6b8e1dc6c27c/original/AS6223-Digital-temperature-sensor.pdf"
-			(at 219.71 384.15 0)
+			(at 233.68 323.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5529,7 +2050,7 @@
 			)
 		)
 		(property "Description" "Board Mount Temperature Sensors AS6223 Digitial Temperature Sensor  Minimum Operating Temperature:  - 40 C   Maximum Operating Temperature:  + 125 C   Package/Case:  WLCSP   Interface Type:  I2C   Supply Voltage - Min:  1.14 V   Supply Voltage - Max:  1.98 V"
-			(at 198.12 189.23 0)
+			(at 212.09 128.27 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5540,7 +2061,7 @@
 			)
 		)
 		(property "Height" "0.375"
-			(at 219.71 584.15 0)
+			(at 233.68 523.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5552,7 +2073,7 @@
 			)
 		)
 		(property "Manufacturer_Name" "ams OSRAM"
-			(at 219.71 684.15 0)
+			(at 233.68 623.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5564,7 +2085,7 @@
 			)
 		)
 		(property "Manufacturer_Part_Number" "AS6223A-AWLT"
-			(at 219.71 784.15 0)
+			(at 233.68 723.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5576,7 +2097,7 @@
 			)
 		)
 		(property "Mouser Part Number" ""
-			(at 219.71 884.15 0)
+			(at 233.68 823.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5588,7 +2109,7 @@
 			)
 		)
 		(property "Mouser Price/Stock" ""
-			(at 219.71 984.15 0)
+			(at 233.68 923.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5600,7 +2121,7 @@
 			)
 		)
 		(property "Arrow Part Number" ""
-			(at 219.71 1084.15 0)
+			(at 233.68 1023.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5612,7 +2133,7 @@
 			)
 		)
 		(property "Arrow Price/Stock" ""
-			(at 219.71 1184.15 0)
+			(at 233.68 1123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
